@@ -3,11 +3,17 @@ LDFLAGS=-Wall
 
 all: benchmark
 
-benchmark: obj/main.o
-	g++ ${LDFLAGS} -o benchmark obj/main.o
+obj:
+	mkdir obj
 
-obj/main.o: src/main.cpp
-	g++ -c ${CPPFLAGS} -o obj/main.o  src/main.cpp
+benchmark: obj/main.o obj/tablice.o
+	g++ $(CPPFLAGS) obj/main.o obj/tablice.o -o benchmark
+
+obj/main.o: src/main.cpp inc/tablice.hh
+	g++ $(CPPFLAGS) -c src/main.cpp -o obj/main.o
+	
+obj/tablice.o: src/tablice.cpp inc/tablice.hh
+	g++ $(CPPFLAGS) -c src/tablice.cpp -o obj/tablice.o
 
 clean:
-	rm -f benchmark obj/*
+	rm -rf benchmark obj/*

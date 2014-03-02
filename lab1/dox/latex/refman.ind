@@ -1,0 +1,64 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Tablice}
+    \subitem {Tablice}, \hyperpage{3}
+
+  \indexspace
+
+  \item {benchmark}
+    \subitem {Tablice}, \hyperpage{3}
+
+  \indexspace
+
+  \item {dlugosc\discretionary {-}{}{}Tab}
+    \subitem {Tablice}, \hyperpage{3}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{4}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{4}
+    \subitem {main}, \hyperpage{4}
+  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{4}
+
+  \indexspace
+
+  \item {oblicz}
+    \subitem {Tablice}, \hyperpage{3}
+
+  \indexspace
+
+  \item {rozmiar}
+    \subitem {Tablice}, \hyperpage{3}
+
+  \indexspace
+
+  \item {sprawdz}
+    \subitem {Tablice}, \hyperpage{3}
+
+  \indexspace
+
+  \item {tablica}
+    \subitem {Tablice}, \hyperpage{3}
+  \item {tablica2}
+    \subitem {Tablice}, \hyperpage{4}
+  \item {Tablice}, \hyperpage{2}
+    \subitem {$\sim $\discretionary {-}{}{}Tablice}, \hyperpage{3}
+    \subitem {benchmark}, \hyperpage{3}
+    \subitem {dlugosc\discretionary {-}{}{}Tab}, \hyperpage{3}
+    \subitem {oblicz}, \hyperpage{3}
+    \subitem {rozmiar}, \hyperpage{3}
+    \subitem {sprawdz}, \hyperpage{3}
+    \subitem {tablica}, \hyperpage{3}
+    \subitem {tablica2}, \hyperpage{4}
+    \subitem {Tablice}, \hyperpage{3}
+    \subitem {wczytaj}, \hyperpage{3}
+  \item {tablice.\discretionary {-}{}{}cpp}, \hyperpage{4}
+  \item {tablice.\discretionary {-}{}{}hh}, \hyperpage{5}
+
+  \indexspace
+
+  \item {wczytaj}
+    \subitem {Tablice}, \hyperpage{3}
+
+\end{theindex}

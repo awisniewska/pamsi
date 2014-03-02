@@ -1,65 +1,30 @@
+/** \file main.cpp
+ * \brief Plik zawiera glowna funkcje programu.
+ */
+
 #include <iostream>
-#include <fstream>
-#include <ctime>
+#include <tablice.hh>
 #include <cstdlib>
 
 using namespace std;
 
+/** \brief Glowna funkcja programu
+ *
+ *  Pobiera argumenty z linii polecen, przekazuje je do klasy Tablice i wyswietla wyniki pomiarow czasu.
+ */
+
 int main(int argc, char **argv) {
 
-	if (argc < 3 )
+	if (argc < 4 )
 	{ cerr << "Zbyt mala ilosc argumentow." << endl;
 		return 0;
 	}
-	ifstream plikWej(argv[1]);
 
-	if (!plikWej.good())
-	{ cerr << "Wybrano nieprawidlowy plik wejsciowy." << endl;
-		return 0;
-	}
+	Tablice liczCzas;
+	if (!liczCzas.wczytaj(argv[1])) return 0;
+	double czas = liczCzas.benchmark(atoi(argv[3]));
+	if (!liczCzas.sprawdz(argv[2])) return 0;
 
-	int dlugoscTab;
-	plikWej >> dlugoscTab;
 
-	int *tablica = new int[dlugoscTab];
-
-	for (int i=0; i<dlugoscTab; i++)
-	{
-		plikWej >> tablica[i];
-	}
-
-	clock_t t = clock();
-	for (int i=0; i<dlugoscTab; i++)
-	{
-		tablica[i] = tablica[i]*2;
-	}
-
-	t = clock()-t;
-
-	ifstream plikSprawdz(argv[2]);
-
-		if (!plikSprawdz.good())
-		{ cerr << "Wybrano nieprawidlowy plik sprawdzajacy." << endl;
-			return 0;
-		}
-
-		int dlugoscTab2;
-		plikSprawdz >> dlugoscTab2;
-
-		if (dlugoscTab!=dlugoscTab2)
-		{ cerr << "Tablice nie sa takiej samej dlugosci." << endl;
-			return 0;
-		}
-
-		for (int i=0; i<dlugoscTab; i++)
-		{
-			int tmp;
-			plikSprawdz >> tmp;
-			if (tmp!=tablica[i])
-			{ cerr << "Porownywane wartosci elementu nr " << i+1 << " nie sa takie same" << endl;
-				return 0;
-			}
-		}
-
-	cout << t << " " << ((double)t)/CLOCKS_PER_SEC << endl;
+	cout << liczCzas.rozmiar() << "," << atoi(argv[3]) << "," << czas << "s" << endl;
 }
