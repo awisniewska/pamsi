@@ -1,0 +1,6 @@
+struktury
+obj/*.o
+.project
+.cproject
+.settings/*
+
