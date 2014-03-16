@@ -1,0 +1,269 @@
+\hypertarget{class_array}{\subsection{Dokumentacja szablonu klasy Array$<$ type $>$}
+\label{class_array}\index{Array$<$ type $>$@{Array$<$ type $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_array}{Array}.  
+
+
+
+
+{\ttfamily \#include $<$array.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_array_ab2edb009d36e9c096424fc8ba9e94257}{Array} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor tworzacy obiekty klasy \hyperlink{class_array}{Array}. \end{DoxyCompactList}\item 
+\hyperlink{class_array_a3bb93ede1d268b3a76a1204e27bb962d}{$\sim$\-Array} ()
+\begin{DoxyCompactList}\small\item\em Destruktor usuwajacy obiekt klasy \hyperlink{class_array}{Array}. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_array_a2966b07f15f2845436448b633baf162a}{size} () const 
+\begin{DoxyCompactList}\small\item\em Zwraca dlugosc tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_array_a356eff3b67c9171081dc5aa010783877}{resize} (unsigned int new\-Size)
+\begin{DoxyCompactList}\small\item\em Zmienia ilosc elementow tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_array_ad04cd18ce830f7e72dabdc184a0654c4}{change\-Places} (unsigned int a, unsigned int b)
+\begin{DoxyCompactList}\small\item\em Zamienia miejscami dwa wybrane elementy. \end{DoxyCompactList}\item 
+void \hyperlink{class_array_afdcea945751f954e5d978f3845939bd4}{reverse} ()
+\begin{DoxyCompactList}\small\item\em Odwraca kolejnosc elementow tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_array_ad57a599a8ff2c1d502ef8d7d309cc316}{add\-Elem} (type e)
+\begin{DoxyCompactList}\small\item\em Dodaje nowy element na koniec tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_array_aa9091edbef604b69bb919908ff5d25f2}{add\-Arrays} (const \hyperlink{class_array}{Array}$<$ type $>$ \&C\-A)
+\begin{DoxyCompactList}\small\item\em Laczy dwie tablice. \end{DoxyCompactList}\item 
+type \& \hyperlink{class_array_aaffe48273ef363811e4281d3c98f54ab}{operator\mbox{[}$\,$\mbox{]}} (const unsigned int nr)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora indeksujacego. \end{DoxyCompactList}\item 
+const type \& \hyperlink{class_array_a35b84fdc5667252256427106e0df873d}{operator\mbox{[}$\,$\mbox{]}} (const unsigned int nr) const 
+\item 
+\hyperlink{class_array}{Array}$<$ type $>$ \& \hyperlink{class_array_a264035df373bcf3e05339511a7252897}{operator=} (const \hyperlink{class_array}{Array}$<$ type $>$ \&value)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora przypisania. \end{DoxyCompactList}\item 
+\hyperlink{class_array}{Array}$<$ type $>$ \& \hyperlink{class_array_a6a1a5e53b3e1774c118667216f4134b8}{operator+} (const \hyperlink{class_array}{Array}$<$ type $>$ \&value) const 
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora dodawania. \end{DoxyCompactList}\item 
+bool \hyperlink{class_array_ad52b3c353c90ed68e9d5be7b5c4b04b4}{operator==} (const \hyperlink{class_array}{Array}$<$ type $>$ \&value) const 
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora porownania. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{class_array_ae9b0513822882073c61bf004907e7259}{T}
+\item 
+unsigned int \hyperlink{class_array_a81bb9a451f4ac97479451b5a85fd6912}{array\-Size}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename type$>$class Array$<$ type $>$}
+
+Szablon klasy \hyperlink{class_array}{Array}. 
+
+Definiuje funkcje pozwalajace na wykonywaniu operacji na tablicy 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em type} & typ danych przechowywanych w tablicy \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_array_ab2edb009d36e9c096424fc8ba9e94257}{\index{Array@{Array}!Array@{Array}}
+\index{Array@{Array}!Array@{Array}}
+\paragraph[{Array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type$>$ {\bf Array}$<$ type $>$\-::{\bf Array} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_array_ab2edb009d36e9c096424fc8ba9e94257}
+
+
+Konstruktor tworzacy obiekty klasy \hyperlink{class_array}{Array}. 
+
+\hypertarget{class_array_a3bb93ede1d268b3a76a1204e27bb962d}{\index{Array@{Array}!$\sim$\-Array@{$\sim$\-Array}}
+\index{$\sim$\-Array@{$\sim$\-Array}!Array@{Array}}
+\paragraph[{$\sim$\-Array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type$>$ {\bf Array}$<$ type $>$\-::$\sim${\bf Array} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_array_a3bb93ede1d268b3a76a1204e27bb962d}
+
+
+Destruktor usuwajacy obiekt klasy \hyperlink{class_array}{Array}. 
+
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_array_aa9091edbef604b69bb919908ff5d25f2}{\index{Array@{Array}!add\-Arrays@{add\-Arrays}}
+\index{add\-Arrays@{add\-Arrays}!Array@{Array}}
+\paragraph[{add\-Arrays}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Array}$<$ type $>$\-::add\-Arrays (
+\begin{DoxyParamCaption}
+\item[{const {\bf Array}$<$ type $>$ \&}]{C\-A}
+\end{DoxyParamCaption}
+)}}\label{class_array_aa9091edbef604b69bb919908ff5d25f2}
+
+
+Laczy dwie tablice. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em C\-A} & tablica, ktorej zawartosc chcemy dolaczyc \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_array_ad57a599a8ff2c1d502ef8d7d309cc316}{\index{Array@{Array}!add\-Elem@{add\-Elem}}
+\index{add\-Elem@{add\-Elem}!Array@{Array}}
+\paragraph[{add\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Array}$<$ type $>$\-::add\-Elem (
+\begin{DoxyParamCaption}
+\item[{type}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_array_ad57a599a8ff2c1d502ef8d7d309cc316}
+
+
+Dodaje nowy element na koniec tablicy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em e} & element dodawany na koniec tablicy \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_array_ad04cd18ce830f7e72dabdc184a0654c4}{\index{Array@{Array}!change\-Places@{change\-Places}}
+\index{change\-Places@{change\-Places}!Array@{Array}}
+\paragraph[{change\-Places}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Array}$<$ type $>$\-::change\-Places (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{a, }
+\item[{unsigned int}]{b}
+\end{DoxyParamCaption}
+)}}\label{class_array_ad04cd18ce830f7e72dabdc184a0654c4}
+
+
+Zamienia miejscami dwa wybrane elementy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em a} & pierwszy z elementow, ktore zamieniamy miejscami \\
+\hline
+{\em b} & drugi element, ktory zamieniamy z a \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_array_a6a1a5e53b3e1774c118667216f4134b8}{\index{Array@{Array}!operator+@{operator+}}
+\index{operator+@{operator+}!Array@{Array}}
+\paragraph[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ {\bf Array}$<$ type $>$ \& {\bf Array}$<$ type $>$\-::operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Array}$<$ type $>$ \&}]{value}
+\end{DoxyParamCaption}
+) const}}\label{class_array_a6a1a5e53b3e1774c118667216f4134b8}
+
+
+Przeciazenie operatora dodawania. 
+
+\begin{DoxyReturn}{Zwraca}
+tablica zawierajaca elementy z obu tablic 
+\end{DoxyReturn}
+\hypertarget{class_array_a264035df373bcf3e05339511a7252897}{\index{Array@{Array}!operator=@{operator=}}
+\index{operator=@{operator=}!Array@{Array}}
+\paragraph[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ {\bf Array}$<$ type $>$ \& {\bf Array}$<$ type $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Array}$<$ type $>$ \&}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_array_a264035df373bcf3e05339511a7252897}
+
+
+Przeciazenie operatora przypisania. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em value} & tablica z ktorej wartosci zostana przypisane \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+referencje na obiekt wywolujacy 
+\end{DoxyReturn}
+\hypertarget{class_array_ad52b3c353c90ed68e9d5be7b5c4b04b4}{\index{Array@{Array}!operator==@{operator==}}
+\index{operator==@{operator==}!Array@{Array}}
+\paragraph[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ bool {\bf Array}$<$ type $>$\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Array}$<$ type $>$ \&}]{value}
+\end{DoxyParamCaption}
+) const}}\label{class_array_ad52b3c353c90ed68e9d5be7b5c4b04b4}
+
+
+Przeciazenie operatora porownania. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ gdy tablice sa takie same 
+
+false -\/ gdy tablice sie roznia 
+\end{DoxyReturn}
+\hypertarget{class_array_aaffe48273ef363811e4281d3c98f54ab}{\index{Array@{Array}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Array@{Array}}
+\paragraph[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type$>$ type\& {\bf Array}$<$ type $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{nr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_array_aaffe48273ef363811e4281d3c98f54ab}
+
+
+Przeciazenie operatora indeksujacego. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em nr} & Indeks wybranego elementu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Wartosc pod wskazanym indeksem 
+\end{DoxyReturn}
+\hypertarget{class_array_a35b84fdc5667252256427106e0df873d}{\index{Array@{Array}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Array@{Array}}
+\paragraph[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type$>$ const type\& {\bf Array}$<$ type $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{nr}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_array_a35b84fdc5667252256427106e0df873d}
+\hypertarget{class_array_a356eff3b67c9171081dc5aa010783877}{\index{Array@{Array}!resize@{resize}}
+\index{resize@{resize}!Array@{Array}}
+\paragraph[{resize}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Array}$<$ type $>$\-::resize (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{new\-Size}
+\end{DoxyParamCaption}
+)}}\label{class_array_a356eff3b67c9171081dc5aa010783877}
+
+
+Zmienia ilosc elementow tablicy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\-Size} & rozmiar tablicy \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_array_afdcea945751f954e5d978f3845939bd4}{\index{Array@{Array}!reverse@{reverse}}
+\index{reverse@{reverse}!Array@{Array}}
+\paragraph[{reverse}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Array}$<$ type $>$\-::reverse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_array_afdcea945751f954e5d978f3845939bd4}
+
+
+Odwraca kolejnosc elementow tablicy. 
+
+\hypertarget{class_array_a2966b07f15f2845436448b633baf162a}{\index{Array@{Array}!size@{size}}
+\index{size@{size}!Array@{Array}}
+\paragraph[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type$>$ unsigned int {\bf Array}$<$ type $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_array_a2966b07f15f2845436448b633baf162a}
+
+
+Zwraca dlugosc tablicy. 
+
+\begin{DoxyReturn}{Zwraca}
+liczbe elementow tablicy 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_array_a81bb9a451f4ac97479451b5a85fd6912}{\index{Array@{Array}!array\-Size@{array\-Size}}
+\index{array\-Size@{array\-Size}!Array@{Array}}
+\paragraph[{array\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type$>$ unsigned int {\bf Array}$<$ type $>$\-::array\-Size\hspace{0.3cm}{\ttfamily [private]}}}\label{class_array_a81bb9a451f4ac97479451b5a85fd6912}
+\hypertarget{class_array_ae9b0513822882073c61bf004907e7259}{\index{Array@{Array}!T@{T}}
+\index{T@{T}!Array@{Array}}
+\paragraph[{T}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type$>$ int$\ast$ {\bf Array}$<$ type $>$\-::T\hspace{0.3cm}{\ttfamily [private]}}}\label{class_array_ae9b0513822882073c61bf004907e7259}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{array_8hh}{array.\-hh}\end{DoxyCompactItemize}

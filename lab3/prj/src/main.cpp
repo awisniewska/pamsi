@@ -11,7 +11,7 @@ using namespace std;
 
 /** \brief Glowna funkcja programu
  *
- *  Pobiera argumenty z linii polecen, przekazuje je do klasy Tablice i wyswietla wyniki pomiarow czasu.
+ *  Pobiera argumenty z linii polecen, przekazuje je do odpowiedniej klasy i wyswietla wyniki pomiarow czasu.
  */
 
 int main(int argc, char **argv) {
@@ -22,29 +22,29 @@ int main(int argc, char **argv) {
 		return 0;
 	}
 
-	unsigned int iloscPowtorzen, rozmiarProblemu;
-	rozmiarProblemu=atoi(argv[2]);
-	iloscPowtorzen=atoi(argv[3]);
-	double czas;
-	if (string (argv[1])=="stos")
+	unsigned int noIteration, problemSize;
+	problemSize=atoi(argv[2]);
+	noIteration=atoi(argv[3]);
+	double time;
+	if (string (argv[1])=="stack")
 		{
-		BenchStosu<Stos<int> > benchmark;
-		czas=benchmark.benchmark(iloscPowtorzen, rozmiarProblemu);
+		BenchStack<Stack<int> > benchmark;
+		time=benchmark.benchmark(noIteration, problemSize);
 		}
-	else if (string (argv[1])=="stos2")
+	else if (string (argv[1])=="stack2")
 		{
-		BenchStosu<Stos2<int> > benchmark;
-		czas=benchmark.benchmark(iloscPowtorzen, rozmiarProblemu);
+		BenchStack<Stack2<int> > benchmark;
+		time=benchmark.benchmark(noIteration, problemSize);
 		}
-	else if (string (argv[1])=="kolejka")
+	else if (string (argv[1])=="queue")
 		{
-		BenchKolejki<Kolejka<int> > benchmark;
-		czas=benchmark.benchmark(iloscPowtorzen, rozmiarProblemu);
+		BenchQueue<Queue<int> > benchmark;
+		time=benchmark.benchmark(noIteration, problemSize);
 		}
-	else if (string (argv[1])=="snal")
+	else if (string (argv[1])=="stonlist")
 		{
-		BenchStosu<Snal<int> > benchmark;
-		czas=benchmark.benchmark(iloscPowtorzen, rozmiarProblemu);
+		BenchStack<stOnList<int> > benchmark;
+		time=benchmark.benchmark(noIteration, problemSize);
 		}
 
 	else
@@ -53,6 +53,6 @@ int main(int argc, char **argv) {
 			return 0;
 		}
 
-	cout << rozmiarProblemu << "," << iloscPowtorzen << "," << czas << "s" << endl;
+	cout << problemSize << "," << noIteration << "," << time << endl;
 
 }

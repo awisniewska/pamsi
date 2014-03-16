@@ -1,0 +1,130 @@
+\hypertarget{classst_on_list}{\subsection{Dokumentacja szablonu klasy st\-On\-List$<$ type $>$}
+\label{classst_on_list}\index{st\-On\-List$<$ type $>$@{st\-On\-List$<$ type $>$}}
+}
+
+
+Szablon klasy \hyperlink{classst_on_list}{st\-On\-List}.  
+
+
+
+
+{\ttfamily \#include $<$st\-On\-List.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{classst_on_list_a3031caff03abeefeb3afee00490a4db1}{size} () const 
+\begin{DoxyCompactList}\small\item\em Pobiera rozmiar listy. \end{DoxyCompactList}\item 
+void \hyperlink{classst_on_list_a7bb86d7f9819e69fd3a400f3dce3c785}{push} (type elem)
+\begin{DoxyCompactList}\small\item\em Dodaje element na koniec listy. \end{DoxyCompactList}\item 
+void \hyperlink{classst_on_list_ab5bc1dfbd35b6149ca820bb7f925a710}{pop} ()
+\begin{DoxyCompactList}\small\item\em Zabiera element z konca listy. \end{DoxyCompactList}\item 
+bool \hyperlink{classst_on_list_a3bffc5bfbc501198922ac6cebcbcf846}{is\-Empty} () const 
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy lista jest pusta. \end{DoxyCompactList}\item 
+const type \& \hyperlink{classst_on_list_ae506d091a7de8ea2f33c5cb4aaa02a9a}{top} () const 
+\begin{DoxyCompactList}\small\item\em Udostepnia ostatni element listy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+std\-::list$<$ type $>$ \hyperlink{classst_on_list_a3a0ac9e67a595ed1c47a58a489b79160}{flist}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename type$>$class st\-On\-List$<$ type $>$}
+
+Szablon klasy \hyperlink{classst_on_list}{st\-On\-List}. 
+
+Definiuje funkcje pozwalajace na wykonywanie operacji na liscie 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em type} & typ danych przechowywanych na liscie \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{classst_on_list_a3bffc5bfbc501198922ac6cebcbcf846}{\index{st\-On\-List@{st\-On\-List}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!stOnList@{st\-On\-List}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ bool {\bf st\-On\-List}$<$ type $>$\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classst_on_list_a3bffc5bfbc501198922ac6cebcbcf846}
+
+
+Sprawdza, czy lista jest pusta. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ jesli lista jest pusta 
+
+false -\/ jesli na liscie jest co najmniej 1 element 
+\end{DoxyReturn}
+\hypertarget{classst_on_list_ab5bc1dfbd35b6149ca820bb7f925a710}{\index{st\-On\-List@{st\-On\-List}!pop@{pop}}
+\index{pop@{pop}!stOnList@{st\-On\-List}}
+\paragraph[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf st\-On\-List}$<$ type $>$\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classst_on_list_ab5bc1dfbd35b6149ca820bb7f925a710}
+
+
+Zabiera element z konca listy. 
+
+\begin{DoxyPrecond}{Warunek wstępny}
+lista nie moze byc pusta 
+\end{DoxyPrecond}
+\hypertarget{classst_on_list_a7bb86d7f9819e69fd3a400f3dce3c785}{\index{st\-On\-List@{st\-On\-List}!push@{push}}
+\index{push@{push}!stOnList@{st\-On\-List}}
+\paragraph[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf st\-On\-List}$<$ type $>$\-::push (
+\begin{DoxyParamCaption}
+\item[{type}]{elem}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classst_on_list_a7bb86d7f9819e69fd3a400f3dce3c785}
+
+
+Dodaje element na koniec listy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em elem} & element dodawany na koniec listy \\
+\hline
+\end{DoxyParams}
+\hypertarget{classst_on_list_a3031caff03abeefeb3afee00490a4db1}{\index{st\-On\-List@{st\-On\-List}!size@{size}}
+\index{size@{size}!stOnList@{st\-On\-List}}
+\paragraph[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ unsigned int {\bf st\-On\-List}$<$ type $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classst_on_list_a3031caff03abeefeb3afee00490a4db1}
+
+
+Pobiera rozmiar listy. 
+
+\begin{DoxyReturn}{Zwraca}
+liczba elementow listy 
+\end{DoxyReturn}
+\hypertarget{classst_on_list_ae506d091a7de8ea2f33c5cb4aaa02a9a}{\index{st\-On\-List@{st\-On\-List}!top@{top}}
+\index{top@{top}!stOnList@{st\-On\-List}}
+\paragraph[{top}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ const type\& {\bf st\-On\-List}$<$ type $>$\-::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classst_on_list_ae506d091a7de8ea2f33c5cb4aaa02a9a}
+
+
+Udostepnia ostatni element listy. 
+
+\begin{DoxyReturn}{Zwraca}
+zawartosc ostatniego elementu listy 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{classst_on_list_a3a0ac9e67a595ed1c47a58a489b79160}{\index{st\-On\-List@{st\-On\-List}!flist@{flist}}
+\index{flist@{flist}!stOnList@{st\-On\-List}}
+\paragraph[{flist}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ std\-::list$<$type$>$ {\bf st\-On\-List}$<$ type $>$\-::flist\hspace{0.3cm}{\ttfamily [private]}}}\label{classst_on_list_a3a0ac9e67a595ed1c47a58a489b79160}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{st_on_list_8hh}{st\-On\-List.\-hh}\end{DoxyCompactItemize}

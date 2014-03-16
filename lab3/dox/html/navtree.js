@@ -1,8 +1,10 @@
 var NAVTREE =
 [
-  [ "Benchmark", "index.html", [
-    [ "Opis programu", "index.html#opis", null ],
-    [ "Autor", "index.html#autor", null ],
+  [ "Struktury", "index.html", [
+    [ "Struktury - podstawowe informacje na temat programu", "index.html", [
+      [ "Opis programu", "index.html#opis", null ],
+      [ "Autor", "index.html#autor", null ]
+    ] ],
     [ "Klasy", null, [
       [ "Lista klas", "annotated.html", "annotated" ],
       [ "Indeks klas", "classes.html", null ],
@@ -16,7 +18,8 @@ var NAVTREE =
       [ "Lista plików", "files.html", "files" ],
       [ "Składowe plików", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Funkcje", "globals_func.html", null ]
+        [ "Funkcje", "globals_func.html", null ],
+        [ "Definicje", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
