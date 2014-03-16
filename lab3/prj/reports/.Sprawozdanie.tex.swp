@@ -73,6 +73,7 @@ Porównanie czasu wykonywania poszczególnych implementacji.
 \centering
 \includegraphics[width=\textwidth]{files/all.eps}
 \caption{Zależność czasu wykonywania algorytmu od rozmiaru problemu dla wszystkich implementacji. \label{all}} 
+\textit{*\textbf{stos2} - implementacja dla stosu na tablicy --- wersja wydajniejsza}
 \end{figure}
 
 
