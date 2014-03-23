@@ -5,7 +5,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
-#include "tablice.hh"
+#include "benchmark.hh"
 
 using namespace std;
 
@@ -17,18 +17,26 @@ using namespace std;
 int main(int argc, char **argv) {
 
 
-	if (argc < 4 )
+	if (argc < 5 )
 	{ cerr << "Zbyt mala ilosc argumentow." << endl;
 		return 0;
 	}
 
-	Tablice liczCzas;
-	if (!liczCzas.wczytaj(argv[1])) return 0;
-	double czas = liczCzas.benchmark(atoi(argv[3]));
-	liczCzas.drukujWyjscie();
-	if (!liczCzas.sprawdz(argv[2])) return 0;
+	Benchmark timeCount;
+	string sortType=argv[1];
+	sortingType convert;
 
-	cout << liczCzas.rozmiar() << "," << atoi(argv[3]) << "," << czas << endl;
+	if (sortType == "quick") convert = quick;
+	else if (sortType == "merge") convert = merge;
+	else if (sortType == "heap") convert = heap;
+	else { cerr << "Nie ma takiego sortowania!" << endl;
+	return 0;}
+
+	if (!timeCount.load(argv[2])) return 0;
+	double time = timeCount.benchmark(atoi(argv[4]), convert);
+	if (!timeCount.check(argv[3])) return 0;
+
+	cout << timeCount.size() << "," << atoi(argv[4]) << "," << time << endl;
 
 
 }

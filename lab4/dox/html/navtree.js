@@ -19,7 +19,8 @@ var NAVTREE =
       [ "Składowe plików", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Funkcje", "globals_func.html", null ],
-        [ "Definicje", "globals_defs.html", null ]
+        [ "Wyliczenia", "globals_enum.html", null ],
+        [ "Wartości wyliczeń", "globals_eval.html", null ]
       ] ]
     ] ]
   ] ]
