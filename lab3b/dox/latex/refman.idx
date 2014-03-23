@@ -1,0 +1,105 @@
+\indexentry{Array$<$ type $>$@{Array$<$ type $>$}|hyperpage}{3}
+\indexentry{Array@{Array}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!$\sim $\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}Array}|hyperpage}{4}
+\indexentry{$\sim $\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}Array}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!add\discretionary {-}{}{}Arrays@{add\discretionary {-}{}{}Arrays}|hyperpage}{4}
+\indexentry{add\discretionary {-}{}{}Arrays@{add\discretionary {-}{}{}Arrays}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!add\discretionary {-}{}{}Elem@{add\discretionary {-}{}{}Elem}|hyperpage}{4}
+\indexentry{add\discretionary {-}{}{}Elem@{add\discretionary {-}{}{}Elem}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!change\discretionary {-}{}{}Places@{change\discretionary {-}{}{}Places}|hyperpage}{4}
+\indexentry{change\discretionary {-}{}{}Places@{change\discretionary {-}{}{}Places}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!operator+@{operator+}|hyperpage}{4}
+\indexentry{operator+@{operator+}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!operator=@{operator=}|hyperpage}{4}
+\indexentry{operator=@{operator=}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!operator==@{operator==}|hyperpage}{4}
+\indexentry{operator==@{operator==}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{5}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{5}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!resize@{resize}|hyperpage}{5}
+\indexentry{resize@{resize}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!reverse@{reverse}|hyperpage}{5}
+\indexentry{reverse@{reverse}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!size@{size}|hyperpage}{5}
+\indexentry{size@{size}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!array\discretionary {-}{}{}Size@{array\discretionary {-}{}{}Size}|hyperpage}{5}
+\indexentry{array\discretionary {-}{}{}Size@{array\discretionary {-}{}{}Size}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!T@{T}|hyperpage}{5}
+\indexentry{T@{T}!Array@{Array}|hyperpage}{5}
+\indexentry{Bench\discretionary {-}{}{}Queue$<$ queue\discretionary {-}{}{}Class $>$@{Bench\discretionary {-}{}{}Queue$<$ queue\discretionary {-}{}{}Class $>$}|hyperpage}{5}
+\indexentry{Bench\discretionary {-}{}{}Queue@{Bench\discretionary {-}{}{}Queue}!benchmark@{benchmark}|hyperpage}{6}
+\indexentry{benchmark@{benchmark}!BenchQueue@{Bench\discretionary {-}{}{}Queue}|hyperpage}{6}
+\indexentry{Bench\discretionary {-}{}{}Stack$<$ stack\discretionary {-}{}{}Class $>$@{Bench\discretionary {-}{}{}Stack$<$ stack\discretionary {-}{}{}Class $>$}|hyperpage}{6}
+\indexentry{Bench\discretionary {-}{}{}Stack@{Bench\discretionary {-}{}{}Stack}!benchmark@{benchmark}|hyperpage}{7}
+\indexentry{benchmark@{benchmark}!BenchStack@{Bench\discretionary {-}{}{}Stack}|hyperpage}{7}
+\indexentry{Queue$<$ type $>$@{Queue$<$ type $>$}|hyperpage}{7}
+\indexentry{Queue@{Queue}!dequeue@{dequeue}|hyperpage}{8}
+\indexentry{dequeue@{dequeue}!Queue@{Queue}|hyperpage}{8}
+\indexentry{Queue@{Queue}!enqueue@{enqueue}|hyperpage}{8}
+\indexentry{enqueue@{enqueue}!Queue@{Queue}|hyperpage}{8}
+\indexentry{Queue@{Queue}!is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}|hyperpage}{8}
+\indexentry{is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}!Queue@{Queue}|hyperpage}{8}
+\indexentry{Queue@{Queue}!size@{size}|hyperpage}{8}
+\indexentry{size@{size}!Queue@{Queue}|hyperpage}{8}
+\indexentry{Queue@{Queue}!top@{top}|hyperpage}{8}
+\indexentry{top@{top}!Queue@{Queue}|hyperpage}{8}
+\indexentry{Queue@{Queue}!flist@{flist}|hyperpage}{8}
+\indexentry{flist@{flist}!Queue@{Queue}|hyperpage}{8}
+\indexentry{Stack$<$ type $>$@{Stack$<$ type $>$}|hyperpage}{8}
+\indexentry{Stack@{Stack}!is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}|hyperpage}{9}
+\indexentry{is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}!Stack@{Stack}|hyperpage}{9}
+\indexentry{Stack@{Stack}!pop@{pop}|hyperpage}{9}
+\indexentry{pop@{pop}!Stack@{Stack}|hyperpage}{9}
+\indexentry{Stack@{Stack}!push@{push}|hyperpage}{9}
+\indexentry{push@{push}!Stack@{Stack}|hyperpage}{9}
+\indexentry{Stack@{Stack}!size@{size}|hyperpage}{10}
+\indexentry{size@{size}!Stack@{Stack}|hyperpage}{10}
+\indexentry{Stack@{Stack}!top@{top}|hyperpage}{10}
+\indexentry{top@{top}!Stack@{Stack}|hyperpage}{10}
+\indexentry{Stack@{Stack}!array@{array}|hyperpage}{10}
+\indexentry{array@{array}!Stack@{Stack}|hyperpage}{10}
+\indexentry{Stack2$<$ type $>$@{Stack2$<$ type $>$}|hyperpage}{10}
+\indexentry{Stack2@{Stack2}!Stack2@{Stack2}|hyperpage}{11}
+\indexentry{Stack2@{Stack2}!Stack2@{Stack2}|hyperpage}{11}
+\indexentry{Stack2@{Stack2}!is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}|hyperpage}{11}
+\indexentry{is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}!Stack2@{Stack2}|hyperpage}{11}
+\indexentry{Stack2@{Stack2}!pop@{pop}|hyperpage}{11}
+\indexentry{pop@{pop}!Stack2@{Stack2}|hyperpage}{11}
+\indexentry{Stack2@{Stack2}!push@{push}|hyperpage}{11}
+\indexentry{push@{push}!Stack2@{Stack2}|hyperpage}{11}
+\indexentry{Stack2@{Stack2}!size@{size}|hyperpage}{11}
+\indexentry{size@{size}!Stack2@{Stack2}|hyperpage}{11}
+\indexentry{Stack2@{Stack2}!top@{top}|hyperpage}{11}
+\indexentry{top@{top}!Stack2@{Stack2}|hyperpage}{11}
+\indexentry{Stack2@{Stack2}!array@{array}|hyperpage}{12}
+\indexentry{array@{array}!Stack2@{Stack2}|hyperpage}{12}
+\indexentry{Stack2@{Stack2}!arr\discretionary {-}{}{}Size@{arr\discretionary {-}{}{}Size}|hyperpage}{12}
+\indexentry{arr\discretionary {-}{}{}Size@{arr\discretionary {-}{}{}Size}!Stack2@{Stack2}|hyperpage}{12}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List$<$ type $>$@{st\discretionary {-}{}{}On\discretionary {-}{}{}List$<$ type $>$}|hyperpage}{12}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}!is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}|hyperpage}{13}
+\indexentry{is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}!stOnList@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}|hyperpage}{13}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}!pop@{pop}|hyperpage}{13}
+\indexentry{pop@{pop}!stOnList@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}|hyperpage}{13}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}!push@{push}|hyperpage}{13}
+\indexentry{push@{push}!stOnList@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}|hyperpage}{13}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}!size@{size}|hyperpage}{13}
+\indexentry{size@{size}!stOnList@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}|hyperpage}{13}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}!top@{top}|hyperpage}{13}
+\indexentry{top@{top}!stOnList@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}|hyperpage}{13}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}!flist@{flist}|hyperpage}{13}
+\indexentry{flist@{flist}!stOnList@{st\discretionary {-}{}{}On\discretionary {-}{}{}List}|hyperpage}{13}
+\indexentry{array.\discretionary {-}{}{}hh@{array.\discretionary {-}{}{}hh}|hyperpage}{14}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{14}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{14}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{15}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{mainpage.\discretionary {-}{}{}dox@{mainpage.\discretionary {-}{}{}dox}|hyperpage}{15}
+\indexentry{queue.\discretionary {-}{}{}hh@{queue.\discretionary {-}{}{}hh}|hyperpage}{15}
+\indexentry{stack.\discretionary {-}{}{}hh@{stack.\discretionary {-}{}{}hh}|hyperpage}{15}
+\indexentry{stack2.\discretionary {-}{}{}hh@{stack2.\discretionary {-}{}{}hh}|hyperpage}{16}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List.\discretionary {-}{}{}hh@{st\discretionary {-}{}{}On\discretionary {-}{}{}List.\discretionary {-}{}{}hh}|hyperpage}{16}
+\indexentry{st\discretionary {-}{}{}On\discretionary {-}{}{}List.\discretionary {-}{}{}hh@{st\discretionary {-}{}{}On\discretionary {-}{}{}List.\discretionary {-}{}{}hh}!S\discretionary {-}{}{}T\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H\discretionary {-}{}{}\_\discretionary {-}{}{}@{S\discretionary {-}{}{}T\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H\discretionary {-}{}{}\_\discretionary {-}{}{}}|hyperpage}{16}
+\indexentry{S\discretionary {-}{}{}T\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H\discretionary {-}{}{}\_\discretionary {-}{}{}@{S\discretionary {-}{}{}T\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H\discretionary {-}{}{}\_\discretionary {-}{}{}}!stOnList.hh@{st\discretionary {-}{}{}On\discretionary {-}{}{}List.\discretionary {-}{}{}hh}|hyperpage}{16}

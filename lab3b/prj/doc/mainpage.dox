@@ -1,0 +1,23 @@
+/** \mainpage Struktury - podstawowe informacje na temat programu
+\section opis Opis programu
+Program structures wykonuje pomiaru czasu wykonania algorytmu wypelniania jednej z czterech opcji: <br><br>
+<b>STOS</b><br>
+Sposob wywolania: <i><code>./structures stack [rozmiar problemu] [ilosc powtorzen]</code></i><br>
+Wykonuje podstawowe operacje na stosie. W przypadku przekroczenia rozmiaru tablicy zwieksza jej rozmiar o 1.<br>
+
+<b>STOS2</b><br>
+Sposob wywolania: <i><code>./structures stack2 [rozmiar problemu] [ilosc powtorzen]</code></i><br>
+Wykonuje podstawowe operacje na stosie. W przypadku przekroczenia rozmiaru tablicy zwieksza jej rozmiar 2 razy.<br>
+
+<b>STOS NA LISCIE</b><br>
+Sposob wywolania: <i><code>./structures stonlist [rozmiar problemu] [ilosc powtorzen]</code></i><br>
+Wykonuje podstawowe operacje stosu na liscie.<br>
+
+<b>KOLEJKA</b><br>
+Sposob wywolania: <i><code>./structures queue [rozmiar problemu] [ilosc powtorzen]</code></i><br>
+Wykonuje podstawowe operacje na kolejce (liscie jednokierunkowej).<br><br>
+
+
+\section autor Autor
+Program wykonala: Agnieszka Wisniewska, nr albumu: 200 466
+*/	

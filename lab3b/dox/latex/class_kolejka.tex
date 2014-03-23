@@ -1,0 +1,127 @@
+\hypertarget{class_kolejka}{\subsection{Dokumentacja szablonu klasy Kolejka$<$ typ $>$}
+\label{class_kolejka}\index{Kolejka$<$ typ $>$@{Kolejka$<$ typ $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_kolejka}{Kolejka}.  
+
+
+
+
+{\ttfamily \#include $<$kolejka.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_kolejka_aaaacc0cfd468e5e07274570cb78b605c}{rozmiar} () const 
+\begin{DoxyCompactList}\small\item\em Pobiera rozmiar kolejki. \end{DoxyCompactList}\item 
+bool \hyperlink{class_kolejka_a8fdc8a751e07a6d977d24c865b62071c}{is\-Empty} () const 
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy kolejka jest pusta. \end{DoxyCompactList}\item 
+const typ \& \hyperlink{class_kolejka_a50d4d2a8152185cf6ebd30ffab5782bc}{top} () const 
+\begin{DoxyCompactList}\small\item\em Udostepnia pierwszy element listy(kolejki) \end{DoxyCompactList}\item 
+void \hyperlink{class_kolejka_aaa965bb140ca766359e6109b2309c5e4}{enqueue} (const typ elem)
+\begin{DoxyCompactList}\small\item\em Dodaje element na koniec kolejki. \end{DoxyCompactList}\item 
+void \hyperlink{class_kolejka_ab588286ee0ad04a3e15d436c21f4e7d0}{dequeue} ()
+\begin{DoxyCompactList}\small\item\em Zabiera element z poczatku listy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+std\-::list$<$ typ $>$ \hyperlink{class_kolejka_aa1d0242fadafd97f856d222b73031cd5}{lista}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename typ$>$class Kolejka$<$ typ $>$}
+
+Szablon klasy \hyperlink{class_kolejka}{Kolejka}. 
+
+Definiuje funkcje pozwalajace na wykonywaniu operacji na kolejce 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em typ} & typ danych przechowywanych na liscie \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_kolejka_ab588286ee0ad04a3e15d436c21f4e7d0}{\index{Kolejka@{Kolejka}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!Kolejka@{Kolejka}}
+\paragraph[{dequeue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Kolejka}$<$ typ $>$\-::dequeue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kolejka_ab588286ee0ad04a3e15d436c21f4e7d0}
+
+
+Zabiera element z poczatku listy. 
+
+\hypertarget{class_kolejka_aaa965bb140ca766359e6109b2309c5e4}{\index{Kolejka@{Kolejka}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!Kolejka@{Kolejka}}
+\paragraph[{enqueue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Kolejka}$<$ typ $>$\-::enqueue (
+\begin{DoxyParamCaption}
+\item[{const typ}]{elem}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kolejka_aaa965bb140ca766359e6109b2309c5e4}
+
+
+Dodaje element na koniec kolejki. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em elem} & element dodawany na koniec kolejki \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_kolejka_a8fdc8a751e07a6d977d24c865b62071c}{\index{Kolejka@{Kolejka}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Kolejka@{Kolejka}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ bool {\bf Kolejka}$<$ typ $>$\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kolejka_a8fdc8a751e07a6d977d24c865b62071c}
+
+
+Sprawdza, czy kolejka jest pusta. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ jesli lista jest pusta 
+
+false -\/ jesli na liscie jest co najmniej 1 element 
+\end{DoxyReturn}
+\hypertarget{class_kolejka_aaaacc0cfd468e5e07274570cb78b605c}{\index{Kolejka@{Kolejka}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!Kolejka@{Kolejka}}
+\paragraph[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ unsigned int {\bf Kolejka}$<$ typ $>$\-::rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kolejka_aaaacc0cfd468e5e07274570cb78b605c}
+
+
+Pobiera rozmiar kolejki. 
+
+\begin{DoxyReturn}{Zwraca}
+ilosc elementow kolejki 
+\end{DoxyReturn}
+\hypertarget{class_kolejka_a50d4d2a8152185cf6ebd30ffab5782bc}{\index{Kolejka@{Kolejka}!top@{top}}
+\index{top@{top}!Kolejka@{Kolejka}}
+\paragraph[{top}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ const typ\& {\bf Kolejka}$<$ typ $>$\-::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kolejka_a50d4d2a8152185cf6ebd30ffab5782bc}
+
+
+Udostepnia pierwszy element listy(kolejki) 
+
+\begin{DoxyReturn}{Zwraca}
+zawartosc pierwszego elementu kolejki 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_kolejka_aa1d0242fadafd97f856d222b73031cd5}{\index{Kolejka@{Kolejka}!lista@{lista}}
+\index{lista@{lista}!Kolejka@{Kolejka}}
+\paragraph[{lista}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ std\-::list$<$typ$>$ {\bf Kolejka}$<$ typ $>$\-::lista\hspace{0.3cm}{\ttfamily [private]}}}\label{class_kolejka_aa1d0242fadafd97f856d222b73031cd5}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kolejka_8hh}{kolejka.\-hh}\end{DoxyCompactItemize}

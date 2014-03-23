@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>Struktury: Plik źródłowy stack2.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Struktury
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.4 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('stack2_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">stack2.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="stack2_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef STACK2_HH_</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define STACK2_HH_</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="array_8hh.html" title="Plik zawiera definicje szablonu klasy Array. ">array.hh</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;stack&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="class_stack2.html">   16</a></span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> type&gt; <span class="keyword">class </span><a class="code" href="class_stack2.html" title="Szablon klasy Stack2. ">Stack2</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="class_stack2.html#a2abbc6c6b7ba098a51bc01b2916fec39">   18</a></span>&#160;    <a class="code" href="class_array.html" title="Szablon klasy Array. ">Array&lt;type&gt;</a> <a class="code" href="class_stack2.html#a2abbc6c6b7ba098a51bc01b2916fec39">array</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="class_stack2.html#a0099a83ca9cc7678deeb04f6d2706412">   19</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_stack2.html#a0099a83ca9cc7678deeb04f6d2706412">arrSize</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="class_stack2.html#a849bc90e36c6b8588eb1bf6d8ef36b67">   23</a></span>&#160;    <a class="code" href="class_stack2.html#a849bc90e36c6b8588eb1bf6d8ef36b67" title="Konstruktor tworzacy obiekt klasy Stack2. ">Stack2</a>(): <a class="code" href="class_stack2.html#a0099a83ca9cc7678deeb04f6d2706412">arrSize</a>(0) {}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="class_stack2.html#a73b00332fd6b866467274eee22f64c5c">   29</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_stack2.html#a73b00332fd6b866467274eee22f64c5c" title="Pobiera rozmiar stosu. ">size</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_stack2.html#a0099a83ca9cc7678deeb04f6d2706412">arrSize</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_stack2.html#a2b8e509798027a1190104efca57d394f" title="Dodaje element na stos. ">push</a> (type elem);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_stack2.html#a5f8d296af6ed73cf0383563d7d30c71c" title="Zabiera element ze szczytu stosu. ">pop</a>();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="code" href="class_stack2.html#a2771c7588eda61532d6cd886a010d780">   51</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_stack2.html#a2771c7588eda61532d6cd886a010d780" title="Sprawdza, czy stos jest pusty. ">isEmpty</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="class_stack2.html#a0099a83ca9cc7678deeb04f6d2706412">arrSize</a>==0);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="class_stack2.html#a6461bd2cf6719fe6cf177eb53bd6850d">   61</a></span>&#160;    <span class="keyword">const</span> type&amp; <a class="code" href="class_stack2.html#a6461bd2cf6719fe6cf177eb53bd6850d" title="Udostepnia element ze szczytu stosu. ">top</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_stack2.html#a2abbc6c6b7ba098a51bc01b2916fec39">array</a>[<a class="code" href="class_stack2.html#a0099a83ca9cc7678deeb04f6d2706412">arrSize</a>-1];</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;};</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> type&gt;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="class_stack2.html#a2b8e509798027a1190104efca57d394f">   68</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_stack2.html#a2b8e509798027a1190104efca57d394f" title="Dodaje element na stos. ">Stack2&lt;type&gt;::push</a>(type elem) {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    arrSize++;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span> (arrSize &gt; array.size())</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {   <span class="keywordflow">if</span> (array.size()==0)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            array.resize(1);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            array.resize(array.size()*2);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    array[arrSize-1]=elem;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> type&gt;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="code" href="class_stack2.html#a5f8d296af6ed73cf0383563d7d30c71c">   82</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_stack2.html#a5f8d296af6ed73cf0383563d7d30c71c" title="Zabiera element ze szczytu stosu. ">Stack2&lt;type&gt;::pop</a>() {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    arrSize--;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span> (arrSize*4 &lt; array.size())</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        array.resize(arrSize);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* STACK2_HH_ */</span><span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="stack2_8hh.html">stack2.hh</a></li>
+    <li class="footer">Wygenerowano N, 16 mar 2014 23:22:47 dla Struktury programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
+  </ul>
+</div>
+</body>
+</html>

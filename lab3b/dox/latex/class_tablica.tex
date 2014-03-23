@@ -1,0 +1,269 @@
+\hypertarget{class_tablica}{\subsection{Dokumentacja szablonu klasy Tablica$<$ typ $>$}
+\label{class_tablica}\index{Tablica$<$ typ $>$@{Tablica$<$ typ $>$}}
+}
+
+
+Szablon klasy tablica.  
+
+
+
+
+{\ttfamily \#include $<$tablica.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tablica_a7498fcc788ff50e277ef32d85bccf922}{Tablica} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor tworzacy obiekty klasy \hyperlink{class_tablica}{Tablica}. \end{DoxyCompactList}\item 
+\hyperlink{class_tablica_a7f77a03d8a57bd834c75aab5d86714b6}{$\sim$\-Tablica} ()
+\begin{DoxyCompactList}\small\item\em Destruktor usuwajacy obiekt klasy \hyperlink{class_tablica}{Tablica}. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_tablica_af593a1625878839c9c5192d5f9e5c7f8}{rozmiar} () const 
+\begin{DoxyCompactList}\small\item\em Zwraca dlugosc tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_tablica_a575b90afd3acb12c5f89f61e0e86cca1}{zmien\-Rozmiar} (unsigned int n\-Rozmiar)
+\begin{DoxyCompactList}\small\item\em Zmienia ilosc elementow tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_tablica_a8e55f9ec78349e311411b3aa06df3b05}{zamien\-\_\-elementy} (unsigned int a, unsigned int b)
+\begin{DoxyCompactList}\small\item\em Zamienia miejscami dwa wybrane elementy. \end{DoxyCompactList}\item 
+void \hyperlink{class_tablica_a0f9fd0bf340493601f668810d0ca1e30}{odwroc\-\_\-kolejnosc} ()
+\begin{DoxyCompactList}\small\item\em Odwraca kolejnosc elementow tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_tablica_a42308f822df1d0ce7fe52bb6fb0b3136}{dodaj\-\_\-element} (typ e)
+\begin{DoxyCompactList}\small\item\em Dodaje nowy element na koniec tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_tablica_ab1cb35073b5efda1f26d0ea31b0e4904}{dodaj\-\_\-tablice} (const \hyperlink{class_tablica}{Tablica}$<$ typ $>$ \&T\-L)
+\begin{DoxyCompactList}\small\item\em Laczy dwie tablice. \end{DoxyCompactList}\item 
+typ \& \hyperlink{class_tablica_ab67121d4fa7844e0d55f3c8618c1b892}{operator\mbox{[}$\,$\mbox{]}} (const unsigned int nr)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora indeksujacego. \end{DoxyCompactList}\item 
+const typ \& \hyperlink{class_tablica_a99fb79fd510251033fd50a9b088ce8d7}{operator\mbox{[}$\,$\mbox{]}} (const unsigned int nr) const 
+\item 
+\hyperlink{class_tablica}{Tablica}$<$ typ $>$ \& \hyperlink{class_tablica_a14a8ec8c5c0c69075f4dbf806ae16cd8}{operator=} (const \hyperlink{class_tablica}{Tablica}$<$ typ $>$ \&wart)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora przypisania. \end{DoxyCompactList}\item 
+\hyperlink{class_tablica}{Tablica}$<$ typ $>$ \& \hyperlink{class_tablica_a5c50ac848aef021f437a2c9f731cd3ec}{operator+} (const \hyperlink{class_tablica}{Tablica}$<$ typ $>$ \&wart) const 
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora dodawania. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tablica_ae658ff24fdb60ea11f03460f9d697e73}{operator==} (const \hyperlink{class_tablica}{Tablica}$<$ typ $>$ \&wart) const 
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora porownania. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{class_tablica_a35a881c3f637dc3ef56f0ce6a2084f3c}{T}
+\item 
+unsigned int \hyperlink{class_tablica_a58987190dfda933e6e5c7e2b8ebf7be0}{dlugosc\-Tablicy}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename typ$>$class Tablica$<$ typ $>$}
+
+Szablon klasy tablica. 
+
+Definiuje funkcje pozwalajace na wykonywaniu operacji na tablicy 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em typ} & typ danych przechowywanych w tablicy \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_tablica_a7498fcc788ff50e277ef32d85bccf922}{\index{Tablica@{Tablica}!Tablica@{Tablica}}
+\index{Tablica@{Tablica}!Tablica@{Tablica}}
+\paragraph[{Tablica}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ$>$ {\bf Tablica}$<$ typ $>$\-::{\bf Tablica} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tablica_a7498fcc788ff50e277ef32d85bccf922}
+
+
+Konstruktor tworzacy obiekty klasy \hyperlink{class_tablica}{Tablica}. 
+
+\hypertarget{class_tablica_a7f77a03d8a57bd834c75aab5d86714b6}{\index{Tablica@{Tablica}!$\sim$\-Tablica@{$\sim$\-Tablica}}
+\index{$\sim$\-Tablica@{$\sim$\-Tablica}!Tablica@{Tablica}}
+\paragraph[{$\sim$\-Tablica}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ$>$ {\bf Tablica}$<$ typ $>$\-::$\sim${\bf Tablica} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tablica_a7f77a03d8a57bd834c75aab5d86714b6}
+
+
+Destruktor usuwajacy obiekt klasy \hyperlink{class_tablica}{Tablica}. 
+
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_tablica_a42308f822df1d0ce7fe52bb6fb0b3136}{\index{Tablica@{Tablica}!dodaj\-\_\-element@{dodaj\-\_\-element}}
+\index{dodaj\-\_\-element@{dodaj\-\_\-element}!Tablica@{Tablica}}
+\paragraph[{dodaj\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Tablica}$<$ typ $>$\-::dodaj\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{typ}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_tablica_a42308f822df1d0ce7fe52bb6fb0b3136}
+
+
+Dodaje nowy element na koniec tablicy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em e} & element dodawany na koniec tablicy \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tablica_ab1cb35073b5efda1f26d0ea31b0e4904}{\index{Tablica@{Tablica}!dodaj\-\_\-tablice@{dodaj\-\_\-tablice}}
+\index{dodaj\-\_\-tablice@{dodaj\-\_\-tablice}!Tablica@{Tablica}}
+\paragraph[{dodaj\-\_\-tablice}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Tablica}$<$ typ $>$\-::dodaj\-\_\-tablice (
+\begin{DoxyParamCaption}
+\item[{const {\bf Tablica}$<$ typ $>$ \&}]{T\-L}
+\end{DoxyParamCaption}
+)}}\label{class_tablica_ab1cb35073b5efda1f26d0ea31b0e4904}
+
+
+Laczy dwie tablice. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em \hyperlink{class_tablica}{Tablica}} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tablica_a0f9fd0bf340493601f668810d0ca1e30}{\index{Tablica@{Tablica}!odwroc\-\_\-kolejnosc@{odwroc\-\_\-kolejnosc}}
+\index{odwroc\-\_\-kolejnosc@{odwroc\-\_\-kolejnosc}!Tablica@{Tablica}}
+\paragraph[{odwroc\-\_\-kolejnosc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Tablica}$<$ typ $>$\-::odwroc\-\_\-kolejnosc (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tablica_a0f9fd0bf340493601f668810d0ca1e30}
+
+
+Odwraca kolejnosc elementow tablicy. 
+
+\hypertarget{class_tablica_a5c50ac848aef021f437a2c9f731cd3ec}{\index{Tablica@{Tablica}!operator+@{operator+}}
+\index{operator+@{operator+}!Tablica@{Tablica}}
+\paragraph[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ {\bf Tablica}$<$ typ $>$ \& {\bf Tablica}$<$ typ $>$\-::operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Tablica}$<$ typ $>$ \&}]{wart}
+\end{DoxyParamCaption}
+) const}}\label{class_tablica_a5c50ac848aef021f437a2c9f731cd3ec}
+
+
+Przeciazenie operatora dodawania. 
+
+\begin{DoxyReturn}{Zwraca}
+tablice zawieraja elementy z obu tablic 
+\end{DoxyReturn}
+\hypertarget{class_tablica_a14a8ec8c5c0c69075f4dbf806ae16cd8}{\index{Tablica@{Tablica}!operator=@{operator=}}
+\index{operator=@{operator=}!Tablica@{Tablica}}
+\paragraph[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ {\bf Tablica}$<$ typ $>$ \& {\bf Tablica}$<$ typ $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Tablica}$<$ typ $>$ \&}]{wart}
+\end{DoxyParamCaption}
+)}}\label{class_tablica_a14a8ec8c5c0c69075f4dbf806ae16cd8}
+
+
+Przeciazenie operatora przypisania. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em wart} & tablica z ktorej wartosci zostana przypisane \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+referencje na obiekt wywolujacy 
+\end{DoxyReturn}
+\hypertarget{class_tablica_ae658ff24fdb60ea11f03460f9d697e73}{\index{Tablica@{Tablica}!operator==@{operator==}}
+\index{operator==@{operator==}!Tablica@{Tablica}}
+\paragraph[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ bool {\bf Tablica}$<$ typ $>$\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Tablica}$<$ typ $>$ \&}]{wart}
+\end{DoxyParamCaption}
+) const}}\label{class_tablica_ae658ff24fdb60ea11f03460f9d697e73}
+
+
+Przeciazenie operatora porownania. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ gdy tablice sa takie same 
+
+false -\/ gdy tablice sie roznia 
+\end{DoxyReturn}
+\hypertarget{class_tablica_ab67121d4fa7844e0d55f3c8618c1b892}{\index{Tablica@{Tablica}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Tablica@{Tablica}}
+\paragraph[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ$>$ typ\& {\bf Tablica}$<$ typ $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{nr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tablica_ab67121d4fa7844e0d55f3c8618c1b892}
+
+
+Przeciazenie operatora indeksujacego. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em nr} & Indeks wybranego elementu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Wartosc pod wskazanym indeksem 
+\end{DoxyReturn}
+\hypertarget{class_tablica_a99fb79fd510251033fd50a9b088ce8d7}{\index{Tablica@{Tablica}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Tablica@{Tablica}}
+\paragraph[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ$>$ const typ\& {\bf Tablica}$<$ typ $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{nr}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tablica_a99fb79fd510251033fd50a9b088ce8d7}
+\hypertarget{class_tablica_af593a1625878839c9c5192d5f9e5c7f8}{\index{Tablica@{Tablica}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!Tablica@{Tablica}}
+\paragraph[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ$>$ unsigned int {\bf Tablica}$<$ typ $>$\-::rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tablica_af593a1625878839c9c5192d5f9e5c7f8}
+
+
+Zwraca dlugosc tablicy. 
+
+\begin{DoxyReturn}{Zwraca}
+liczbe elementow tablicy 
+\end{DoxyReturn}
+\hypertarget{class_tablica_a8e55f9ec78349e311411b3aa06df3b05}{\index{Tablica@{Tablica}!zamien\-\_\-elementy@{zamien\-\_\-elementy}}
+\index{zamien\-\_\-elementy@{zamien\-\_\-elementy}!Tablica@{Tablica}}
+\paragraph[{zamien\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Tablica}$<$ typ $>$\-::zamien\-\_\-elementy (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{a, }
+\item[{unsigned int}]{b}
+\end{DoxyParamCaption}
+)}}\label{class_tablica_a8e55f9ec78349e311411b3aa06df3b05}
+
+
+Zamienia miejscami dwa wybrane elementy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em a} & pierwszy z elementow, ktore zamieniamy miejscami \\
+\hline
+{\em b} & drugi element, ktory zamieniamy z a \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tablica_a575b90afd3acb12c5f89f61e0e86cca1}{\index{Tablica@{Tablica}!zmien\-Rozmiar@{zmien\-Rozmiar}}
+\index{zmien\-Rozmiar@{zmien\-Rozmiar}!Tablica@{Tablica}}
+\paragraph[{zmien\-Rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Tablica}$<$ typ $>$\-::zmien\-Rozmiar (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{n\-Rozmiar}
+\end{DoxyParamCaption}
+)}}\label{class_tablica_a575b90afd3acb12c5f89f61e0e86cca1}
+
+
+Zmienia ilosc elementow tablicy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em n\-Rozmiar} & rozmiar tablicy \\
+\hline
+\end{DoxyParams}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_tablica_a58987190dfda933e6e5c7e2b8ebf7be0}{\index{Tablica@{Tablica}!dlugosc\-Tablicy@{dlugosc\-Tablicy}}
+\index{dlugosc\-Tablicy@{dlugosc\-Tablicy}!Tablica@{Tablica}}
+\paragraph[{dlugosc\-Tablicy}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ$>$ unsigned int {\bf Tablica}$<$ typ $>$\-::dlugosc\-Tablicy\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tablica_a58987190dfda933e6e5c7e2b8ebf7be0}
+\hypertarget{class_tablica_a35a881c3f637dc3ef56f0ce6a2084f3c}{\index{Tablica@{Tablica}!T@{T}}
+\index{T@{T}!Tablica@{Tablica}}
+\paragraph[{T}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ$>$ int$\ast$ {\bf Tablica}$<$ typ $>$\-::T\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tablica_a35a881c3f637dc3ef56f0ce6a2084f3c}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{tablica_8hh}{tablica.\-hh}\end{DoxyCompactItemize}

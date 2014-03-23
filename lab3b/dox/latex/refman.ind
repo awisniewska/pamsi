@@ -1,0 +1,188 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Array}
+    \subitem {Array}, \hyperpage{4}
+
+  \indexspace
+
+  \item {add\discretionary {-}{}{}Arrays}
+    \subitem {Array}, \hyperpage{4}
+  \item {add\discretionary {-}{}{}Elem}
+    \subitem {Array}, \hyperpage{4}
+  \item {arr\discretionary {-}{}{}Size}
+    \subitem {Stack2}, \hyperpage{12}
+  \item {Array}
+    \subitem {$\sim $\discretionary {-}{}{}Array}, \hyperpage{4}
+    \subitem {add\discretionary {-}{}{}Arrays}, \hyperpage{4}
+    \subitem {add\discretionary {-}{}{}Elem}, \hyperpage{4}
+    \subitem {Array}, \hyperpage{4}
+    \subitem {array\discretionary {-}{}{}Size}, \hyperpage{5}
+    \subitem {change\discretionary {-}{}{}Places}, \hyperpage{4}
+    \subitem {operator+}, \hyperpage{4}
+    \subitem {operator=}, \hyperpage{4}
+    \subitem {operator==}, \hyperpage{4}
+    \subitem {resize}, \hyperpage{5}
+    \subitem {reverse}, \hyperpage{5}
+    \subitem {size}, \hyperpage{5}
+    \subitem {T}, \hyperpage{5}
+  \item {array}
+    \subitem {Stack}, \hyperpage{10}
+    \subitem {Stack2}, \hyperpage{12}
+  \item {Array$<$ type $>$}, \hyperpage{3}
+  \item {array.\discretionary {-}{}{}hh}, \hyperpage{14}
+  \item {array\discretionary {-}{}{}Size}
+    \subitem {Array}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Bench\discretionary {-}{}{}Queue}
+    \subitem {benchmark}, \hyperpage{6}
+  \item {Bench\discretionary {-}{}{}Queue$<$ queue\discretionary {-}{}{}Class $>$}, 
+		\hyperpage{5}
+  \item {Bench\discretionary {-}{}{}Stack}
+    \subitem {benchmark}, \hyperpage{7}
+  \item {Bench\discretionary {-}{}{}Stack$<$ stack\discretionary {-}{}{}Class $>$}, 
+		\hyperpage{6}
+  \item {benchmark}
+    \subitem {Bench\discretionary {-}{}{}Queue}, \hyperpage{6}
+    \subitem {Bench\discretionary {-}{}{}Stack}, \hyperpage{7}
+  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{14}
+
+  \indexspace
+
+  \item {change\discretionary {-}{}{}Places}
+    \subitem {Array}, \hyperpage{4}
+
+  \indexspace
+
+  \item {dequeue}
+    \subitem {Queue}, \hyperpage{8}
+
+  \indexspace
+
+  \item {enqueue}
+    \subitem {Queue}, \hyperpage{8}
+
+  \indexspace
+
+  \item {flist}
+    \subitem {Queue}, \hyperpage{8}
+    \subitem {st\discretionary {-}{}{}On\discretionary {-}{}{}List}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {is\discretionary {-}{}{}Empty}
+    \subitem {Queue}, \hyperpage{8}
+    \subitem {Stack}, \hyperpage{9}
+    \subitem {Stack2}, \hyperpage{11}
+    \subitem {st\discretionary {-}{}{}On\discretionary {-}{}{}List}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{15}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{14}
+    \subitem {main}, \hyperpage{15}
+  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{15}
+
+  \indexspace
+
+  \item {operator+}
+    \subitem {Array}, \hyperpage{4}
+  \item {operator=}
+    \subitem {Array}, \hyperpage{4}
+  \item {operator==}
+    \subitem {Array}, \hyperpage{4}
+
+  \indexspace
+
+  \item {pop}
+    \subitem {Stack}, \hyperpage{9}
+    \subitem {Stack2}, \hyperpage{11}
+    \subitem {st\discretionary {-}{}{}On\discretionary {-}{}{}List}, 
+		\hyperpage{13}
+  \item {push}
+    \subitem {Stack}, \hyperpage{9}
+    \subitem {Stack2}, \hyperpage{11}
+    \subitem {st\discretionary {-}{}{}On\discretionary {-}{}{}List}, 
+		\hyperpage{13}
+
+  \indexspace
+
+  \item {Queue}
+    \subitem {dequeue}, \hyperpage{8}
+    \subitem {enqueue}, \hyperpage{8}
+    \subitem {flist}, \hyperpage{8}
+    \subitem {is\discretionary {-}{}{}Empty}, \hyperpage{8}
+    \subitem {size}, \hyperpage{8}
+    \subitem {top}, \hyperpage{8}
+  \item {Queue$<$ type $>$}, \hyperpage{7}
+  \item {queue.\discretionary {-}{}{}hh}, \hyperpage{15}
+
+  \indexspace
+
+  \item {resize}
+    \subitem {Array}, \hyperpage{5}
+  \item {reverse}
+    \subitem {Array}, \hyperpage{5}
+
+  \indexspace
+
+  \item {S\discretionary {-}{}{}T\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H\discretionary {-}{}{}\_\discretionary {-}{}{}}
+    \subitem {st\discretionary {-}{}{}On\discretionary {-}{}{}List.\discretionary {-}{}{}hh}, 
+		\hyperpage{16}
+  \item {size}
+    \subitem {Array}, \hyperpage{5}
+    \subitem {Queue}, \hyperpage{8}
+    \subitem {Stack}, \hyperpage{10}
+    \subitem {Stack2}, \hyperpage{11}
+    \subitem {st\discretionary {-}{}{}On\discretionary {-}{}{}List}, 
+		\hyperpage{13}
+  \item {st\discretionary {-}{}{}On\discretionary {-}{}{}List}
+    \subitem {flist}, \hyperpage{13}
+    \subitem {is\discretionary {-}{}{}Empty}, \hyperpage{13}
+    \subitem {pop}, \hyperpage{13}
+    \subitem {push}, \hyperpage{13}
+    \subitem {size}, \hyperpage{13}
+    \subitem {top}, \hyperpage{13}
+  \item {st\discretionary {-}{}{}On\discretionary {-}{}{}List$<$ type $>$}, 
+		\hyperpage{12}
+  \item {st\discretionary {-}{}{}On\discretionary {-}{}{}List.\discretionary {-}{}{}hh}, 
+		\hyperpage{16}
+    \subitem {S\discretionary {-}{}{}T\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}H\discretionary {-}{}{}\_\discretionary {-}{}{}}, 
+		\hyperpage{16}
+  \item {Stack}
+    \subitem {array}, \hyperpage{10}
+    \subitem {is\discretionary {-}{}{}Empty}, \hyperpage{9}
+    \subitem {pop}, \hyperpage{9}
+    \subitem {push}, \hyperpage{9}
+    \subitem {size}, \hyperpage{10}
+    \subitem {top}, \hyperpage{10}
+  \item {Stack$<$ type $>$}, \hyperpage{8}
+  \item {stack.\discretionary {-}{}{}hh}, \hyperpage{15}
+  \item {Stack2}
+    \subitem {arr\discretionary {-}{}{}Size}, \hyperpage{12}
+    \subitem {array}, \hyperpage{12}
+    \subitem {is\discretionary {-}{}{}Empty}, \hyperpage{11}
+    \subitem {pop}, \hyperpage{11}
+    \subitem {push}, \hyperpage{11}
+    \subitem {size}, \hyperpage{11}
+    \subitem {Stack2}, \hyperpage{11}
+    \subitem {top}, \hyperpage{11}
+  \item {Stack2$<$ type $>$}, \hyperpage{10}
+  \item {stack2.\discretionary {-}{}{}hh}, \hyperpage{16}
+
+  \indexspace
+
+  \item {T}
+    \subitem {Array}, \hyperpage{5}
+  \item {top}
+    \subitem {Queue}, \hyperpage{8}
+    \subitem {Stack}, \hyperpage{10}
+    \subitem {Stack2}, \hyperpage{11}
+    \subitem {st\discretionary {-}{}{}On\discretionary {-}{}{}List}, 
+		\hyperpage{13}
+
+\end{theindex}
