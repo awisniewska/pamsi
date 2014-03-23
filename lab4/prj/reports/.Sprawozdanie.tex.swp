@@ -28,8 +28,7 @@ Zadaniem do wykonania było przygotowanie programu mierzącego czas wykonywania 
 \section{Wyniki działania programu --- wykresy\label{wyniki}}
 \subsection {Sortowanie szybkie (quicksort)}
 Jest to wydajny algorytm sortowania działający na zasadzie "Dziel i zwyciężaj" - z tablicy wybiera się element rozdzielający, po czym jest ona dzielona na dwa fragmenty: do początkowego przenoszone są wszystkie elementy nie większe od rozdzielającego, do końcowego wszystkie większe. Następnie sortuje się osobno początkową i końcową część pierwszej tablicy. Rekurencja kończy się, gdy kolejny fragment uzyskany z podziału zawiera pojedynczy element, jako że jednoelementowa tablica nie wymaga sortowania.
-
-
+\\*\\*
 Średnia czasowa złożoność obliczeniowa: O(nlogn)
 \begin{figure}[!htp]
 \centering
@@ -41,8 +40,7 @@ Jest to wydajny algorytm sortowania działający na zasadzie "Dziel i zwycięża
 \newpage
 \subsection {Sortowanie przez scalanie (mergesort)}
 Ten algorytm również działa na zasadzie "dziel i zwyciężaj". Na początku rozdziela się dane na dwie części, sortuje je przez scalanie (chyba, że pozostał już tylko jeden element), aby w końcu połączyć wszystkie podciągi w jeden posortowany ciąg.
-
-
+\\*\\*
 Średnia czasowa złożoność obliczeniowa: O(nlogn)
 
 \begin{figure}[!htp]
@@ -54,6 +52,10 @@ Ten algorytm również działa na zasadzie "dziel i zwyciężaj". Na początku r
 
 \newpage
 \subsection {Sortowanie przez kopcowanie (heapsort)}
+Niestabilny, lecz szybki i niepochłaniający dużo pamięci algorytm sortowania danych. Działa na podstawie użycia kolejki priorytetowej zaimplementowanej w postaci binarnego kopca zupełnego. Algorytm składa się z dwóch faz - w pierwszej fazie sortowane elementy są reorganizowane w celu utworzenia kopca, w drugiej dokonywane jest właściwe sortowanie.
+\\*\\*
+Średnia czasowa złożoność obliczeniowa: O(nlogn)
+
 \begin{figure}[!htp]
 \centering
 \includegraphics[width=\textwidth]{files/heap.pdf}
@@ -63,8 +65,6 @@ Ten algorytm również działa na zasadzie "dziel i zwyciężaj". Na początku r
 
 
 
-
-\newpage
 \section{Wnioski\label{wnioski}}
 \begin{itemize}
 \item Z powyższych wykresów wynika, że wszystkie trzy przetestowane algorytmy są wydajniejsze dla danych wstępnie posortowanych.
