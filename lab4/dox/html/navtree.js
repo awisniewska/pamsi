@@ -1,11 +1,9 @@
 var NAVTREE =
 [
-  [ "Struktury", "index.html", [
-    [ "Struktury - podstawowe informacje na temat programu", "index.html", [
-      [ "Opis programu", "index.html#opis", null ],
-      [ "Autor", "index.html#autor", null ]
-    ] ],
+  [ "Algorytmy sortowania", "index.html", [
     [ "Klasy", null, [
+      [ "Opis programu", "index.html#opis", null ],
+      [ "Autor", "index.html#autor", null ],
       [ "Lista klas", "annotated.html", "annotated" ],
       [ "Indeks klas", "classes.html", null ],
       [ "Składowe klas", "functions.html", [

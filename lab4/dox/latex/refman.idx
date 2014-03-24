@@ -1,74 +1,74 @@
 \indexentry{Array$<$ type $>$@{Array$<$ type $>$}|hyperpage}{3}
-\indexentry{Array@{Array}!Array@{Array}|hyperpage}{4}
-\indexentry{Array@{Array}!Array@{Array}|hyperpage}{4}
-\indexentry{Array@{Array}!$\sim $\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}Array}|hyperpage}{4}
-\indexentry{$\sim $\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}Array}!Array@{Array}|hyperpage}{4}
-\indexentry{Array@{Array}!add\discretionary {-}{}{}Arrays@{add\discretionary {-}{}{}Arrays}|hyperpage}{4}
-\indexentry{add\discretionary {-}{}{}Arrays@{add\discretionary {-}{}{}Arrays}!Array@{Array}|hyperpage}{4}
-\indexentry{Array@{Array}!add\discretionary {-}{}{}Elem@{add\discretionary {-}{}{}Elem}|hyperpage}{4}
-\indexentry{add\discretionary {-}{}{}Elem@{add\discretionary {-}{}{}Elem}!Array@{Array}|hyperpage}{4}
-\indexentry{Array@{Array}!change\discretionary {-}{}{}Places@{change\discretionary {-}{}{}Places}|hyperpage}{4}
-\indexentry{change\discretionary {-}{}{}Places@{change\discretionary {-}{}{}Places}!Array@{Array}|hyperpage}{4}
-\indexentry{Array@{Array}!operator+@{operator+}|hyperpage}{4}
-\indexentry{operator+@{operator+}!Array@{Array}|hyperpage}{4}
-\indexentry{Array@{Array}!operator=@{operator=}|hyperpage}{4}
-\indexentry{operator=@{operator=}!Array@{Array}|hyperpage}{4}
+\indexentry{Array@{Array}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!$\sim $\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}Array}|hyperpage}{5}
+\indexentry{$\sim $\discretionary {-}{}{}Array@{$\sim $\discretionary {-}{}{}Array}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!add\discretionary {-}{}{}Arrays@{add\discretionary {-}{}{}Arrays}|hyperpage}{5}
+\indexentry{add\discretionary {-}{}{}Arrays@{add\discretionary {-}{}{}Arrays}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!add\discretionary {-}{}{}Elem@{add\discretionary {-}{}{}Elem}|hyperpage}{5}
+\indexentry{add\discretionary {-}{}{}Elem@{add\discretionary {-}{}{}Elem}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!change\discretionary {-}{}{}Places@{change\discretionary {-}{}{}Places}|hyperpage}{5}
+\indexentry{change\discretionary {-}{}{}Places@{change\discretionary {-}{}{}Places}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!operator+@{operator+}|hyperpage}{5}
+\indexentry{operator+@{operator+}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!operator=@{operator=}|hyperpage}{5}
+\indexentry{operator=@{operator=}!Array@{Array}|hyperpage}{5}
 \indexentry{Array@{Array}!operator==@{operator==}|hyperpage}{5}
 \indexentry{operator==@{operator==}!Array@{Array}|hyperpage}{5}
-\indexentry{Array@{Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{5}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Array@{Array}|hyperpage}{5}
-\indexentry{Array@{Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{5}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Array@{Array}|hyperpage}{5}
-\indexentry{Array@{Array}!resize@{resize}|hyperpage}{5}
-\indexentry{resize@{resize}!Array@{Array}|hyperpage}{5}
-\indexentry{Array@{Array}!reverse@{reverse}|hyperpage}{5}
-\indexentry{reverse@{reverse}!Array@{Array}|hyperpage}{5}
-\indexentry{Array@{Array}!size@{size}|hyperpage}{5}
-\indexentry{size@{size}!Array@{Array}|hyperpage}{5}
-\indexentry{Array@{Array}!array\discretionary {-}{}{}Size@{array\discretionary {-}{}{}Size}|hyperpage}{5}
-\indexentry{array\discretionary {-}{}{}Size@{array\discretionary {-}{}{}Size}!Array@{Array}|hyperpage}{5}
-\indexentry{Array@{Array}!T@{T}|hyperpage}{5}
-\indexentry{T@{T}!Array@{Array}|hyperpage}{5}
+\indexentry{Array@{Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{6}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Array@{Array}|hyperpage}{6}
+\indexentry{Array@{Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{6}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Array@{Array}|hyperpage}{6}
+\indexentry{Array@{Array}!resize@{resize}|hyperpage}{6}
+\indexentry{resize@{resize}!Array@{Array}|hyperpage}{6}
+\indexentry{Array@{Array}!reverse@{reverse}|hyperpage}{6}
+\indexentry{reverse@{reverse}!Array@{Array}|hyperpage}{6}
+\indexentry{Array@{Array}!size@{size}|hyperpage}{6}
+\indexentry{size@{size}!Array@{Array}|hyperpage}{6}
+\indexentry{Array@{Array}!array\discretionary {-}{}{}Size@{array\discretionary {-}{}{}Size}|hyperpage}{6}
+\indexentry{array\discretionary {-}{}{}Size@{array\discretionary {-}{}{}Size}!Array@{Array}|hyperpage}{6}
+\indexentry{Array@{Array}!T@{T}|hyperpage}{6}
+\indexentry{T@{T}!Array@{Array}|hyperpage}{6}
 \indexentry{Benchmark@{Benchmark}|hyperpage}{6}
-\indexentry{Benchmark@{Benchmark}!benchmark@{benchmark}|hyperpage}{6}
-\indexentry{benchmark@{benchmark}!Benchmark@{Benchmark}|hyperpage}{6}
-\indexentry{Benchmark@{Benchmark}!calculate@{calculate}|hyperpage}{6}
-\indexentry{calculate@{calculate}!Benchmark@{Benchmark}|hyperpage}{6}
-\indexentry{Benchmark@{Benchmark}!check@{check}|hyperpage}{6}
-\indexentry{check@{check}!Benchmark@{Benchmark}|hyperpage}{6}
-\indexentry{Benchmark@{Benchmark}!load@{load}|hyperpage}{6}
-\indexentry{load@{load}!Benchmark@{Benchmark}|hyperpage}{6}
-\indexentry{Benchmark@{Benchmark}!size@{size}|hyperpage}{6}
-\indexentry{size@{size}!Benchmark@{Benchmark}|hyperpage}{6}
+\indexentry{Benchmark@{Benchmark}!benchmark@{benchmark}|hyperpage}{7}
+\indexentry{benchmark@{benchmark}!Benchmark@{Benchmark}|hyperpage}{7}
+\indexentry{Benchmark@{Benchmark}!calculate@{calculate}|hyperpage}{7}
+\indexentry{calculate@{calculate}!Benchmark@{Benchmark}|hyperpage}{7}
+\indexentry{Benchmark@{Benchmark}!check@{check}|hyperpage}{7}
+\indexentry{check@{check}!Benchmark@{Benchmark}|hyperpage}{7}
+\indexentry{Benchmark@{Benchmark}!load@{load}|hyperpage}{7}
+\indexentry{load@{load}!Benchmark@{Benchmark}|hyperpage}{7}
+\indexentry{Benchmark@{Benchmark}!size@{size}|hyperpage}{7}
+\indexentry{size@{size}!Benchmark@{Benchmark}|hyperpage}{7}
 \indexentry{Benchmark@{Benchmark}!array1@{array1}|hyperpage}{7}
 \indexentry{array1@{array1}!Benchmark@{Benchmark}|hyperpage}{7}
 \indexentry{Benchmark@{Benchmark}!array2@{array2}|hyperpage}{7}
 \indexentry{array2@{array2}!Benchmark@{Benchmark}|hyperpage}{7}
-\indexentry{array.\discretionary {-}{}{}hh@{array.\discretionary {-}{}{}hh}|hyperpage}{7}
-\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{7}
-\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{7}
-\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}!sorting\discretionary {-}{}{}Type@{sorting\discretionary {-}{}{}Type}|hyperpage}{8}
-\indexentry{sorting\discretionary {-}{}{}Type@{sorting\discretionary {-}{}{}Type}!benchmark.hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{8}
-\indexentry{quick@{quick}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{8}
-\indexentry{benchmark.\-hh@{benchmark.\-hh}!quick@{quick}|hyperpage}{8}
-\indexentry{merge@{merge}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{8}
-\indexentry{benchmark.\-hh@{benchmark.\-hh}!merge@{merge}|hyperpage}{8}
-\indexentry{heap@{heap}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{8}
-\indexentry{benchmark.\-hh@{benchmark.\-hh}!heap@{heap}|hyperpage}{8}
-\indexentry{heap.\discretionary {-}{}{}hh@{heap.\discretionary {-}{}{}hh}|hyperpage}{8}
-\indexentry{heap.\discretionary {-}{}{}hh@{heap.\discretionary {-}{}{}hh}!heap\discretionary {-}{}{}Sort@{heap\discretionary {-}{}{}Sort}|hyperpage}{8}
-\indexentry{heap\discretionary {-}{}{}Sort@{heap\discretionary {-}{}{}Sort}!heap.hh@{heap.\discretionary {-}{}{}hh}|hyperpage}{8}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{8}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{9}
-\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{9}
-\indexentry{mainpage.\discretionary {-}{}{}dox@{mainpage.\discretionary {-}{}{}dox}|hyperpage}{9}
-\indexentry{merge.\discretionary {-}{}{}hh@{merge.\discretionary {-}{}{}hh}|hyperpage}{9}
-\indexentry{merge.\discretionary {-}{}{}hh@{merge.\discretionary {-}{}{}hh}!merge\discretionary {-}{}{}Sort@{merge\discretionary {-}{}{}Sort}|hyperpage}{9}
-\indexentry{merge\discretionary {-}{}{}Sort@{merge\discretionary {-}{}{}Sort}!merge.hh@{merge.\discretionary {-}{}{}hh}|hyperpage}{9}
-\indexentry{merge.\discretionary {-}{}{}hh@{merge.\discretionary {-}{}{}hh}!merge\discretionary {-}{}{}Sort@{merge\discretionary {-}{}{}Sort}|hyperpage}{9}
-\indexentry{merge\discretionary {-}{}{}Sort@{merge\discretionary {-}{}{}Sort}!merge.hh@{merge.\discretionary {-}{}{}hh}|hyperpage}{9}
-\indexentry{quicksort.\discretionary {-}{}{}hh@{quicksort.\discretionary {-}{}{}hh}|hyperpage}{9}
-\indexentry{quicksort.\discretionary {-}{}{}hh@{quicksort.\discretionary {-}{}{}hh}!quicksort@{quicksort}|hyperpage}{9}
-\indexentry{quicksort@{quicksort}!quicksort.hh@{quicksort.\discretionary {-}{}{}hh}|hyperpage}{9}
-\indexentry{quicksort.\discretionary {-}{}{}hh@{quicksort.\discretionary {-}{}{}hh}!quicksort@{quicksort}|hyperpage}{9}
-\indexentry{quicksort@{quicksort}!quicksort.hh@{quicksort.\discretionary {-}{}{}hh}|hyperpage}{9}
+\indexentry{array.\discretionary {-}{}{}hh@{array.\discretionary {-}{}{}hh}|hyperpage}{8}
+\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{8}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{8}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}!sorting\discretionary {-}{}{}Type@{sorting\discretionary {-}{}{}Type}|hyperpage}{9}
+\indexentry{sorting\discretionary {-}{}{}Type@{sorting\discretionary {-}{}{}Type}!benchmark.hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{9}
+\indexentry{quick@{quick}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{9}
+\indexentry{benchmark.\-hh@{benchmark.\-hh}!quick@{quick}|hyperpage}{9}
+\indexentry{merge@{merge}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{9}
+\indexentry{benchmark.\-hh@{benchmark.\-hh}!merge@{merge}|hyperpage}{9}
+\indexentry{heap@{heap}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{9}
+\indexentry{benchmark.\-hh@{benchmark.\-hh}!heap@{heap}|hyperpage}{9}
+\indexentry{heap.\discretionary {-}{}{}hh@{heap.\discretionary {-}{}{}hh}|hyperpage}{9}
+\indexentry{heap.\discretionary {-}{}{}hh@{heap.\discretionary {-}{}{}hh}!heap\discretionary {-}{}{}Sort@{heap\discretionary {-}{}{}Sort}|hyperpage}{9}
+\indexentry{heap\discretionary {-}{}{}Sort@{heap\discretionary {-}{}{}Sort}!heap.hh@{heap.\discretionary {-}{}{}hh}|hyperpage}{9}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{9}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{10}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{10}
+\indexentry{mainpage.\discretionary {-}{}{}dox@{mainpage.\discretionary {-}{}{}dox}|hyperpage}{10}
+\indexentry{merge.\discretionary {-}{}{}hh@{merge.\discretionary {-}{}{}hh}|hyperpage}{10}
+\indexentry{merge.\discretionary {-}{}{}hh@{merge.\discretionary {-}{}{}hh}!merge\discretionary {-}{}{}Sort@{merge\discretionary {-}{}{}Sort}|hyperpage}{10}
+\indexentry{merge\discretionary {-}{}{}Sort@{merge\discretionary {-}{}{}Sort}!merge.hh@{merge.\discretionary {-}{}{}hh}|hyperpage}{10}
+\indexentry{merge.\discretionary {-}{}{}hh@{merge.\discretionary {-}{}{}hh}!merge\discretionary {-}{}{}Sort@{merge\discretionary {-}{}{}Sort}|hyperpage}{10}
+\indexentry{merge\discretionary {-}{}{}Sort@{merge\discretionary {-}{}{}Sort}!merge.hh@{merge.\discretionary {-}{}{}hh}|hyperpage}{10}
+\indexentry{quicksort.\discretionary {-}{}{}hh@{quicksort.\discretionary {-}{}{}hh}|hyperpage}{10}
+\indexentry{quicksort.\discretionary {-}{}{}hh@{quicksort.\discretionary {-}{}{}hh}!quicksort@{quicksort}|hyperpage}{10}
+\indexentry{quicksort@{quicksort}!quicksort.hh@{quicksort.\discretionary {-}{}{}hh}|hyperpage}{10}
+\indexentry{quicksort.\discretionary {-}{}{}hh@{quicksort.\discretionary {-}{}{}hh}!quicksort@{quicksort}|hyperpage}{10}
+\indexentry{quicksort@{quicksort}!quicksort.hh@{quicksort.\discretionary {-}{}{}hh}|hyperpage}{10}

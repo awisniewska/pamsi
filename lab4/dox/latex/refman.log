@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.16)  24 MAR 2014 00:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.16)  24 MAR 2014 02:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1127,8 +1127,13 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 5.
-)
-(./annotated.tex) (./files.tex
+
+Underfull \hbox (badness 3525) in paragraph at lines 13--13
+[]\T1/phv/m/n/10 Sposob wywolania-: \T1/pcr/m/sl/10 ./structures heap []plik we
+jsciowy[] []plik sprawdzajacy[] []ilosc
+ []
+
+) (./annotated.tex) (./files.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.22644pt.
@@ -1166,6 +1171,13 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 17.
  [3]
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.22644pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+
 LaTeX Font Warning: Font shape `T1/pcr/bc/n' undefined
 (Font)              using `T1/pcr/m/n' instead on input line 70.
 
@@ -1179,17 +1191,11 @@ Underfull \hbox (badness 10000) detected at line 151
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.22644pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
 Underfull \hbox (badness 10000) detected at line 170
 [][][]
  []
 
-
+[5]
 Underfull \hbox (badness 10000) detected at line 184
 [][][]
  []
@@ -1204,18 +1210,19 @@ Underfull \hbox (badness 10000) detected at line 253
 [][][]
  []
 
-) (./class_benchmark.tex [5]
-Underfull \hbox (badness 10000) detected at line 92
-[][][]
- []
-
+) (./class_benchmark.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.22644pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]) (./array_8hh.tex
+[6]
+Underfull \hbox (badness 10000) detected at line 92
+[][][]
+ []
+
+[7]) (./array_8hh.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
@@ -1230,7 +1237,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[7]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.22644pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
 Underfull \hbox (badness 10000) detected at line 37
 [][][]
  []
@@ -1253,13 +1266,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.22644pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]) (./mainpage_8dox.tex) (./merge_8hh.tex
+[9]) (./mainpage_8dox.tex) (./merge_8hh.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -1269,7 +1276,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-) [9] (./refman.ind [10
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.22644pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10] (./refman.ind [11
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
@@ -1278,7 +1292,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: CE1EEC56A5904771394A89815DA423F0;6555.
+(rerunfilecheck)             Checksum: C8F63912611F25293C6D5E47BE30E4DA;6385.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1286,13 +1300,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 12577 strings out of 494996
- 175484 string characters out of 6180655
- 252976 words of memory out of 5000000
+ 12578 strings out of 494996
+ 175491 string characters out of 6180655
+ 252974 words of memory out of 5000000
  15403 multiletter control sequences out of 15000+600000
  82531 words of font info for 127 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 48i,13n,43p,353b,510s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,13n,43p,343b,510s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
@@ -1303,10 +1317,10 @@ urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (11 pages, 123674 bytes).
+Output written on refman.pdf (12 pages, 124539 bytes).
 PDF statistics:
- 554 PDF objects out of 1000 (max. 8388607)
- 525 compressed objects within 6 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 528 compressed objects within 6 object streams
+ 137 named destinations out of 1000 (max. 500000)
  289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
