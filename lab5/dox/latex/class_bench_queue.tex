@@ -1,0 +1,59 @@
+\hypertarget{class_bench_queue}{\subsection{Dokumentacja szablonu klasy Bench\-Queue$<$ queue\-Class $>$}
+\label{class_bench_queue}\index{Bench\-Queue$<$ queue\-Class $>$@{Bench\-Queue$<$ queue\-Class $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_bench_queue}{Bench\-Queue}.  
+
+
+
+
+{\ttfamily \#include $<$benchmark.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_bench_queue_a1001661433cd55bac6732ffa0fda4ecc}{benchmark} (unsigned int no\-Iteration, unsigned int problem\-Size)
+\begin{DoxyCompactList}\small\item\em Mierzy czas trwania algorytmu wykonywanego na kolejce dla zadanej ilosci powtorzen oraz rozmiaru problemu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$class queue\-Class$>$class Bench\-Queue$<$ queue\-Class $>$}
+
+Szablon klasy \hyperlink{class_bench_queue}{Bench\-Queue}. 
+
+Definiuje funkcje sluzace do pomiaru czasu wykonywania algorytmu na kolejce. 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em queue\-Class} & klasa kolejki dla ktorej przeprowadzamy benchmark \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_bench_queue_a1001661433cd55bac6732ffa0fda4ecc}{\index{Bench\-Queue@{Bench\-Queue}!benchmark@{benchmark}}
+\index{benchmark@{benchmark}!BenchQueue@{Bench\-Queue}}
+\paragraph[{benchmark}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class queue\-Class $>$ double {\bf Bench\-Queue}$<$ queue\-Class $>$\-::benchmark (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{no\-Iteration, }
+\item[{unsigned int}]{problem\-Size}
+\end{DoxyParamCaption}
+)}}\label{class_bench_queue_a1001661433cd55bac6732ffa0fda4ecc}
+
+
+Mierzy czas trwania algorytmu wykonywanego na kolejce dla zadanej ilosci powtorzen oraz rozmiaru problemu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em no\-Iteration} & liczba powtorzen wykonania algorytmu \\
+\hline
+{\em problem\-Size} & liczba danych dodawanych do kolejki podczas jednej iteracji algorytmu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czas wykonywania algorytmu 
+\end{DoxyReturn}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{benchmark_8hh}{benchmark.\-hh}\end{DoxyCompactItemize}

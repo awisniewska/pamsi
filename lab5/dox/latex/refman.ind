@@ -1,0 +1,130 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Array}
+    \subitem {Array}, \hyperpage{5}
+
+  \indexspace
+
+  \item {add\discretionary {-}{}{}Arrays}
+    \subitem {Array}, \hyperpage{5}
+  \item {add\discretionary {-}{}{}Elem}
+    \subitem {Array}, \hyperpage{5}
+  \item {Array}
+    \subitem {$\sim $\discretionary {-}{}{}Array}, \hyperpage{5}
+    \subitem {add\discretionary {-}{}{}Arrays}, \hyperpage{5}
+    \subitem {add\discretionary {-}{}{}Elem}, \hyperpage{5}
+    \subitem {Array}, \hyperpage{5}
+    \subitem {array\discretionary {-}{}{}Size}, \hyperpage{6}
+    \subitem {change\discretionary {-}{}{}Places}, \hyperpage{5}
+    \subitem {operator+}, \hyperpage{5}
+    \subitem {operator=}, \hyperpage{5}
+    \subitem {operator==}, \hyperpage{5}
+    \subitem {resize}, \hyperpage{6}
+    \subitem {reverse}, \hyperpage{6}
+    \subitem {size}, \hyperpage{6}
+    \subitem {T}, \hyperpage{6}
+  \item {Array$<$ type $>$}, \hyperpage{3}
+  \item {array.\discretionary {-}{}{}hh}, \hyperpage{8}
+  \item {array1}
+    \subitem {Benchmark}, \hyperpage{7}
+  \item {array2}
+    \subitem {Benchmark}, \hyperpage{7}
+  \item {array\discretionary {-}{}{}Size}
+    \subitem {Array}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Benchmark}, \hyperpage{6}
+    \subitem {array1}, \hyperpage{7}
+    \subitem {array2}, \hyperpage{7}
+    \subitem {benchmark}, \hyperpage{7}
+    \subitem {calculate}, \hyperpage{7}
+    \subitem {check}, \hyperpage{7}
+    \subitem {load}, \hyperpage{7}
+    \subitem {size}, \hyperpage{7}
+  \item {benchmark}
+    \subitem {Benchmark}, \hyperpage{7}
+  \item {benchmark.\-hh}
+    \subitem {heap}, \hyperpage{9}
+    \subitem {merge}, \hyperpage{9}
+    \subitem {quick}, \hyperpage{9}
+  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{8}
+  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{8}
+    \subitem {sorting\discretionary {-}{}{}Type}, \hyperpage{9}
+
+  \indexspace
+
+  \item {calculate}
+    \subitem {Benchmark}, \hyperpage{7}
+  \item {change\discretionary {-}{}{}Places}
+    \subitem {Array}, \hyperpage{5}
+  \item {check}
+    \subitem {Benchmark}, \hyperpage{7}
+
+  \indexspace
+
+  \item {heap}
+    \subitem {benchmark.\-hh}, \hyperpage{9}
+  \item {heap.\discretionary {-}{}{}hh}, \hyperpage{9}
+    \subitem {heap\discretionary {-}{}{}Sort}, \hyperpage{9}
+  \item {heap\discretionary {-}{}{}Sort}
+    \subitem {heap.\discretionary {-}{}{}hh}, \hyperpage{9}
+
+  \indexspace
+
+  \item {load}
+    \subitem {Benchmark}, \hyperpage{7}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{10}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{9}
+    \subitem {main}, \hyperpage{10}
+  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{10}
+  \item {merge}
+    \subitem {benchmark.\-hh}, \hyperpage{9}
+  \item {merge.\discretionary {-}{}{}hh}, \hyperpage{10}
+    \subitem {merge\discretionary {-}{}{}Sort}, \hyperpage{10}
+  \item {merge\discretionary {-}{}{}Sort}
+    \subitem {merge.\discretionary {-}{}{}hh}, \hyperpage{10}
+
+  \indexspace
+
+  \item {operator+}
+    \subitem {Array}, \hyperpage{5}
+  \item {operator=}
+    \subitem {Array}, \hyperpage{5}
+  \item {operator==}
+    \subitem {Array}, \hyperpage{5}
+
+  \indexspace
+
+  \item {quick}
+    \subitem {benchmark.\-hh}, \hyperpage{9}
+  \item {quicksort}
+    \subitem {quicksort.\discretionary {-}{}{}hh}, \hyperpage{10}
+  \item {quicksort.\discretionary {-}{}{}hh}, \hyperpage{10}
+    \subitem {quicksort}, \hyperpage{10}
+
+  \indexspace
+
+  \item {resize}
+    \subitem {Array}, \hyperpage{6}
+  \item {reverse}
+    \subitem {Array}, \hyperpage{6}
+
+  \indexspace
+
+  \item {size}
+    \subitem {Array}, \hyperpage{6}
+    \subitem {Benchmark}, \hyperpage{7}
+  \item {sorting\discretionary {-}{}{}Type}
+    \subitem {benchmark.\discretionary {-}{}{}hh}, \hyperpage{9}
+
+  \indexspace
+
+  \item {T}
+    \subitem {Array}, \hyperpage{6}
+
+\end{theindex}

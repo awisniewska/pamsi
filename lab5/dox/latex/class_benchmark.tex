@@ -1,0 +1,109 @@
+\hypertarget{class_benchmark}{\subsection{Dokumentacja klasy Benchmark}
+\label{class_benchmark}\index{Benchmark@{Benchmark}}
+}
+
+
+Definicja klasy \hyperlink{class_benchmark}{Benchmark}.  
+
+
+
+
+{\ttfamily \#include $<$benchmark.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_benchmark_a2e75bf799e62f0144eaff00c9e3acb93}{load} (char $\ast$file\-Name)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytujaca dane z wybranego pliku. \end{DoxyCompactList}\item 
+bool \hyperlink{class_benchmark_a12519069f87d9373e9382b65874ddb02}{check} (char $\ast$file\-Name)
+\begin{DoxyCompactList}\small\item\em Funkcja porownujaca dane z pliku zrodlowego po wykonaniu wybranego sortowania z danym z pliku sprawdzajacego. \end{DoxyCompactList}\item 
+double \hyperlink{class_benchmark_acff260f9f14f96d1e86f48ac724b625e}{benchmark} (int no\-Iteration, \hyperlink{benchmark_8hh_a08f516d96c62462f77e4e83d222bfdfb}{sorting\-Type} type)
+\begin{DoxyCompactList}\small\item\em Funkcja mierzaca czas wykonywania algorytmu sortowania. \end{DoxyCompactList}\item 
+int \hyperlink{class_benchmark_aa1ce894b0cf622b8f38c4618fd6e2dcb}{size} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_benchmark_a6746cd9125d70b90e14bba55a6ed2a9a}{calculate} (\hyperlink{benchmark_8hh_a08f516d96c62462f77e4e83d222bfdfb}{sorting\-Type} type)
+\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_array}{Array}$<$ int $>$ \hyperlink{class_benchmark_ae960752c05b37c7361586bbf8c11c210}{array1}
+\item 
+\hyperlink{class_array}{Array}$<$ int $>$ \hyperlink{class_benchmark_a7b077c3084f2d60804b0673860dae5b0}{array2}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+Definicja klasy \hyperlink{class_benchmark}{Benchmark}. 
+
+Klasa obiektow umozliwiajaca wczytywanie danych z plikow do tablicy, wykonania wybranych obliczen oraz kontrole poprawnosci wykonywania obliczen z plikiem sprawdzajacym. Glownym zadaniem klasy jest mierzenie czasu wykonywanych algorytmow. 
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_benchmark_acff260f9f14f96d1e86f48ac724b625e}{\index{Benchmark@{Benchmark}!benchmark@{benchmark}}
+\index{benchmark@{benchmark}!Benchmark@{Benchmark}}
+\paragraph[{benchmark}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::benchmark (
+\begin{DoxyParamCaption}
+\item[{int}]{no\-Iteration, }
+\item[{{\bf sorting\-Type}}]{type}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_acff260f9f14f96d1e86f48ac724b625e}
+
+
+Funkcja mierzaca czas wykonywania algorytmu sortowania. 
+
+\hypertarget{class_benchmark_a6746cd9125d70b90e14bba55a6ed2a9a}{\index{Benchmark@{Benchmark}!calculate@{calculate}}
+\index{calculate@{calculate}!Benchmark@{Benchmark}}
+\paragraph[{calculate}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::calculate (
+\begin{DoxyParamCaption}
+\item[{{\bf sorting\-Type}}]{type}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a6746cd9125d70b90e14bba55a6ed2a9a}
+\hypertarget{class_benchmark_a12519069f87d9373e9382b65874ddb02}{\index{Benchmark@{Benchmark}!check@{check}}
+\index{check@{check}!Benchmark@{Benchmark}}
+\paragraph[{check}]{\setlength{\rightskip}{0pt plus 5cm}bool Benchmark\-::check (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{file\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_a12519069f87d9373e9382b65874ddb02}
+
+
+Funkcja porownujaca dane z pliku zrodlowego po wykonaniu wybranego sortowania z danym z pliku sprawdzajacego. 
+
+\hypertarget{class_benchmark_a2e75bf799e62f0144eaff00c9e3acb93}{\index{Benchmark@{Benchmark}!load@{load}}
+\index{load@{load}!Benchmark@{Benchmark}}
+\paragraph[{load}]{\setlength{\rightskip}{0pt plus 5cm}bool Benchmark\-::load (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{file\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_a2e75bf799e62f0144eaff00c9e3acb93}
+
+
+Funkcja wczytujaca dane z wybranego pliku. 
+
+\hypertarget{class_benchmark_aa1ce894b0cf622b8f38c4618fd6e2dcb}{\index{Benchmark@{Benchmark}!size@{size}}
+\index{size@{size}!Benchmark@{Benchmark}}
+\paragraph[{size}]{\setlength{\rightskip}{0pt plus 5cm}int Benchmark\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_benchmark_aa1ce894b0cf622b8f38c4618fd6e2dcb}
+\begin{DoxyReturn}{Zwraca}
+Zwraca dlugosc tablicy. 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_benchmark_ae960752c05b37c7361586bbf8c11c210}{\index{Benchmark@{Benchmark}!array1@{array1}}
+\index{array1@{array1}!Benchmark@{Benchmark}}
+\paragraph[{array1}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Array}$<$int$>$ Benchmark\-::array1\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_ae960752c05b37c7361586bbf8c11c210}
+\hypertarget{class_benchmark_a7b077c3084f2d60804b0673860dae5b0}{\index{Benchmark@{Benchmark}!array2@{array2}}
+\index{array2@{array2}!Benchmark@{Benchmark}}
+\paragraph[{array2}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Array}$<$int$>$ Benchmark\-::array2\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a7b077c3084f2d60804b0673860dae5b0}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{benchmark_8hh}{benchmark.\-hh}\item 
+\hyperlink{benchmark_8cpp}{benchmark.\-cpp}\end{DoxyCompactItemize}

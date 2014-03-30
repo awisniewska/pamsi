@@ -1,0 +1,130 @@
+\hypertarget{class_snal}{\subsection{Dokumentacja szablonu klasy Snal$<$ typ $>$}
+\label{class_snal}\index{Snal$<$ typ $>$@{Snal$<$ typ $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_snal}{Snal}.  
+
+
+
+
+{\ttfamily \#include $<$snal.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_snal_a3d863313713b5e2e11ec8a756a86093c}{rozmiar} () const 
+\begin{DoxyCompactList}\small\item\em Pobiera rozmiar listy. \end{DoxyCompactList}\item 
+void \hyperlink{class_snal_a9c09a2b7b909c0a404782ec749bc47fc}{push} (typ elem)
+\begin{DoxyCompactList}\small\item\em Dodaje element na koniec listy. \end{DoxyCompactList}\item 
+void \hyperlink{class_snal_aea84c2c7e18e4c384e3e15ec273760eb}{pop} ()
+\begin{DoxyCompactList}\small\item\em Zabiera element z konca listy. \end{DoxyCompactList}\item 
+bool \hyperlink{class_snal_a17a59deb02eddfb8c7ec324a27a79929}{is\-Empty} () const 
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy lista jest pusta. \end{DoxyCompactList}\item 
+const typ \& \hyperlink{class_snal_a994360f96b0c2584cba43901ec52d848}{top} () const 
+\begin{DoxyCompactList}\small\item\em Udostepnia ostatni element listy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+std\-::list$<$ typ $>$ \hyperlink{class_snal_afa289576c79de5b33bc2964cd20ed653}{lista}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename typ$>$class Snal$<$ typ $>$}
+
+Szablon klasy \hyperlink{class_snal}{Snal}. 
+
+Definiuje funkcje pozwalajace na wykonywanie operacji na liscie 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em typ} & typ danych przechowywanych na liscie \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_snal_a17a59deb02eddfb8c7ec324a27a79929}{\index{Snal@{Snal}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Snal@{Snal}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ bool {\bf Snal}$<$ typ $>$\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_snal_a17a59deb02eddfb8c7ec324a27a79929}
+
+
+Sprawdza, czy lista jest pusta. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ jesli lista jest pusta 
+
+false -\/ jesli na liscie jest co najmniej 1 element 
+\end{DoxyReturn}
+\hypertarget{class_snal_aea84c2c7e18e4c384e3e15ec273760eb}{\index{Snal@{Snal}!pop@{pop}}
+\index{pop@{pop}!Snal@{Snal}}
+\paragraph[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Snal}$<$ typ $>$\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_snal_aea84c2c7e18e4c384e3e15ec273760eb}
+
+
+Zabiera element z konca listy. 
+
+\begin{DoxyPrecond}{Warunek wstępny}
+lista nie moze byc pusta 
+\end{DoxyPrecond}
+\hypertarget{class_snal_a9c09a2b7b909c0a404782ec749bc47fc}{\index{Snal@{Snal}!push@{push}}
+\index{push@{push}!Snal@{Snal}}
+\paragraph[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Snal}$<$ typ $>$\-::push (
+\begin{DoxyParamCaption}
+\item[{typ}]{elem}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_snal_a9c09a2b7b909c0a404782ec749bc47fc}
+
+
+Dodaje element na koniec listy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em elem} & element dodawany na koniec listy \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_snal_a3d863313713b5e2e11ec8a756a86093c}{\index{Snal@{Snal}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!Snal@{Snal}}
+\paragraph[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ unsigned int {\bf Snal}$<$ typ $>$\-::rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_snal_a3d863313713b5e2e11ec8a756a86093c}
+
+
+Pobiera rozmiar listy. 
+
+\begin{DoxyReturn}{Zwraca}
+liczba elementow listy 
+\end{DoxyReturn}
+\hypertarget{class_snal_a994360f96b0c2584cba43901ec52d848}{\index{Snal@{Snal}!top@{top}}
+\index{top@{top}!Snal@{Snal}}
+\paragraph[{top}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ const typ\& {\bf Snal}$<$ typ $>$\-::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_snal_a994360f96b0c2584cba43901ec52d848}
+
+
+Udostepnia ostatni element listy. 
+
+\begin{DoxyReturn}{Zwraca}
+zawartosc ostatniego elementu listy 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_snal_afa289576c79de5b33bc2964cd20ed653}{\index{Snal@{Snal}!lista@{lista}}
+\index{lista@{lista}!Snal@{Snal}}
+\paragraph[{lista}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ std\-::list$<$typ$>$ {\bf Snal}$<$ typ $>$\-::lista\hspace{0.3cm}{\ttfamily [private]}}}\label{class_snal_afa289576c79de5b33bc2964cd20ed653}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{snal_8hh}{snal.\-hh}\end{DoxyCompactItemize}

@@ -1,0 +1,133 @@
+\hypertarget{class_stack}{\subsection{Dokumentacja szablonu klasy Stack$<$ type $>$}
+\label{class_stack}\index{Stack$<$ type $>$@{Stack$<$ type $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_stack}{Stack}.  
+
+
+
+
+{\ttfamily \#include $<$stack.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_stack_a80fe1d90b284500ae0f9f6887ba5499d}{size} () const 
+\begin{DoxyCompactList}\small\item\em Pobiera rozmiar stosu. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack_a12cd3afaa512ef23598abdab1fa13adc}{push} (type elem)
+\begin{DoxyCompactList}\small\item\em Dodaje element na szczyt stosu. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack_a7d66b2f030b693dffaf921e09a8a2088}{pop} ()
+\begin{DoxyCompactList}\small\item\em Zabiera element ze szczytu stosu. \end{DoxyCompactList}\item 
+bool \hyperlink{class_stack_a5f3c3c7c32ce4466250de45d3661eade}{is\-Empty} () const 
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy stos nie jest pusty. \end{DoxyCompactList}\item 
+const type \& \hyperlink{class_stack_a9024a402fb2c78f0ef08b1bee95c2b0c}{top} () const 
+\begin{DoxyCompactList}\small\item\em Udostepnia element ze szczytu stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_array}{Array}$<$ type $>$ \hyperlink{class_stack_ae391f10eeb7e30406357caf95b0f2534}{array}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename type$>$class Stack$<$ type $>$}
+
+Szablon klasy \hyperlink{class_stack}{Stack}. 
+
+Definiuje funkcje pozwalajace na wykonywanie operacji na stosie 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em type} & typ danych przechowywanych na stosie \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_stack_a5f3c3c7c32ce4466250de45d3661eade}{\index{Stack@{Stack}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Stack@{Stack}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ bool {\bf Stack}$<$ type $>$\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stack_a5f3c3c7c32ce4466250de45d3661eade}
+
+
+Sprawdza, czy stos nie jest pusty. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ jesli stos jest pusty 
+
+false -\/ jesli stos zawiera co najmniej 1 element 
+\end{DoxyReturn}
+\hypertarget{class_stack_a7d66b2f030b693dffaf921e09a8a2088}{\index{Stack@{Stack}!pop@{pop}}
+\index{pop@{pop}!Stack@{Stack}}
+\paragraph[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Stack}$<$ type $>$\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_stack_a7d66b2f030b693dffaf921e09a8a2088}
+
+
+Zabiera element ze szczytu stosu. 
+
+\begin{DoxyPrecond}{Warunek wstępny}
+stos nie moze byc pusty 
+\end{DoxyPrecond}
+\hypertarget{class_stack_a12cd3afaa512ef23598abdab1fa13adc}{\index{Stack@{Stack}!push@{push}}
+\index{push@{push}!Stack@{Stack}}
+\paragraph[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Stack}$<$ type $>$\-::push (
+\begin{DoxyParamCaption}
+\item[{type}]{elem}
+\end{DoxyParamCaption}
+)}}\label{class_stack_a12cd3afaa512ef23598abdab1fa13adc}
+
+
+Dodaje element na szczyt stosu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em elem} & element, ktory dodajemy na szczyt stosu \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_stack_a80fe1d90b284500ae0f9f6887ba5499d}{\index{Stack@{Stack}!size@{size}}
+\index{size@{size}!Stack@{Stack}}
+\paragraph[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ unsigned int {\bf Stack}$<$ type $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stack_a80fe1d90b284500ae0f9f6887ba5499d}
+
+
+Pobiera rozmiar stosu. 
+
+\begin{DoxyReturn}{Zwraca}
+ilosc elementow na stosie 
+\end{DoxyReturn}
+\hypertarget{class_stack_a9024a402fb2c78f0ef08b1bee95c2b0c}{\index{Stack@{Stack}!top@{top}}
+\index{top@{top}!Stack@{Stack}}
+\paragraph[{top}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ const type\& {\bf Stack}$<$ type $>$\-::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stack_a9024a402fb2c78f0ef08b1bee95c2b0c}
+
+
+Udostepnia element ze szczytu stosu. 
+
+\begin{DoxyPrecond}{Warunek wstępny}
+stos nie moze byc pusty 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Zwraca}
+zawartosc ostatniego elementu stosu 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_stack_ae391f10eeb7e30406357caf95b0f2534}{\index{Stack@{Stack}!array@{array}}
+\index{array@{array}!Stack@{Stack}}
+\paragraph[{array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ {\bf Array}$<$type$>$ {\bf Stack}$<$ type $>$\-::array\hspace{0.3cm}{\ttfamily [private]}}}\label{class_stack_ae391f10eeb7e30406357caf95b0f2534}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stack_8hh}{stack.\-hh}\end{DoxyCompactItemize}

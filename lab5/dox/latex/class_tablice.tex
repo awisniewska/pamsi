@@ -1,0 +1,112 @@
+\hypertarget{class_tablice}{\subsection{Dokumentacja klasy Tablice}
+\label{class_tablice}\index{Tablice@{Tablice}}
+}
+
+
+Klasa mierzaca czas mnozenia tablicy przez 2.  
+
+
+
+
+{\ttfamily \#include $<$tablice.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_tablice_aab1d6df4c268dfd27ab3f3eac119af89}{wczytaj} (char $\ast$nazwa\-Pliku)
+\begin{DoxyCompactList}\small\item\em Funkcja wczytujaca dane z wybranego pliku. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tablice_ad0dedc4053e77713883e75ba78b0a4fb}{sprawdz} (char $\ast$nazwa\-Pliku)
+\begin{DoxyCompactList}\small\item\em Funkcja porownujaca dane z pliku zrodlowego po wykonaniu operacji mnozenia z danym z pliku sprawdzajacego. \end{DoxyCompactList}\item 
+double \hyperlink{class_tablice_a3b749bf8fef5c4fe6a067295abf6450a}{benchmark} (int liczba\-Powtorzen)
+\begin{DoxyCompactList}\small\item\em Funkcja mierzaca czas wykonywania algorytmu mnozenia. \end{DoxyCompactList}\item 
+int \hyperlink{class_tablice_ad2f6b7558d1c0dbbe0dd82d08df27d76}{rozmiar} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_tablice_aee37b03e9711269a41148d5a9e8155d3}{oblicz} ()
+\begin{DoxyCompactList}\small\item\em Funkcja realizujaca wybrany algorytm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tablica}{Tablica} \hyperlink{class_tablice_a5cbca48606b47b5cf2c688f1484264f1}{tablica}
+\item 
+\hyperlink{class_tablica}{Tablica} \hyperlink{class_tablice_a1b4bd3075acf303942b6e4d8bc1deb1f}{tablica2}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+Klasa mierzaca czas mnozenia tablicy przez 2. 
+
+Klasa obiektow umozliwiajaca wczytywanie danych z plikow do tablicy, mnozenie tablicy o i-\/elementach razy dwa oraz porownanie jej z danymi z pliku sprawdzajacego. 
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_tablice_a3b749bf8fef5c4fe6a067295abf6450a}{\index{Tablice@{Tablice}!benchmark@{benchmark}}
+\index{benchmark@{benchmark}!Tablice@{Tablice}}
+\paragraph[{benchmark}]{\setlength{\rightskip}{0pt plus 5cm}double Tablice\-::benchmark (
+\begin{DoxyParamCaption}
+\item[{int}]{liczba\-Powtorzen}
+\end{DoxyParamCaption}
+)}}\label{class_tablice_a3b749bf8fef5c4fe6a067295abf6450a}
+
+
+Funkcja mierzaca czas wykonywania algorytmu mnozenia. 
+
+\hypertarget{class_tablice_aee37b03e9711269a41148d5a9e8155d3}{\index{Tablice@{Tablice}!oblicz@{oblicz}}
+\index{oblicz@{oblicz}!Tablice@{Tablice}}
+\paragraph[{oblicz}]{\setlength{\rightskip}{0pt plus 5cm}void Tablice\-::oblicz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tablice_aee37b03e9711269a41148d5a9e8155d3}
+
+
+Funkcja realizujaca wybrany algorytm. 
+
+\hypertarget{class_tablice_ad2f6b7558d1c0dbbe0dd82d08df27d76}{\index{Tablice@{Tablice}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!Tablice@{Tablice}}
+\paragraph[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}int Tablice\-::rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tablice_ad2f6b7558d1c0dbbe0dd82d08df27d76}
+\begin{DoxyReturn}{Zwraca}
+Zwraca dlugosc tablicy. 
+\end{DoxyReturn}
+\hypertarget{class_tablice_ad0dedc4053e77713883e75ba78b0a4fb}{\index{Tablice@{Tablice}!sprawdz@{sprawdz}}
+\index{sprawdz@{sprawdz}!Tablice@{Tablice}}
+\paragraph[{sprawdz}]{\setlength{\rightskip}{0pt plus 5cm}bool Tablice\-::sprawdz (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa\-Pliku}
+\end{DoxyParamCaption}
+)}}\label{class_tablice_ad0dedc4053e77713883e75ba78b0a4fb}
+
+
+Funkcja porownujaca dane z pliku zrodlowego po wykonaniu operacji mnozenia z danym z pliku sprawdzajacego. 
+
+\hypertarget{class_tablice_aab1d6df4c268dfd27ab3f3eac119af89}{\index{Tablice@{Tablice}!wczytaj@{wczytaj}}
+\index{wczytaj@{wczytaj}!Tablice@{Tablice}}
+\paragraph[{wczytaj}]{\setlength{\rightskip}{0pt plus 5cm}bool Tablice\-::wczytaj (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{nazwa\-Pliku}
+\end{DoxyParamCaption}
+)}}\label{class_tablice_aab1d6df4c268dfd27ab3f3eac119af89}
+
+
+Funkcja wczytujaca dane z wybranego pliku. 
+
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_tablice_a5cbca48606b47b5cf2c688f1484264f1}{\index{Tablice@{Tablice}!tablica@{tablica}}
+\index{tablica@{tablica}!Tablice@{Tablice}}
+\paragraph[{tablica}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Tablica} Tablice\-::tablica\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tablice_a5cbca48606b47b5cf2c688f1484264f1}
+\hypertarget{class_tablice_a1b4bd3075acf303942b6e4d8bc1deb1f}{\index{Tablice@{Tablice}!tablica2@{tablica2}}
+\index{tablica2@{tablica2}!Tablice@{Tablice}}
+\paragraph[{tablica2}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Tablica} Tablice\-::tablica2\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tablice_a1b4bd3075acf303942b6e4d8bc1deb1f}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{tablice_8hh}{tablice.\-hh}\item 
+\hyperlink{tablice_8cpp}{tablice.\-cpp}\end{DoxyCompactItemize}

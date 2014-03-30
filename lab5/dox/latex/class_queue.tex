@@ -1,0 +1,127 @@
+\hypertarget{class_queue}{\subsection{Dokumentacja szablonu klasy Queue$<$ type $>$}
+\label{class_queue}\index{Queue$<$ type $>$@{Queue$<$ type $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_queue}{Queue}.  
+
+
+
+
+{\ttfamily \#include $<$queue.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_queue_a9c190e4f0881a20d985844ffd6295698}{size} () const 
+\begin{DoxyCompactList}\small\item\em Pobiera rozmiar kolejki. \end{DoxyCompactList}\item 
+bool \hyperlink{class_queue_a33f9556d156d041eedb7907f1bf22ede}{is\-Empty} () const 
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy kolejka jest pusta. \end{DoxyCompactList}\item 
+const type \& \hyperlink{class_queue_aed6772796309d05cb0a00a96f47d8ff0}{top} () const 
+\begin{DoxyCompactList}\small\item\em Udostepnia pierwszy element listy(kolejki) \end{DoxyCompactList}\item 
+void \hyperlink{class_queue_a3b443b419202c56cf801958f88d453e0}{enqueue} (const type elem)
+\begin{DoxyCompactList}\small\item\em Dodaje element na koniec kolejki. \end{DoxyCompactList}\item 
+void \hyperlink{class_queue_a95271aa91a420af3e4eeaaeed6b3b0a0}{dequeue} ()
+\begin{DoxyCompactList}\small\item\em Zabiera element z poczatku listy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+std\-::list$<$ type $>$ \hyperlink{class_queue_ad3cd7911bfc506abd763885641a78f91}{flist}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename type$>$class Queue$<$ type $>$}
+
+Szablon klasy \hyperlink{class_queue}{Queue}. 
+
+Definiuje funkcje pozwalajace na wykonywaniu operacji na kolejce 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em type} & typ danych przechowywanych na liscie \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_queue_a95271aa91a420af3e4eeaaeed6b3b0a0}{\index{Queue@{Queue}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!Queue@{Queue}}
+\paragraph[{dequeue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Queue}$<$ type $>$\-::dequeue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_queue_a95271aa91a420af3e4eeaaeed6b3b0a0}
+
+
+Zabiera element z poczatku listy. 
+
+\hypertarget{class_queue_a3b443b419202c56cf801958f88d453e0}{\index{Queue@{Queue}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!Queue@{Queue}}
+\paragraph[{enqueue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Queue}$<$ type $>$\-::enqueue (
+\begin{DoxyParamCaption}
+\item[{const type}]{elem}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_queue_a3b443b419202c56cf801958f88d453e0}
+
+
+Dodaje element na koniec kolejki. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em elem} & element dodawany na koniec kolejki \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_queue_a33f9556d156d041eedb7907f1bf22ede}{\index{Queue@{Queue}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Queue@{Queue}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ bool {\bf Queue}$<$ type $>$\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_queue_a33f9556d156d041eedb7907f1bf22ede}
+
+
+Sprawdza, czy kolejka jest pusta. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ jesli lista jest pusta 
+
+false -\/ jesli na liscie jest co najmniej 1 element 
+\end{DoxyReturn}
+\hypertarget{class_queue_a9c190e4f0881a20d985844ffd6295698}{\index{Queue@{Queue}!size@{size}}
+\index{size@{size}!Queue@{Queue}}
+\paragraph[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ unsigned int {\bf Queue}$<$ type $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_queue_a9c190e4f0881a20d985844ffd6295698}
+
+
+Pobiera rozmiar kolejki. 
+
+\begin{DoxyReturn}{Zwraca}
+ilosc elementow kolejki 
+\end{DoxyReturn}
+\hypertarget{class_queue_aed6772796309d05cb0a00a96f47d8ff0}{\index{Queue@{Queue}!top@{top}}
+\index{top@{top}!Queue@{Queue}}
+\paragraph[{top}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ const type\& {\bf Queue}$<$ type $>$\-::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_queue_aed6772796309d05cb0a00a96f47d8ff0}
+
+
+Udostepnia pierwszy element listy(kolejki) 
+
+\begin{DoxyReturn}{Zwraca}
+zawartosc pierwszego elementu kolejki 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_queue_ad3cd7911bfc506abd763885641a78f91}{\index{Queue@{Queue}!flist@{flist}}
+\index{flist@{flist}!Queue@{Queue}}
+\paragraph[{flist}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ std\-::list$<$type$>$ {\bf Queue}$<$ type $>$\-::flist\hspace{0.3cm}{\ttfamily [private]}}}\label{class_queue_ad3cd7911bfc506abd763885641a78f91}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{queue_8hh}{queue.\-hh}\end{DoxyCompactItemize}

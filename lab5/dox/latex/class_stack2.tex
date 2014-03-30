@@ -1,0 +1,154 @@
+\hypertarget{class_stack2}{\subsection{Dokumentacja szablonu klasy Stack2$<$ type $>$}
+\label{class_stack2}\index{Stack2$<$ type $>$@{Stack2$<$ type $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_stack2}{Stack2}.  
+
+
+
+
+{\ttfamily \#include $<$stack2.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_stack2_a849bc90e36c6b8588eb1bf6d8ef36b67}{Stack2} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor tworzacy obiekt klasy \hyperlink{class_stack2}{Stack2}. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_stack2_a73b00332fd6b866467274eee22f64c5c}{size} () const 
+\begin{DoxyCompactList}\small\item\em Pobiera rozmiar stosu. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack2_a2b8e509798027a1190104efca57d394f}{push} (type elem)
+\begin{DoxyCompactList}\small\item\em Dodaje element na stos. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack2_a5f8d296af6ed73cf0383563d7d30c71c}{pop} ()
+\begin{DoxyCompactList}\small\item\em Zabiera element ze szczytu stosu. \end{DoxyCompactList}\item 
+bool \hyperlink{class_stack2_a2771c7588eda61532d6cd886a010d780}{is\-Empty} () const 
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy stos jest pusty. \end{DoxyCompactList}\item 
+const type \& \hyperlink{class_stack2_a6461bd2cf6719fe6cf177eb53bd6850d}{top} () const 
+\begin{DoxyCompactList}\small\item\em Udostepnia element ze szczytu stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_array}{Array}$<$ type $>$ \hyperlink{class_stack2_a2abbc6c6b7ba098a51bc01b2916fec39}{array}
+\item 
+unsigned int \hyperlink{class_stack2_a0099a83ca9cc7678deeb04f6d2706412}{arr\-Size}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename type$>$class Stack2$<$ type $>$}
+
+Szablon klasy \hyperlink{class_stack2}{Stack2}. 
+
+Definiuje funkcje pozwalajace na wykonywanie operacji na stosie 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em type} & typ danych przechowywanych na stosie \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_stack2_a849bc90e36c6b8588eb1bf6d8ef36b67}{\index{Stack2@{Stack2}!Stack2@{Stack2}}
+\index{Stack2@{Stack2}!Stack2@{Stack2}}
+\paragraph[{Stack2}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ {\bf Stack2}$<$ type $>$\-::{\bf Stack2} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stack2_a849bc90e36c6b8588eb1bf6d8ef36b67}
+
+
+Konstruktor tworzacy obiekt klasy \hyperlink{class_stack2}{Stack2}. 
+
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_stack2_a2771c7588eda61532d6cd886a010d780}{\index{Stack2@{Stack2}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Stack2@{Stack2}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ bool {\bf Stack2}$<$ type $>$\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stack2_a2771c7588eda61532d6cd886a010d780}
+
+
+Sprawdza, czy stos jest pusty. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ jesli stos jest pusty 
+
+false -\/ jesli stos zawiera co najmniej 1 element 
+\end{DoxyReturn}
+\hypertarget{class_stack2_a5f8d296af6ed73cf0383563d7d30c71c}{\index{Stack2@{Stack2}!pop@{pop}}
+\index{pop@{pop}!Stack2@{Stack2}}
+\paragraph[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Stack2}$<$ type $>$\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_stack2_a5f8d296af6ed73cf0383563d7d30c71c}
+
+
+Zabiera element ze szczytu stosu. 
+
+\begin{DoxyPrecond}{Warunek wstępny}
+stos nie moze byc pusty 
+\end{DoxyPrecond}
+\hypertarget{class_stack2_a2b8e509798027a1190104efca57d394f}{\index{Stack2@{Stack2}!push@{push}}
+\index{push@{push}!Stack2@{Stack2}}
+\paragraph[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ void {\bf Stack2}$<$ type $>$\-::push (
+\begin{DoxyParamCaption}
+\item[{type}]{elem}
+\end{DoxyParamCaption}
+)}}\label{class_stack2_a2b8e509798027a1190104efca57d394f}
+
+
+Dodaje element na stos. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em elem} & element, ktory dodajemy na szczyt stosu \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_stack2_a73b00332fd6b866467274eee22f64c5c}{\index{Stack2@{Stack2}!size@{size}}
+\index{size@{size}!Stack2@{Stack2}}
+\paragraph[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ unsigned int {\bf Stack2}$<$ type $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stack2_a73b00332fd6b866467274eee22f64c5c}
+
+
+Pobiera rozmiar stosu. 
+
+\begin{DoxyReturn}{Zwraca}
+ilosc elementow na stosie 
+\end{DoxyReturn}
+\hypertarget{class_stack2_a6461bd2cf6719fe6cf177eb53bd6850d}{\index{Stack2@{Stack2}!top@{top}}
+\index{top@{top}!Stack2@{Stack2}}
+\paragraph[{top}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ const type\& {\bf Stack2}$<$ type $>$\-::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stack2_a6461bd2cf6719fe6cf177eb53bd6850d}
+
+
+Udostepnia element ze szczytu stosu. 
+
+\begin{DoxyPrecond}{Warunek wstępny}
+stos nie moze byc pusty 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Zwraca}
+zawartosc ostatniego elementu stosu 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_stack2_a2abbc6c6b7ba098a51bc01b2916fec39}{\index{Stack2@{Stack2}!array@{array}}
+\index{array@{array}!Stack2@{Stack2}}
+\paragraph[{array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ {\bf Array}$<$type$>$ {\bf Stack2}$<$ type $>$\-::array\hspace{0.3cm}{\ttfamily [private]}}}\label{class_stack2_a2abbc6c6b7ba098a51bc01b2916fec39}
+\hypertarget{class_stack2_a0099a83ca9cc7678deeb04f6d2706412}{\index{Stack2@{Stack2}!arr\-Size@{arr\-Size}}
+\index{arr\-Size@{arr\-Size}!Stack2@{Stack2}}
+\paragraph[{arr\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename type $>$ unsigned int {\bf Stack2}$<$ type $>$\-::arr\-Size\hspace{0.3cm}{\ttfamily [private]}}}\label{class_stack2_a0099a83ca9cc7678deeb04f6d2706412}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stack2_8hh}{stack2.\-hh}\end{DoxyCompactItemize}

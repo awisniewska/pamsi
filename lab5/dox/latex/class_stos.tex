@@ -1,0 +1,133 @@
+\hypertarget{class_stos}{\subsection{Dokumentacja szablonu klasy Stos$<$ typ $>$}
+\label{class_stos}\index{Stos$<$ typ $>$@{Stos$<$ typ $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_stos}{Stos}.  
+
+
+
+
+{\ttfamily \#include $<$stos.\-hh$>$}
+
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_stos_a5dc14d56ba947890151e0a11b4e79f3b}{rozmiar} () const 
+\begin{DoxyCompactList}\small\item\em Pobiera rozmiar stosu. \end{DoxyCompactList}\item 
+void \hyperlink{class_stos_acfb6ff5a1686e362ef8a561067a02475}{push} (typ elem)
+\begin{DoxyCompactList}\small\item\em Dodaje element na szczyt stosu. \end{DoxyCompactList}\item 
+void \hyperlink{class_stos_a4f780b1f6d4e7db8d5442841bbcaaf8f}{pop} ()
+\begin{DoxyCompactList}\small\item\em Zabiera element ze szczytu stosu. \end{DoxyCompactList}\item 
+bool \hyperlink{class_stos_ab1b9aac0b31ccbcaec16d14e76597ffd}{is\-Empty} () const 
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy stos nie jest pusty. \end{DoxyCompactList}\item 
+const typ \& \hyperlink{class_stos_a144c34220bf98ad263b8c1f37681354e}{top} () const 
+\begin{DoxyCompactList}\small\item\em Udostepnia element ze szczytu stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tablica}{Tablica}$<$ typ $>$ \hyperlink{class_stos_a8700a1da625f79ed8372b06994a22146}{tab\-Elem}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename typ$>$class Stos$<$ typ $>$}
+
+Szablon klasy \hyperlink{class_stos}{Stos}. 
+
+Definiuje funkcje pozwalajace na wykonywanie operacji na stosie 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em typ} & typ danych przechowywanych na stosie \\
+\hline
+\end{DoxyTemplParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_stos_ab1b9aac0b31ccbcaec16d14e76597ffd}{\index{Stos@{Stos}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Stos@{Stos}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ bool {\bf Stos}$<$ typ $>$\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stos_ab1b9aac0b31ccbcaec16d14e76597ffd}
+
+
+Sprawdza, czy stos nie jest pusty. 
+
+\begin{DoxyReturn}{Zwraca}
+true -\/ jesli stos jest pusty 
+
+false -\/ jesli stos zawiera co najmniej 1 element 
+\end{DoxyReturn}
+\hypertarget{class_stos_a4f780b1f6d4e7db8d5442841bbcaaf8f}{\index{Stos@{Stos}!pop@{pop}}
+\index{pop@{pop}!Stos@{Stos}}
+\paragraph[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Stos}$<$ typ $>$\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_stos_a4f780b1f6d4e7db8d5442841bbcaaf8f}
+
+
+Zabiera element ze szczytu stosu. 
+
+\begin{DoxyPrecond}{Warunek wstępny}
+stos nie moze byc pusty 
+\end{DoxyPrecond}
+\hypertarget{class_stos_acfb6ff5a1686e362ef8a561067a02475}{\index{Stos@{Stos}!push@{push}}
+\index{push@{push}!Stos@{Stos}}
+\paragraph[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ void {\bf Stos}$<$ typ $>$\-::push (
+\begin{DoxyParamCaption}
+\item[{typ}]{elem}
+\end{DoxyParamCaption}
+)}}\label{class_stos_acfb6ff5a1686e362ef8a561067a02475}
+
+
+Dodaje element na szczyt stosu. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em elem} & element, ktory dodajemy na szczyt stosu \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_stos_a5dc14d56ba947890151e0a11b4e79f3b}{\index{Stos@{Stos}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!Stos@{Stos}}
+\paragraph[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ unsigned int {\bf Stos}$<$ typ $>$\-::rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stos_a5dc14d56ba947890151e0a11b4e79f3b}
+
+
+Pobiera rozmiar stosu. 
+
+\begin{DoxyReturn}{Zwraca}
+ilosc elementow na stosie 
+\end{DoxyReturn}
+\hypertarget{class_stos_a144c34220bf98ad263b8c1f37681354e}{\index{Stos@{Stos}!top@{top}}
+\index{top@{top}!Stos@{Stos}}
+\paragraph[{top}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ const typ\& {\bf Stos}$<$ typ $>$\-::top (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_stos_a144c34220bf98ad263b8c1f37681354e}
+
+
+Udostepnia element ze szczytu stosu. 
+
+\begin{DoxyPrecond}{Warunek wstępny}
+stos nie moze byc pusty 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Zwraca}
+zawartosc ostatniego elementu stosu 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_stos_a8700a1da625f79ed8372b06994a22146}{\index{Stos@{Stos}!tab\-Elem@{tab\-Elem}}
+\index{tab\-Elem@{tab\-Elem}!Stos@{Stos}}
+\paragraph[{tab\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename typ $>$ {\bf Tablica}$<$typ$>$ {\bf Stos}$<$ typ $>$\-::tab\-Elem\hspace{0.3cm}{\ttfamily [private]}}}\label{class_stos_a8700a1da625f79ed8372b06994a22146}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stos_8hh}{stos.\-hh}\end{DoxyCompactItemize}
