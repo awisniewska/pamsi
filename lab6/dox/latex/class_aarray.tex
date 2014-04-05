@@ -1,0 +1,155 @@
+\hypertarget{class_aarray}{\subsection{Dokumentacja szablonu klasy Aarray$<$ Value $>$}
+\label{class_aarray}\index{Aarray$<$ Value $>$@{Aarray$<$ Value $>$}}
+}
+
+
+{\ttfamily \#include $<$aarray.\-hh$>$}
+
+\subsubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_aarray_1_1_pair}{Pair}
+\end{DoxyCompactItemize}
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_aarray_ab8cea28c7c42aed9126ad8793ff9fbd0}{Add} (Value value, std\-::string key)
+\begin{DoxyCompactList}\small\item\em Funkcja dodająca parę klucz-\/wartość do tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_aarray_a4406f808014ebe6eeb252665d5b073e5}{Delete} (std\-::string key)
+\begin{DoxyCompactList}\small\item\em Funkcja usuwająca wybraną parę klucz-\/wartość z tablicy. \end{DoxyCompactList}\item 
+Value \hyperlink{class_aarray_a4e5974b11d28d3fe057c603fa11a8d7e}{Get\-Value} (std\-::string key)
+\begin{DoxyCompactList}\small\item\em Funkcja pobierająca wartość wybranego klucza. \end{DoxyCompactList}\item 
+void \hyperlink{class_aarray_a11c4d5f1839ea9cd8532cfb7fa4d1033}{Change\-Value} (Value new\-Value, std\-::string key)
+\begin{DoxyCompactList}\small\item\em Funkcja zmieniająca wartość pod wybranym kluczem. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_aarray_ab464f407ff70721e4fd5f075ddcf16a9}{Size} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zwraca ilość par klucz-\/wartość \end{DoxyCompactList}\item 
+bool \hyperlink{class_aarray_ae9ea529b2bbbdba807cf1bd01e896c27}{Is\-Empty} ()
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca, czy tablica jest pusta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_aarray_afde66bdb4a8daa6a0329a134baacbd33}{Search} (std\-::string key)
+\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ \hyperlink{struct_aarray_1_1_pair}{Pair} $>$ \hyperlink{class_aarray_af26c50c1a724cf8bc2ac8366a34b9bb9}{Pair\-Vec}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_aarray_ab8cea28c7c42aed9126ad8793ff9fbd0}{\index{Aarray@{Aarray}!Add@{Add}}
+\index{Add@{Add}!Aarray@{Aarray}}
+\paragraph[{Add}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ void {\bf Aarray}$<$ Value $>$\-::Add (
+\begin{DoxyParamCaption}
+\item[{Value}]{value, }
+\item[{std\-::string}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_aarray_ab8cea28c7c42aed9126ad8793ff9fbd0}
+
+
+Funkcja dodająca parę klucz-\/wartość do tablicy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em value} & wartość dla dodawanego klucza \\
+\hline
+{\em key} & unikatowy klucz, do którego przypisujemy wartość \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_aarray_a11c4d5f1839ea9cd8532cfb7fa4d1033}{\index{Aarray@{Aarray}!Change\-Value@{Change\-Value}}
+\index{Change\-Value@{Change\-Value}!Aarray@{Aarray}}
+\paragraph[{Change\-Value}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ void {\bf Aarray}$<$ Value $>$\-::Change\-Value (
+\begin{DoxyParamCaption}
+\item[{Value}]{new\-Value, }
+\item[{std\-::string}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_aarray_a11c4d5f1839ea9cd8532cfb7fa4d1033}
+
+
+Funkcja zmieniająca wartość pod wybranym kluczem. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em new\-Value} & nowa wartość dla klucza \\
+\hline
+{\em key} & unikatowy klucz, którego wartość zmieniamy \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_aarray_a4406f808014ebe6eeb252665d5b073e5}{\index{Aarray@{Aarray}!Delete@{Delete}}
+\index{Delete@{Delete}!Aarray@{Aarray}}
+\paragraph[{Delete}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ void {\bf Aarray}$<$ Value $>$\-::Delete (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_aarray_a4406f808014ebe6eeb252665d5b073e5}
+
+
+Funkcja usuwająca wybraną parę klucz-\/wartość z tablicy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em key} & klucz, który usuwamy wraz z jego wartością \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_aarray_a4e5974b11d28d3fe057c603fa11a8d7e}{\index{Aarray@{Aarray}!Get\-Value@{Get\-Value}}
+\index{Get\-Value@{Get\-Value}!Aarray@{Aarray}}
+\paragraph[{Get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ Value {\bf Aarray}$<$ Value $>$\-::Get\-Value (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_aarray_a4e5974b11d28d3fe057c603fa11a8d7e}
+
+
+Funkcja pobierająca wartość wybranego klucza. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em key} & klucz, którego wartość chcemy znać \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_aarray_ae9ea529b2bbbdba807cf1bd01e896c27}{\index{Aarray@{Aarray}!Is\-Empty@{Is\-Empty}}
+\index{Is\-Empty@{Is\-Empty}!Aarray@{Aarray}}
+\paragraph[{Is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ bool {\bf Aarray}$<$ Value $>$\-::Is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_aarray_ae9ea529b2bbbdba807cf1bd01e896c27}
+
+
+Funkcja sprawdzająca, czy tablica jest pusta. 
+
+\begin{DoxyReturn}{Zwraca}
+true jeśli tablica jest pusta 
+
+false jeśli na tablicy są jakieś pary klucz-\/wartość 
+\end{DoxyReturn}
+\hypertarget{class_aarray_afde66bdb4a8daa6a0329a134baacbd33}{\index{Aarray@{Aarray}!Search@{Search}}
+\index{Search@{Search}!Aarray@{Aarray}}
+\paragraph[{Search}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ unsigned int {\bf Aarray}$<$ Value $>$\-::Search (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_aarray_afde66bdb4a8daa6a0329a134baacbd33}
+\hypertarget{class_aarray_ab464f407ff70721e4fd5f075ddcf16a9}{\index{Aarray@{Aarray}!Size@{Size}}
+\index{Size@{Size}!Aarray@{Aarray}}
+\paragraph[{Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ unsigned int {\bf Aarray}$<$ Value $>$\-::Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_aarray_ab464f407ff70721e4fd5f075ddcf16a9}
+
+
+Funkcja zwraca ilość par klucz-\/wartość 
+
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_aarray_af26c50c1a724cf8bc2ac8366a34b9bb9}{\index{Aarray@{Aarray}!Pair\-Vec@{Pair\-Vec}}
+\index{Pair\-Vec@{Pair\-Vec}!Aarray@{Aarray}}
+\paragraph[{Pair\-Vec}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ std\-::vector$<${\bf Pair}$>$ {\bf Aarray}$<$ Value $>$\-::Pair\-Vec\hspace{0.3cm}{\ttfamily [private]}}}\label{class_aarray_af26c50c1a724cf8bc2ac8366a34b9bb9}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{aarray_8hh}{aarray.\-hh}\end{DoxyCompactItemize}
