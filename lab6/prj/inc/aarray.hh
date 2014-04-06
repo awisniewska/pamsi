@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <string>
+#include <stdexcept>
 
 /* \brief Szablon klasy Aarray
  *
@@ -69,7 +70,24 @@ void Aarray<Value>::Add(Value value, std::string key) {
 	Pair newValue;
 	newValue.key=key;
 	newValue.value=value;
-	PairVec.push_back(newValue);
+	unsigned int i=0;
+	for (;;)
+	{
+		if (i>=PairVec.size())
+		{
+			break;
+		}
+		else if(PairVec[i].key > key)
+		{
+			break;
+		}
+		else {
+			i++;
+		}
+	}
+
+	PairVec.insert(PairVec.begin()+i, newValue);
+
 }
 
 template<class Value>
@@ -94,13 +112,27 @@ unsigned int Aarray<Value>::Size() {
 
 template<class Value>
 unsigned int Aarray<Value>::Search(std::string key) {
-	for (unsigned int i=0; i<PairVec.size(); i++)
+int first = 0;
+int last = PairVec.size()-1;
+int i = 0;
+while(first<=last){
+	i = (first+last)/2;
+
+	if (PairVec[i].key == key)
 	{
-		if (PairVec[i].key == key)
-		{
-			return i;
-		}
+		return i;
 	}
+
+	else if (PairVec[i].key < key)
+	{
+		first = i + 1;
+	}
+	else
+	{
+		last = i - 1;
+	}
+}
+throw std::runtime_error("Nie ma takiego klucza.");
 }
 
 template<class Value>
