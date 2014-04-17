@@ -1,8 +1,0 @@
-/** \mainpage
-\section opis Opis programu
-Program Benchmark wykonuje pomiaru czasu wykonania funkcji oblicz(). <br>
-Dane z pliku zostaja wczytane do tablicy, nastepnie sa mnozone razy 2 i zapisywane w nowej tablicy. Mierzony jest czas wykonywania algorytmu obliczeniowego. Na kazdym etapie wczytywania danych sprawdzane jest czy plik zostal odczytany prawidlowo - w przeciwnym wypadku program zakonczy prace.
-
-\section autor Autor
-Program wykonala: Agnieszka Wisniewska, nr albumu: 200 466
-*/	
