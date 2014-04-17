@@ -1,0 +1,74 @@
+\begin{theindex}
+
+  \item {Aarray}
+    \subitem {Add}, \hyperpage{3}
+    \subitem {Change\discretionary {-}{}{}Value}, \hyperpage{3}
+    \subitem {Delete}, \hyperpage{3}
+    \subitem {Get\discretionary {-}{}{}Value}, \hyperpage{3}
+    \subitem {Is\discretionary {-}{}{}Empty}, \hyperpage{3}
+    \subitem {Pair\discretionary {-}{}{}Vec}, \hyperpage{3}
+    \subitem {Search}, \hyperpage{3}
+    \subitem {Size}, \hyperpage{3}
+  \item {Aarray$<$ Value $>$}, \hyperpage{2}
+  \item {Aarray$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
+		\hyperpage{4}
+  \item {aarray.\discretionary {-}{}{}hh}, \hyperpage{4}
+  \item {Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}
+    \subitem {key}, \hyperpage{4}
+    \subitem {value}, \hyperpage{4}
+  \item {Add}
+    \subitem {Aarray}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Change\discretionary {-}{}{}Value}
+    \subitem {Aarray}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Delete}
+    \subitem {Aarray}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Get\discretionary {-}{}{}Value}
+    \subitem {Aarray}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Is\discretionary {-}{}{}Empty}
+    \subitem {Aarray}, \hyperpage{3}
+
+  \indexspace
+
+  \item {key}
+    \subitem {Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
+		\hyperpage{4}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{5}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{4}
+    \subitem {main}, \hyperpage{5}
+  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Pair\discretionary {-}{}{}Vec}
+    \subitem {Aarray}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Search}
+    \subitem {Aarray}, \hyperpage{3}
+  \item {Size}
+    \subitem {Aarray}, \hyperpage{3}
+
+  \indexspace
+
+  \item {value}
+    \subitem {Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
+		\hyperpage{4}
+
+\end{theindex}
