@@ -42,8 +42,10 @@ Wyniki zostały przedstawione na wykresie \ref{trend}.
 \end{figure}
 \newpage
 \section{Podsumowanie i wnioski}
-Jak widać na powyższym wykresie zależności czasu od rozmiaru problemu pokrywają się z krzywymi dopasowania nlogn\footnote{są to funkcje przemnożona przez odpowiednio dobraną stałą}. Wynika z tego, że obu sprawdzanych przypadkach złożoność obliczeniowa wynosi O(nlogn). W szczegolnych przypadkach (np.: w przypadku niekorzystnego ułożenia danych) złożoność obliczeniowa algorytmu może wynosić O($n^{2}$) jest to jednak przypadek, który przy takiej implementacji algorytmu nie powinien wystąpić.
-
+\begin{itemize}
+\item Jak widać na powyższym wykresie zależności czasu od rozmiaru problemu pokrywają się z krzywymi dopasowania nlogn\footnote{są to funkcje przemnożona przez odpowiednio dobraną stałą}. Wynika z tego, że obu sprawdzanych przypadkach złożoność obliczeniowa wynosi O(nlogn). 
+\item W szczegolnych przypadkach złożoność obliczeniowa algorytmu może wynosić O($n^{2}$). Przykładem jest sytuacja, gdy element rozdzielający (piwot) za każdym razem jest elementem podtablicy o skrajnej wartości (maksymalnej lub minimalnej) - w takim przypadku podtablica nie jest praktycznie dzielona, lecz 'odpada' od niej jedynie element osiowy, a resztę tablicy należy dzielić dalej.Jest to jednak przypadek, który przy takiej implementacji algorytmu nie powinien wystąpić (w programie za każdym razem wybierany losowy piwot).
+\end{itemize}
 
 
 

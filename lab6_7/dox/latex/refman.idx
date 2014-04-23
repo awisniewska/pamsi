@@ -1,0 +1,110 @@
+\indexentry{Aarray$<$ Value $>$@{Aarray$<$ Value $>$}|hyperpage}{2}
+\indexentry{Aarray@{Aarray}!Add@{Add}|hyperpage}{3}
+\indexentry{Add@{Add}!Aarray@{Aarray}|hyperpage}{3}
+\indexentry{Aarray@{Aarray}!Change\discretionary {-}{}{}Value@{Change\discretionary {-}{}{}Value}|hyperpage}{3}
+\indexentry{Change\discretionary {-}{}{}Value@{Change\discretionary {-}{}{}Value}!Aarray@{Aarray}|hyperpage}{3}
+\indexentry{Aarray@{Aarray}!Delete@{Delete}|hyperpage}{3}
+\indexentry{Delete@{Delete}!Aarray@{Aarray}|hyperpage}{3}
+\indexentry{Aarray@{Aarray}!Get\discretionary {-}{}{}Value@{Get\discretionary {-}{}{}Value}|hyperpage}{3}
+\indexentry{Get\discretionary {-}{}{}Value@{Get\discretionary {-}{}{}Value}!Aarray@{Aarray}|hyperpage}{3}
+\indexentry{Aarray@{Aarray}!Is\discretionary {-}{}{}Empty@{Is\discretionary {-}{}{}Empty}|hyperpage}{3}
+\indexentry{Is\discretionary {-}{}{}Empty@{Is\discretionary {-}{}{}Empty}!Aarray@{Aarray}|hyperpage}{3}
+\indexentry{Aarray@{Aarray}!Search@{Search}|hyperpage}{3}
+\indexentry{Search@{Search}!Aarray@{Aarray}|hyperpage}{3}
+\indexentry{Aarray@{Aarray}!Size@{Size}|hyperpage}{4}
+\indexentry{Size@{Size}!Aarray@{Aarray}|hyperpage}{4}
+\indexentry{Aarray@{Aarray}!Pair\discretionary {-}{}{}Vec@{Pair\discretionary {-}{}{}Vec}|hyperpage}{4}
+\indexentry{Pair\discretionary {-}{}{}Vec@{Pair\discretionary {-}{}{}Vec}!Aarray@{Aarray}|hyperpage}{4}
+\indexentry{Benchmark@{Benchmark}|hyperpage}{4}
+\indexentry{Benchmark@{Benchmark}!benchmark@{benchmark}|hyperpage}{4}
+\indexentry{benchmark@{benchmark}!Benchmark@{Benchmark}|hyperpage}{4}
+\indexentry{Benchmark@{Benchmark}!Calculate@{Calculate}|hyperpage}{4}
+\indexentry{Calculate@{Calculate}!Benchmark@{Benchmark}|hyperpage}{4}
+\indexentry{Benchmark@{Benchmark}!aarrayptr@{aarrayptr}|hyperpage}{5}
+\indexentry{aarrayptr@{aarrayptr}!Benchmark@{Benchmark}|hyperpage}{5}
+\indexentry{Benchmark@{Benchmark}!hashptr@{hashptr}|hyperpage}{5}
+\indexentry{hashptr@{hashptr}!Benchmark@{Benchmark}|hyperpage}{5}
+\indexentry{Benchmark@{Benchmark}!Tmp@{Tmp}|hyperpage}{5}
+\indexentry{Tmp@{Tmp}!Benchmark@{Benchmark}|hyperpage}{5}
+\indexentry{Benchmark@{Benchmark}!treeptr@{treeptr}|hyperpage}{5}
+\indexentry{treeptr@{treeptr}!Benchmark@{Benchmark}|hyperpage}{5}
+\indexentry{Hash$<$ Value $>$@{Hash$<$ Value $>$}|hyperpage}{5}
+\indexentry{Hash@{Hash}!Hash@{Hash}|hyperpage}{6}
+\indexentry{Hash@{Hash}!Hash@{Hash}|hyperpage}{6}
+\indexentry{Hash@{Hash}!Add@{Add}|hyperpage}{6}
+\indexentry{Add@{Add}!Hash@{Hash}|hyperpage}{6}
+\indexentry{Hash@{Hash}!Empty@{Empty}|hyperpage}{6}
+\indexentry{Empty@{Empty}!Hash@{Hash}|hyperpage}{6}
+\indexentry{Hash@{Hash}!hash@{hash}|hyperpage}{6}
+\indexentry{hash@{hash}!Hash@{Hash}|hyperpage}{6}
+\indexentry{Hash@{Hash}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{6}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Hash@{Hash}|hyperpage}{6}
+\indexentry{Hash@{Hash}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{6}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Hash@{Hash}|hyperpage}{6}
+\indexentry{Hash@{Hash}!Size@{Size}|hyperpage}{7}
+\indexentry{Size@{Size}!Hash@{Hash}|hyperpage}{7}
+\indexentry{Hash@{Hash}!arr@{arr}|hyperpage}{7}
+\indexentry{arr@{arr}!Hash@{Hash}|hyperpage}{7}
+\indexentry{Hash@{Hash}!current\discretionary {-}{}{}Size@{current\discretionary {-}{}{}Size}|hyperpage}{7}
+\indexentry{current\discretionary {-}{}{}Size@{current\discretionary {-}{}{}Size}!Hash@{Hash}|hyperpage}{7}
+\indexentry{Aarray$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Pair@{Aarray$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Pair}|hyperpage}{7}
+\indexentry{Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair@{Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}!key@{key}|hyperpage}{7}
+\indexentry{key@{key}!Aarray::Pair@{Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}|hyperpage}{7}
+\indexentry{Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair@{Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}!value@{value}|hyperpage}{7}
+\indexentry{value@{value}!Aarray::Pair@{Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}|hyperpage}{7}
+\indexentry{Hash$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Pair@{Hash$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Pair}|hyperpage}{7}
+\indexentry{Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair@{Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair}!key@{key}|hyperpage}{7}
+\indexentry{key@{key}!Hash::Pair@{Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair}|hyperpage}{7}
+\indexentry{Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair@{Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair}!value@{value}|hyperpage}{7}
+\indexentry{value@{value}!Hash::Pair@{Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair}|hyperpage}{7}
+\indexentry{Tree$<$ Value $>$@{Tree$<$ Value $>$}|hyperpage}{8}
+\indexentry{Tree@{Tree}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!$\sim $\discretionary {-}{}{}Tree@{$\sim $\discretionary {-}{}{}Tree}|hyperpage}{9}
+\indexentry{$\sim $\discretionary {-}{}{}Tree@{$\sim $\discretionary {-}{}{}Tree}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!Add@{Add}|hyperpage}{9}
+\indexentry{Add@{Add}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!Deletee@{Deletee}|hyperpage}{9}
+\indexentry{Deletee@{Deletee}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!find@{find}|hyperpage}{9}
+\indexentry{find@{find}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}|hyperpage}{9}
+\indexentry{is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{9}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{9}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!Size@{Size}|hyperpage}{9}
+\indexentry{Size@{Size}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!arr\discretionary {-}{}{}Size@{arr\discretionary {-}{}{}Size}|hyperpage}{9}
+\indexentry{arr\discretionary {-}{}{}Size@{arr\discretionary {-}{}{}Size}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree@{Tree}!root@{root}|hyperpage}{9}
+\indexentry{root@{root}!Tree@{Tree}|hyperpage}{9}
+\indexentry{Tree$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element@{Tree$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}|hyperpage}{10}
+\indexentry{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}!Tree\discretionary {-}{}{}Element@{Tree\discretionary {-}{}{}Element}|hyperpage}{10}
+\indexentry{Tree\discretionary {-}{}{}Element@{Tree\discretionary {-}{}{}Element}!Tree::TreeElement@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}|hyperpage}{10}
+\indexentry{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}!key@{key}|hyperpage}{10}
+\indexentry{key@{key}!Tree::TreeElement@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}|hyperpage}{10}
+\indexentry{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}!left@{left}|hyperpage}{10}
+\indexentry{left@{left}!Tree::TreeElement@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}|hyperpage}{10}
+\indexentry{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}!right@{right}|hyperpage}{10}
+\indexentry{right@{right}!Tree::TreeElement@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}|hyperpage}{10}
+\indexentry{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}!value@{value}|hyperpage}{10}
+\indexentry{value@{value}!Tree::TreeElement@{Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}|hyperpage}{10}
+\indexentry{aarray.\discretionary {-}{}{}hh@{aarray.\discretionary {-}{}{}hh}|hyperpage}{10}
+\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{11}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{11}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}!s\discretionary {-}{}{}Type@{s\discretionary {-}{}{}Type}|hyperpage}{11}
+\indexentry{s\discretionary {-}{}{}Type@{s\discretionary {-}{}{}Type}!benchmark.hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{11}
+\indexentry{aarray@{aarray}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{11}
+\indexentry{benchmark.\-hh@{benchmark.\-hh}!aarray@{aarray}|hyperpage}{11}
+\indexentry{hash@{hash}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{11}
+\indexentry{benchmark.\-hh@{benchmark.\-hh}!hash@{hash}|hyperpage}{11}
+\indexentry{tree@{tree}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{12}
+\indexentry{benchmark.\-hh@{benchmark.\-hh}!tree@{tree}|hyperpage}{12}
+\indexentry{hash.\discretionary {-}{}{}hh@{hash.\discretionary {-}{}{}hh}|hyperpage}{12}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{12}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{12}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{12}
+\indexentry{mainpage.\discretionary {-}{}{}dox@{mainpage.\discretionary {-}{}{}dox}|hyperpage}{13}
+\indexentry{tree.\discretionary {-}{}{}hh@{tree.\discretionary {-}{}{}hh}|hyperpage}{13}
