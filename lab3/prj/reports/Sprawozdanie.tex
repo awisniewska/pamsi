@@ -85,9 +85,19 @@ Porównanie czasu wykonywania poszczególnych implementacji.
 \item Algorytmy kolejki i stosu działają z taką samą szybkością, ponieważ są implementowane w ten sam sposób.
 \end{itemize}
 
+
 \section{Załączniki}
 \begin{itemize}
 \item Dokumentacja z Doxygena "Dokumentacja.pdf"
 \end{itemize}
+
+\section{Dodatkowy wykres, poprawki}
+Zwiększając rozmiar problemu przy implementacji tablicy w której po przekoroczeniu rozmiaru zwiększamy go o jeden zależność jest w dalszym ciągu w przybliżeniu liniowa (Rysunek \ref{add}). Jest to zasługa obecnych możliwości sprzętowych (szybkości kopiowania, optymalnym wykorzystaniem poszczególnych funkcji procesora itp.).
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=\textwidth]{files/plot.pdf}
+\caption{Zależność czasu wykonywania algorytmu od rozmiaru problemu dla tablicy zwiększającej rozmiar o 1. \label{add}} 
+
+\end{figure}
 
 \end{document}
