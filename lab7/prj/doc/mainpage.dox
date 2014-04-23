@@ -1,7 +1,0 @@
-/** \mainpage Tablica asocjacyjne
-\section opis Opis programu
-Program umożliwiający operacje na tablicy asocjacyjnej - abstrakcyjnego typu danych, który przechowuje pary - unikatowy klucz oraz wartość. Operacje mogą być wykonywane w oparciu o wektor struktury danych Pair.
-
-\section autor Autor
-Program wykonala: Agnieszka Wisniewska, nr albumu: 200 466
-*/	
