@@ -1,9 +1,8 @@
 var NAVTREE =
 [
-  [ "Tablica asocjacyjna", "index.html", [
-    [ "Tablica asocjacyjne", "index.html", [
+  [ "Graf nieskierowany", "index.html", [
+    [ "Graf nieskierowany z wagami", "index.html", [
       [ "Opis programu", "index.html#description", null ],
-      [ "Sposób wywołania programu:", "index.html#sample", null ],
       [ "Autor", "index.html#author", null ]
     ] ],
     [ "Klasy", null, [
@@ -12,16 +11,15 @@ var NAVTREE =
       [ "Składowe klas", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Funkcje", "functions_func.html", null ],
-        [ "Zmienne", "functions_vars.html", null ]
+        [ "Zmienne", "functions_vars.html", null ],
+        [ "Definicje typów", "functions_type.html", null ]
       ] ]
     ] ],
     [ "Pliki", null, [
       [ "Lista plików", "files.html", "files" ],
       [ "Składowe plików", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Funkcje", "globals_func.html", null ],
-        [ "Wyliczenia", "globals_enum.html", null ],
-        [ "Wartości wyliczeń", "globals_eval.html", null ]
+        [ "Funkcje", "globals_func.html", null ]
       ] ]
     ] ]
   ] ]
@@ -29,7 +27,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"aarray_8hh.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

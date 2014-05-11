@@ -1,207 +1,75 @@
 \begin{theindex}
 
-  \item {$\sim $\discretionary {-}{}{}Tree}
-    \subitem {Tree}, \hyperpage{9}
+  \item {Add\discretionary {-}{}{}Edge}
+    \subitem {Graph}, \hyperpage{3}
+  \item {Add\discretionary {-}{}{}Vert}
+    \subitem {Graph}, \hyperpage{4}
 
   \indexspace
 
-  \item {Aarray}
-    \subitem {Add}, \hyperpage{3}
-    \subitem {Change\discretionary {-}{}{}Value}, \hyperpage{3}
-    \subitem {Delete}, \hyperpage{3}
-    \subitem {Get\discretionary {-}{}{}Value}, \hyperpage{3}
-    \subitem {Is\discretionary {-}{}{}Empty}, \hyperpage{3}
-    \subitem {Pair\discretionary {-}{}{}Vec}, \hyperpage{4}
-    \subitem {Search}, \hyperpage{3}
-    \subitem {Size}, \hyperpage{4}
-  \item {aarray}
-    \subitem {benchmark.\-hh}, \hyperpage{11}
-  \item {Aarray$<$ Value $>$}, \hyperpage{2}
-  \item {Aarray$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
-		\hyperpage{7}
-  \item {aarray.\discretionary {-}{}{}hh}, \hyperpage{10}
-  \item {Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}
-    \subitem {key}, \hyperpage{7}
-    \subitem {value}, \hyperpage{7}
-  \item {aarrayptr}
-    \subitem {Benchmark}, \hyperpage{5}
-  \item {Add}
-    \subitem {Aarray}, \hyperpage{3}
-    \subitem {Hash}, \hyperpage{6}
-    \subitem {Tree}, \hyperpage{9}
-  \item {arr}
-    \subitem {Hash}, \hyperpage{7}
-  \item {arr\discretionary {-}{}{}Size}
-    \subitem {Tree}, \hyperpage{9}
+  \item {Edge}
+    \subitem {Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
+		\hyperpage{2}
+  \item {Edge\discretionary {-}{}{}S}
+    \subitem {Graph}, \hyperpage{3}
 
   \indexspace
 
-  \item {Benchmark}, \hyperpage{4}
-    \subitem {aarrayptr}, \hyperpage{5}
-    \subitem {benchmark}, \hyperpage{4}
-    \subitem {Calculate}, \hyperpage{4}
-    \subitem {hashptr}, \hyperpage{5}
-    \subitem {Tmp}, \hyperpage{5}
-    \subitem {treeptr}, \hyperpage{5}
-  \item {benchmark}
-    \subitem {Benchmark}, \hyperpage{4}
-  \item {benchmark.\-hh}
-    \subitem {aarray}, \hyperpage{11}
-    \subitem {hash}, \hyperpage{11}
-    \subitem {tree}, \hyperpage{12}
-  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{11}
-  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{11}
-    \subitem {s\discretionary {-}{}{}Type}, \hyperpage{11}
+  \item {Graph}
+    \subitem {Add\discretionary {-}{}{}Edge}, \hyperpage{3}
+    \subitem {Add\discretionary {-}{}{}Vert}, \hyperpage{4}
+    \subitem {Edge\discretionary {-}{}{}S}, \hyperpage{3}
+    \subitem {graph}, \hyperpage{4}
+    \subitem {If\discretionary {-}{}{}Connected}, \hyperpage{4}
+    \subitem {Neighbors}, \hyperpage{4}
+    \subitem {Remove\discretionary {-}{}{}Edge}, \hyperpage{4}
+    \subitem {Remove\discretionary {-}{}{}Vert}, \hyperpage{4}
+  \item {graph}
+    \subitem {Graph}, \hyperpage{4}
+  \item {Graph$<$ Type $>$}, \hyperpage{3}
+  \item {Graph$<$ Type $>$\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
+		\hyperpage{2}
+  \item {graph.\discretionary {-}{}{}hh}, \hyperpage{5}
+  \item {Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}
+    \subitem {Edge}, \hyperpage{2}
+    \subitem {Sec\discretionary {-}{}{}End}, \hyperpage{2}
+    \subitem {Weight}, \hyperpage{2}
 
   \indexspace
 
-  \item {Calculate}
-    \subitem {Benchmark}, \hyperpage{4}
-  \item {Change\discretionary {-}{}{}Value}
-    \subitem {Aarray}, \hyperpage{3}
-  \item {current\discretionary {-}{}{}Size}
-    \subitem {Hash}, \hyperpage{7}
-
-  \indexspace
-
-  \item {Delete}
-    \subitem {Aarray}, \hyperpage{3}
-  \item {Deletee}
-    \subitem {Tree}, \hyperpage{9}
-
-  \indexspace
-
-  \item {Empty}
-    \subitem {Hash}, \hyperpage{6}
-
-  \indexspace
-
-  \item {find}
-    \subitem {Tree}, \hyperpage{9}
-
-  \indexspace
-
-  \item {Get\discretionary {-}{}{}Value}
-    \subitem {Aarray}, \hyperpage{3}
-
-  \indexspace
-
-  \item {Hash}
-    \subitem {Add}, \hyperpage{6}
-    \subitem {arr}, \hyperpage{7}
-    \subitem {current\discretionary {-}{}{}Size}, \hyperpage{7}
-    \subitem {Empty}, \hyperpage{6}
-    \subitem {Hash}, \hyperpage{6}
-    \subitem {hash}, \hyperpage{6}
-    \subitem {Size}, \hyperpage{7}
-  \item {hash}
-    \subitem {benchmark.\-hh}, \hyperpage{11}
-    \subitem {Hash}, \hyperpage{6}
-  \item {Hash$<$ Value $>$}, \hyperpage{5}
-  \item {Hash$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
-		\hyperpage{7}
-  \item {hash.\discretionary {-}{}{}hh}, \hyperpage{12}
-  \item {Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair}
-    \subitem {key}, \hyperpage{7}
-    \subitem {value}, \hyperpage{7}
-  \item {hashptr}
-    \subitem {Benchmark}, \hyperpage{5}
-
-  \indexspace
-
-  \item {Is\discretionary {-}{}{}Empty}
-    \subitem {Aarray}, \hyperpage{3}
-  \item {is\discretionary {-}{}{}Empty}
-    \subitem {Tree}, \hyperpage{9}
-
-  \indexspace
-
-  \item {key}
-    \subitem {Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
-		\hyperpage{7}
-    \subitem {Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
-		\hyperpage{7}
-    \subitem {Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}, 
-		\hyperpage{10}
-
-  \indexspace
-
-  \item {left}
-    \subitem {Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}, 
-		\hyperpage{10}
+  \item {If\discretionary {-}{}{}Connected}
+    \subitem {Graph}, \hyperpage{4}
 
   \indexspace
 
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{12}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{12}
-    \subitem {main}, \hyperpage{12}
-  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{13}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{5}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{5}
+    \subitem {main}, \hyperpage{5}
+  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{5}
 
   \indexspace
 
-  \item {Pair\discretionary {-}{}{}Vec}
-    \subitem {Aarray}, \hyperpage{4}
+  \item {Neighbors}
+    \subitem {Graph}, \hyperpage{4}
 
   \indexspace
 
-  \item {right}
-    \subitem {Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}, 
-		\hyperpage{10}
-  \item {root}
-    \subitem {Tree}, \hyperpage{9}
+  \item {Remove\discretionary {-}{}{}Edge}
+    \subitem {Graph}, \hyperpage{4}
+  \item {Remove\discretionary {-}{}{}Vert}
+    \subitem {Graph}, \hyperpage{4}
 
   \indexspace
 
-  \item {s\discretionary {-}{}{}Type}
-    \subitem {benchmark.\discretionary {-}{}{}hh}, \hyperpage{11}
-  \item {Search}
-    \subitem {Aarray}, \hyperpage{3}
-  \item {Size}
-    \subitem {Aarray}, \hyperpage{4}
-    \subitem {Hash}, \hyperpage{7}
-    \subitem {Tree}, \hyperpage{9}
+  \item {Sec\discretionary {-}{}{}End}
+    \subitem {Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
+		\hyperpage{2}
 
   \indexspace
 
-  \item {Tmp}
-    \subitem {Benchmark}, \hyperpage{5}
-  \item {Tree}
-    \subitem {$\sim $\discretionary {-}{}{}Tree}, \hyperpage{9}
-    \subitem {Add}, \hyperpage{9}
-    \subitem {arr\discretionary {-}{}{}Size}, \hyperpage{9}
-    \subitem {Deletee}, \hyperpage{9}
-    \subitem {find}, \hyperpage{9}
-    \subitem {is\discretionary {-}{}{}Empty}, \hyperpage{9}
-    \subitem {root}, \hyperpage{9}
-    \subitem {Size}, \hyperpage{9}
-    \subitem {Tree}, \hyperpage{9}
-  \item {tree}
-    \subitem {benchmark.\-hh}, \hyperpage{12}
-  \item {Tree$<$ Value $>$}, \hyperpage{8}
-  \item {Tree$<$ Value $>$\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}, 
-		\hyperpage{10}
-  \item {tree.\discretionary {-}{}{}hh}, \hyperpage{13}
-  \item {Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}
-    \subitem {key}, \hyperpage{10}
-    \subitem {left}, \hyperpage{10}
-    \subitem {right}, \hyperpage{10}
-    \subitem {Tree\discretionary {-}{}{}Element}, \hyperpage{10}
-    \subitem {value}, \hyperpage{10}
-  \item {Tree\discretionary {-}{}{}Element}
-    \subitem {Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}, 
-		\hyperpage{10}
-  \item {treeptr}
-    \subitem {Benchmark}, \hyperpage{5}
-
-  \indexspace
-
-  \item {value}
-    \subitem {Aarray\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
-		\hyperpage{7}
-    \subitem {Hash\discretionary {-}{}{}::\discretionary {-}{}{}Pair}, 
-		\hyperpage{7}
-    \subitem {Tree\discretionary {-}{}{}::\discretionary {-}{}{}Tree\discretionary {-}{}{}Element}, 
-		\hyperpage{10}
+  \item {Weight}
+    \subitem {Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
+		\hyperpage{2}
 
 \end{theindex}

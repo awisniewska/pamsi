@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>Graf nieskierowany: Plik źródłowy graph.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Graf nieskierowany
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.4 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('graph_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">graph.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="graph_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef GRAPH_HH_</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GRAPH_HH_</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="code" href="class_graph.html">   13</a></span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Type&gt; <span class="keyword">class </span><a class="code" href="class_graph.html" title="class Graph Jest to klasa definiująca graf nieskierowany z wagą pozwalająca na wykonywaniu wybranych ...">Graph</a> {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="code" href="struct_graph_1_1_edge.html">   15</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="struct_graph_1_1_edge.html">Edge</a> {</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="struct_graph_1_1_edge.html#a55de9e46eec7696bf5511c78866684f0">   16</a></span>&#160;        Type <a class="code" href="struct_graph_1_1_edge.html#a55de9e46eec7696bf5511c78866684f0">SecEnd</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="struct_graph_1_1_edge.html#ae57c0ca00807c73a604bc562cf638600">   17</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="struct_graph_1_1_edge.html#ae57c0ca00807c73a604bc562cf638600">Weight</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="struct_graph_1_1_edge.html#ad7cdb813c8df3c5604b8685d493dcd00">   18</a></span>&#160;        <a class="code" href="struct_graph_1_1_edge.html#ad7cdb813c8df3c5604b8685d493dcd00">Edge</a>(<span class="keyword">const</span> Type newEnd, <span class="keyword">const</span> <span class="keywordtype">int</span> newWeight): <a class="code" href="struct_graph_1_1_edge.html#a55de9e46eec7696bf5511c78866684f0">SecEnd</a>(newEnd), <a class="code" href="struct_graph_1_1_edge.html#ae57c0ca00807c73a604bc562cf638600">Weight</a>(newWeight) {};</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    };</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="class_graph.html#a48cb28a87e5956064f989ae80caf3f06">   20</a></span>&#160;    <span class="keyword">typedef</span> std::vector&lt;Edge&gt; <a class="code" href="class_graph.html#a48cb28a87e5956064f989ae80caf3f06">EdgeS</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="class_graph.html#ad36ea25bfbc7d410a2c7f2f37b407dfc">   22</a></span>&#160;    std::map&lt; Type, EdgeS &gt; <a class="code" href="class_graph.html#ad36ea25bfbc7d410a2c7f2f37b407dfc">graph</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_graph.html#a84f49d65277ccfc60f81e68917a7fdae" title="Funkcja dodająca nowy wierzchołek. ">AddVert</a>(<span class="keyword">const</span> Type &amp;vert);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_graph.html#a2f53b458b99203c19da38104a664bc20" title="Funkcja usuwająca wybrany wierzchołek. ">RemoveVert</a>(<span class="keyword">const</span> Type &amp;vert);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_graph.html#aae489b31f187f64acf6f5efae1a65f0d" title="Funkcja dodająca nową krawędź ">AddEdge</a>(<span class="keyword">const</span> Type &amp;vert1, <span class="keyword">const</span> Type &amp;vert2, <span class="keyword">const</span> <span class="keywordtype">int</span> Weight = 0);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_graph.html#a4309acd8672c69fd20c375314b92b05f" title="Funkcja usuwająca daną krawędź ">RemoveEdge</a>(<span class="keyword">const</span> Type &amp;vert1, <span class="keyword">const</span> Type &amp;vert2);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_graph.html#ab9088965bdcbbcfad7110e17ea5276f1" title="Funkcja sprawdzająca, czy wierzchołki są ze sobą bezpośrednio połączone. ">IfConnected</a>(<span class="keyword">const</span> Type &amp;vert1, <span class="keyword">const</span> Type &amp;vert2);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="class_graph.html#a48cb28a87e5956064f989ae80caf3f06">EdgeS</a> <a class="code" href="class_graph.html#a589df548c5f9f3b77bc4a64cd38e3320" title="Funkcja znajdująca sąsiednie wierzchołki. ">Neighbors</a>(<span class="keyword">const</span> Type &amp;vert);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;};</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> Type&gt;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="code" href="class_graph.html#a84f49d65277ccfc60f81e68917a7fdae">   63</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_graph.html#a84f49d65277ccfc60f81e68917a7fdae" title="Funkcja dodająca nowy wierzchołek. ">Graph&lt;Type&gt;::AddVert</a>(<span class="keyword">const</span> Type&amp; vert) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    graph.insert(std::pair&lt; Type, EdgeS&gt;(vert, std::vector&lt;Edge&gt;() ) );</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> Type&gt;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="class_graph.html#a2f53b458b99203c19da38104a664bc20">   68</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_graph.html#a2f53b458b99203c19da38104a664bc20" title="Funkcja usuwająca wybrany wierzchołek. ">Graph&lt;Type&gt;::RemoveVert</a>(<span class="keyword">const</span> Type&amp; vert) {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="class_graph.html#a48cb28a87e5956064f989ae80caf3f06">EdgeS</a> *tmp = &amp;graph[vert];</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">typename</span> EdgeS::iterator it = tmp-&gt;begin(); it != tmp-&gt;end(); it++) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        RemoveEdge(vert, (*it).SecEnd);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    graph.erase(vert);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> Type&gt;</div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="code" href="class_graph.html#aae489b31f187f64acf6f5efae1a65f0d">   77</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_graph.html#aae489b31f187f64acf6f5efae1a65f0d" title="Funkcja dodająca nową krawędź ">Graph&lt;Type&gt;::AddEdge</a>(<span class="keyword">const</span> Type&amp; vert1,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keyword">const</span> Type&amp; vert2, <span class="keyword">const</span> <span class="keywordtype">int</span> Weight) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    graph[vert1].push_back(<a class="code" href="struct_graph_1_1_edge.html">Edge</a>(vert2, Weight));</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    graph[vert2].push_back(<a class="code" href="struct_graph_1_1_edge.html">Edge</a>(vert1, Weight));</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> Type&gt;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="code" href="class_graph.html#a4309acd8672c69fd20c375314b92b05f">   84</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_graph.html#a4309acd8672c69fd20c375314b92b05f" title="Funkcja usuwająca daną krawędź ">Graph&lt;Type&gt;::RemoveEdge</a>(<span class="keyword">const</span> Type&amp; vert1,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keyword">const</span> Type&amp; vert2) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="class_graph.html#a48cb28a87e5956064f989ae80caf3f06">EdgeS</a> *tmp1 = &amp;graph[vert1];</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="class_graph.html#a48cb28a87e5956064f989ae80caf3f06">EdgeS</a> *tmp2 = &amp;graph[vert2];</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">typename</span> EdgeS::iterator it = tmp1-&gt;begin(); it != tmp1-&gt;end(); it++) {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span> ((*it).SecEnd == vert2) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            tmp1-&gt;erase(it);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">typename</span> EdgeS::iterator it = tmp2-&gt;begin(); it != tmp2-&gt;end(); it++) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">if</span> ((*it).SecEnd == vert1) {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            tmp2-&gt;erase(it);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> Type&gt;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="code" href="class_graph.html#ab9088965bdcbbcfad7110e17ea5276f1">  103</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="class_graph.html#ab9088965bdcbbcfad7110e17ea5276f1" title="Funkcja sprawdzająca, czy wierzchołki są ze sobą bezpośrednio połączone. ">Graph&lt;Type&gt;::IfConnected</a>(<span class="keyword">const</span> Type&amp; vert1,</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keyword">const</span> Type&amp; vert2) {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="class_graph.html#a48cb28a87e5956064f989ae80caf3f06">EdgeS</a> *tmp = &amp;graph[vert1];</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">typename</span> EdgeS::iterator it = tmp-&gt;begin(); it != tmp-&gt;end(); it++) {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span> ((*it).SecEnd == vert2) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> Type&gt;</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="code" href="class_graph.html#a589df548c5f9f3b77bc4a64cd38e3320">  115</a></span>&#160;<span class="keyword">typename</span> <a class="code" href="class_graph.html#a48cb28a87e5956064f989ae80caf3f06">Graph&lt;Type&gt;::EdgeS</a> <a class="code" href="class_graph.html#a589df548c5f9f3b77bc4a64cd38e3320" title="Funkcja znajdująca sąsiednie wierzchołki. ">Graph&lt;Type&gt;::Neighbors</a>(</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keyword">const</span> Type&amp; vert) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">return</span> graph[vert];</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* GRAPH_HH_ */</span><span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="graph_8hh.html">graph.hh</a></li>
+    <li class="footer">Wygenerowano N, 11 maj 2014 23:45:56 dla Graf nieskierowany programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
+  </ul>
+</div>
+</body>
+</html>

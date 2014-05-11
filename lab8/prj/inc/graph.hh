@@ -1,84 +1,120 @@
-/*
- * graph.hh
- *
- *  Created on: 8 maj 2014
- *      Author: aga
- */
-
 #ifndef GRAPH_HH_
 #define GRAPH_HH_
 
+/** \file graph.hh
+ * Plik zawierający szablon klasy Graph.
+ */
 #include <vector>
-template<typename type>class Graph {
-	std::vector<type> VertVec;
+#include <map>
+
+/** \brief class Graph
+ *  Jest to klasa definiująca graf nieskierowany z wagą pozwalająca na wykonywaniu wybranych funkcji.
+ */
+template <typename Type> class Graph {
+public:
 	struct Edge {
-		type Start;
-		type End;
+		Type SecEnd;
 		int Weight;
+		Edge(const Type newEnd, const int newWeight): SecEnd(newEnd), Weight(newWeight) {};
 	};
-	std::vector<Edge> EdgeVec;
+	typedef std::vector<Edge> EdgeS;
+private:
+	std::map< Type, EdgeS > graph;
 public:
 /** \brief Funkcja dodająca nowy wierzchołek
- * \param Vert wartość dodawanego wierzchołka
+ * \param vert wartość dodawanego wierzchołka
  */
-	void AddVert(type Vert);
-
-/** \brief Funkcja dodająca nową krawędź
- * \param Start współrzędna pierwszego wierzchołka
- * \param End współrzędna drugiego wierzchołka
- * \param Weight waga krawędzi
- */
-	void AddEdge(type Start, type End, int Weight);
+	void AddVert(const Type &vert);
 
 /** \brief Funkcja usuwająca wybrany wierzchołek
- * \param Vert wartość usuwanego wierzchołka
+ * \param vert wartość usuwanego wierzchołka
  */
-	void RemoveVert(type Vert);
+	void RemoveVert(const Type &vert);
+
+/** \brief Funkcja dodająca nową krawędź
+ * \param vert1 współrzędna pierwszego wierzchołka
+ * \param vert2 współrzędna drugiego wierzchołka
+ * \param Weight waga krawędzi
+ */
+	void AddEdge(const Type &vert1, const Type &vert2, const int Weight = 0);
 
 /** \brief Funkcja usuwająca daną krawędź
- * \param Start współrzędna pierwszego wierzchołka
- * \param End współrzędna drugiego wierzchołka
+ * \param vert1 współrzędna pierwszego wierzchołka
+ * \param vert2 współrzędna drugiego wierzchołka
  */
-	void RemoveEdge(type Start, type End);
-
+	void RemoveEdge(const Type &vert1, const Type &vert2);
 
 /** \brief Funkcja sprawdzająca, czy wierzchołki są ze sobą bezpośrednio połączone
- * \param Start współrzędna pierwszego wierzchołka
- * \param End współrzędna drugiego wierzchołka
+ * \param vert1 współrzędna pierwszego wierzchołka
+ * \param vert2 współrzędna drugiego wierzchołka
  * \return true jeśli wierzchołki są połączone
  * \return false jeśli wierzchołki nie są połączone
  */
-	bool IfConnected(type Start, type End);
+	bool IfConnected(const Type &vert1, const Type &vert2);
 
 /** \brief Funkcja znajdująca sąsiednie wierzchołki
- * \param Vert wierzchołek, którego sąsiadów poszukujemy
+ * \param vert wierzchołek, którego sąsiadów poszukujemy
  * \return wektor wierzchołków sąsiadujących
  */
-	std::vector<type> Neighbors(type Vert);
+	EdgeS Neighbors(const Type &vert);
 };
 
-template<typename type>
- void Graph<type>::AddVert(type Vert) {
+template<typename Type>
+void Graph<Type>::AddVert(const Type& vert) {
+	graph.insert(std::pair< Type, EdgeS>(vert, std::vector<Edge>() ) );
 }
 
-template<typename type>
- void Graph<type>::AddEdge(type Start, type End, int Weight) {
+template<typename Type>
+void Graph<Type>::RemoveVert(const Type& vert) {
+	EdgeS *tmp = &graph[vert];
+	for (typename EdgeS::iterator it = tmp->begin(); it != tmp->end(); it++) {
+		RemoveEdge(vert, (*it).SecEnd);
+	}
+	graph.erase(vert);
 }
 
-template<typename type>
- void Graph<type>::RemoveVert(type Vert) {
+template<typename Type>
+void Graph<Type>::AddEdge(const Type& vert1,
+		const Type& vert2, const int Weight) {
+	graph[vert1].push_back(Edge(vert2, Weight));
+	graph[vert2].push_back(Edge(vert1, Weight));
 }
 
-template<typename type>
- void Graph<type>::RemoveEdge(type Start, type End) {
+template<typename Type>
+void Graph<Type>::RemoveEdge(const Type& vert1,
+		const Type& vert2) {
+	EdgeS *tmp1 = &graph[vert1];
+	EdgeS *tmp2 = &graph[vert2];
+	for (typename EdgeS::iterator it = tmp1->begin(); it != tmp1->end(); it++) {
+		if ((*it).SecEnd == vert2) {
+			tmp1->erase(it);
+			break;
+		}
+	}
+	for (typename EdgeS::iterator it = tmp2->begin(); it != tmp2->end(); it++) {
+		if ((*it).SecEnd == vert1) {
+			tmp2->erase(it);
+			break;
+		}
+	}
 }
 
-template<typename type>
- bool Graph<type>::IfConnected(type Start, type End) {
+template<typename Type>
+bool Graph<Type>::IfConnected(const Type& vert1,
+		const Type& vert2) {
+	EdgeS *tmp = &graph[vert1];
+	for (typename EdgeS::iterator it = tmp->begin(); it != tmp->end(); it++) {
+		if ((*it).SecEnd == vert2) {
+			return true;
+		}
+	}
+	return false;
 }
 
-template<typename type>
- std::vector<type> Graph<type>::Neighbors(type Vert) {
+template<typename Type>
+typename Graph<Type>::EdgeS Graph<Type>::Neighbors(
+		const Type& vert) {
+	return graph[vert];
 }
 
 #endif /* GRAPH_HH_ */
