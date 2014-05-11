@@ -1,0 +1,194 @@
+\hypertarget{class_tree}{\subsection{Dokumentacja szablonu klasy Tree$<$ Value $>$}
+\label{class_tree}\index{Tree$<$ Value $>$@{Tree$<$ Value $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_hash}{Hash}.  
+
+
+
+
+{\ttfamily \#include $<$tree.\-hh$>$}
+
+\subsubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_tree_1_1_tree_element}{Tree\-Element}
+\end{DoxyCompactItemize}
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tree_a43d09ee43b49a0dd0cfb5c739f799103}{Tree} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \hyperlink{class_tree}{Tree}. \end{DoxyCompactList}\item 
+\hyperlink{class_tree_a99fe49dee447c5da682cad8a2221b021}{$\sim$\-Tree} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \hyperlink{class_tree}{Tree}. \end{DoxyCompactList}\item 
+void \hyperlink{class_tree_a06550c923534f28defc1218358798692}{Add} (const std\-::string \&key, const Value \&value)
+\begin{DoxyCompactList}\small\item\em Funkcja dodająca parę klucz-\/wartość \end{DoxyCompactList}\item 
+int \hyperlink{class_tree_a4e05a40472e6b68f4d3c6cad3c4ca618}{Size} () const 
+\begin{DoxyCompactList}\small\item\em Funkcja zwraca ilość par klucz-\/wartość \end{DoxyCompactList}\item 
+bool \hyperlink{class_tree_a4b6c137138cc1d06ed5cf4197dd5a6ad}{is\-Empty} () const 
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca, czy tablica jest pusta. \end{DoxyCompactList}\item 
+Value \& \hyperlink{class_tree_af2204aecba9c68e0835d1f9995566654}{operator\mbox{[}$\,$\mbox{]}} (const std\-::string \&key)
+\begin{DoxyCompactList}\small\item\em Operator indeksujący tablicę \end{DoxyCompactList}\item 
+const Value \& \hyperlink{class_tree_a344ac08c6e8637796d19bd185084cb22}{operator\mbox{[}$\,$\mbox{]}} (const std\-::string \&key) const 
+\end{DoxyCompactItemize}
+\subsubsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+void $\ast$ \hyperlink{class_tree_a3385398b3c32da1d5e19ed2c68aac214}{find} (const std\-::string \&key) const 
+\end{DoxyCompactItemize}
+\subsubsection*{Statyczne metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_tree_a3be4a153d072838ca05b9000e86d99e4}{Deletee} (\hyperlink{class_tree_1_1_tree_element}{Tree\-Element} $\ast$pointer)
+\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_tree_aff00e7392acb5a5610eac7a3959bdb01}{arr\-Size}
+\item 
+\hyperlink{class_tree_1_1_tree_element}{Tree\-Element} $\ast$ \hyperlink{class_tree_aa9e3ed038d05213099bc5e0a26ecc219}{root}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$class Value$>$class Tree$<$ Value $>$}
+
+Szablon klasy \hyperlink{class_hash}{Hash}. 
+
+Definiuje funkcje pozwalające na wykonywanie operacji na tablicy asocjacyjnej stworzonej na drzewie binarnym. 
+\begin{DoxyParams}{Parametry}
+{\em Value} & typ wartości przechowywanych danych \\
+\hline
+\end{DoxyParams}
+
+
+\subsubsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_tree_a43d09ee43b49a0dd0cfb5c739f799103}{\index{Tree@{Tree}!Tree@{Tree}}
+\index{Tree@{Tree}!Tree@{Tree}}
+\paragraph[{Tree}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ {\bf Tree}$<$ Value $>$\-::{\bf Tree} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tree_a43d09ee43b49a0dd0cfb5c739f799103}
+
+
+Konstruktor klasy \hyperlink{class_tree}{Tree}. 
+
+\hypertarget{class_tree_a99fe49dee447c5da682cad8a2221b021}{\index{Tree@{Tree}!$\sim$\-Tree@{$\sim$\-Tree}}
+\index{$\sim$\-Tree@{$\sim$\-Tree}!Tree@{Tree}}
+\paragraph[{$\sim$\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ {\bf Tree}$<$ Value $>$\-::$\sim${\bf Tree} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tree_a99fe49dee447c5da682cad8a2221b021}
+
+
+Destruktor klasy \hyperlink{class_tree}{Tree}. 
+
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_tree_a06550c923534f28defc1218358798692}{\index{Tree@{Tree}!Add@{Add}}
+\index{Add@{Add}!Tree@{Tree}}
+\paragraph[{Add}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ void {\bf Tree}$<$ Value $>$\-::Add (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key, }
+\item[{const Value \&}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_tree_a06550c923534f28defc1218358798692}
+
+
+Funkcja dodająca parę klucz-\/wartość 
+
+
+\begin{DoxyParams}{Parametry}
+{\em value} & wartość dla dodawanego klucza \\
+\hline
+{\em key} & unikatowy klucz, do którego przypisujemy wartość \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tree_a3be4a153d072838ca05b9000e86d99e4}{\index{Tree@{Tree}!Deletee@{Deletee}}
+\index{Deletee@{Deletee}!Tree@{Tree}}
+\paragraph[{Deletee}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ void {\bf Tree}$<$ Value $>$\-::Deletee (
+\begin{DoxyParamCaption}
+\item[{{\bf Tree\-Element} $\ast$}]{pointer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{class_tree_a3be4a153d072838ca05b9000e86d99e4}
+\hypertarget{class_tree_a3385398b3c32da1d5e19ed2c68aac214}{\index{Tree@{Tree}!find@{find}}
+\index{find@{find}!Tree@{Tree}}
+\paragraph[{find}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ void $\ast$ {\bf Tree}$<$ Value $>$\-::find (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tree_a3385398b3c32da1d5e19ed2c68aac214}
+\hypertarget{class_tree_a4b6c137138cc1d06ed5cf4197dd5a6ad}{\index{Tree@{Tree}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Tree@{Tree}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ bool {\bf Tree}$<$ Value $>$\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tree_a4b6c137138cc1d06ed5cf4197dd5a6ad}
+
+
+Funkcja sprawdzająca, czy tablica jest pusta. 
+
+\begin{DoxyReturn}{Zwraca}
+true jeśli tablica jest pusta 
+
+false jeśli na tablicy są jakieś pary klucz-\/wartość 
+\end{DoxyReturn}
+\hypertarget{class_tree_af2204aecba9c68e0835d1f9995566654}{\index{Tree@{Tree}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Tree@{Tree}}
+\paragraph[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ Value \& {\bf Tree}$<$ Value $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_tree_af2204aecba9c68e0835d1f9995566654}
+
+
+Operator indeksujący tablicę 
+
+
+\begin{DoxyParams}{Parametry}
+{\em key} & klucz wybranego elementu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+referencja na wybrany element 
+\end{DoxyReturn}
+\hypertarget{class_tree_a344ac08c6e8637796d19bd185084cb22}{\index{Tree@{Tree}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Tree@{Tree}}
+\paragraph[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ const Value \& {\bf Tree}$<$ Value $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key}
+\end{DoxyParamCaption}
+) const}}\label{class_tree_a344ac08c6e8637796d19bd185084cb22}
+\hypertarget{class_tree_a4e05a40472e6b68f4d3c6cad3c4ca618}{\index{Tree@{Tree}!Size@{Size}}
+\index{Size@{Size}!Tree@{Tree}}
+\paragraph[{Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ int {\bf Tree}$<$ Value $>$\-::Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tree_a4e05a40472e6b68f4d3c6cad3c4ca618}
+
+
+Funkcja zwraca ilość par klucz-\/wartość 
+
+\begin{DoxyReturn}{Zwraca}
+aktualny rozmiar tablicy 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_tree_aff00e7392acb5a5610eac7a3959bdb01}{\index{Tree@{Tree}!arr\-Size@{arr\-Size}}
+\index{arr\-Size@{arr\-Size}!Tree@{Tree}}
+\paragraph[{arr\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ unsigned int {\bf Tree}$<$ Value $>$\-::arr\-Size\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tree_aff00e7392acb5a5610eac7a3959bdb01}
+\hypertarget{class_tree_aa9e3ed038d05213099bc5e0a26ecc219}{\index{Tree@{Tree}!root@{root}}
+\index{root@{root}!Tree@{Tree}}
+\paragraph[{root}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ {\bf Tree\-Element}$\ast$ {\bf Tree}$<$ Value $>$\-::root\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tree_aa9e3ed038d05213099bc5e0a26ecc219}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{tree_8hh}{tree.\-hh}\end{DoxyCompactItemize}

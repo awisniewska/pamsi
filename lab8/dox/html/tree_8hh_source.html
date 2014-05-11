@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>Tablica asocjacyjna: Plik źródłowy tree.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Tablica asocjacyjna
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.4 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('tree_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">tree.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tree_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#ifndef TREE_HH_</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TREE_HH_</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;stdexcept&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="code" href="class_tree.html">   15</a></span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> Value&gt; <span class="keyword">class </span><a class="code" href="class_tree.html" title="Szablon klasy Hash. ">Tree</a> {</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="class_tree_1_1_tree_element.html">   16</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a>{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="code" href="class_tree_1_1_tree_element.html#a83a5553092226a5cd9007eff6af6772c">   18</a></span>&#160;        std::string <a class="code" href="class_tree_1_1_tree_element.html#a83a5553092226a5cd9007eff6af6772c">key</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="class_tree_1_1_tree_element.html#a816dec2d4aed4b3176f2c6179928e562">   19</a></span>&#160;        Value <a class="code" href="class_tree_1_1_tree_element.html#a816dec2d4aed4b3176f2c6179928e562">value</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="class_tree_1_1_tree_element.html#a1af0675a9954c755d951479025115dfd">   20</a></span>&#160;        <a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> *<a class="code" href="class_tree_1_1_tree_element.html#a1af0675a9954c755d951479025115dfd">left</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="class_tree_1_1_tree_element.html#af32234eec45bbb63a29e02e08306a801">   21</a></span>&#160;        <a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> *<a class="code" href="class_tree_1_1_tree_element.html#af32234eec45bbb63a29e02e08306a801">right</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="class_tree_1_1_tree_element.html#a6ada0cda864f323bf99ddcc6dc67b858">   22</a></span>&#160;        <a class="code" href="class_tree_1_1_tree_element.html#a6ada0cda864f323bf99ddcc6dc67b858">TreeElement</a>(<span class="keyword">const</span> std::string &amp;newKey, <span class="keyword">const</span> Value &amp;newValue): <a class="code" href="class_tree_1_1_tree_element.html#a83a5553092226a5cd9007eff6af6772c">key</a>(newKey), <a class="code" href="class_tree_1_1_tree_element.html#a816dec2d4aed4b3176f2c6179928e562">value</a>(newValue), <a class="code" href="class_tree_1_1_tree_element.html#a1af0675a9954c755d951479025115dfd">left</a>(NULL), <a class="code" href="class_tree_1_1_tree_element.html#af32234eec45bbb63a29e02e08306a801">right</a>(NULL) {}</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    };</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="class_tree.html#aff00e7392acb5a5610eac7a3959bdb01">   25</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_tree.html#aff00e7392acb5a5610eac7a3959bdb01">arrSize</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="class_tree.html#aa9e3ed038d05213099bc5e0a26ecc219">   26</a></span>&#160;    TreeElement *<a class="code" href="class_tree.html#aa9e3ed038d05213099bc5e0a26ecc219">root</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span>* <a class="code" href="class_tree.html#a3385398b3c32da1d5e19ed2c68aac214">find</a>(<span class="keyword">const</span> std::string &amp;key) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_tree.html#a3be4a153d072838ca05b9000e86d99e4">Deletee</a>(TreeElement *pointer);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="class_tree.html#a43d09ee43b49a0dd0cfb5c739f799103">   33</a></span>&#160;    <a class="code" href="class_tree.html#a43d09ee43b49a0dd0cfb5c739f799103" title="Konstruktor klasy Tree. ">Tree</a>(): <a class="code" href="class_tree.html#aff00e7392acb5a5610eac7a3959bdb01">arrSize</a>(0), <a class="code" href="class_tree.html#aa9e3ed038d05213099bc5e0a26ecc219">root</a>(NULL) {}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="class_tree.html#a99fe49dee447c5da682cad8a2221b021" title="Destruktor klasy Tree. ">~Tree</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tree.html#a06550c923534f28defc1218358798692" title="Funkcja dodająca parę klucz-wartość ">Add</a>(<span class="keyword">const</span> std::string &amp;key, <span class="keyword">const</span> Value &amp;value);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="class_tree.html#a4e05a40472e6b68f4d3c6cad3c4ca618">   49</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_tree.html#a4e05a40472e6b68f4d3c6cad3c4ca618" title="Funkcja zwraca ilość par klucz-wartość ">Size</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="class_tree.html#aff00e7392acb5a5610eac7a3959bdb01">arrSize</a>; }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="code" href="class_tree.html#a4b6c137138cc1d06ed5cf4197dd5a6ad">   55</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_tree.html#a4b6c137138cc1d06ed5cf4197dd5a6ad" title="Funkcja sprawdzająca, czy tablica jest pusta. ">isEmpty</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> (<a class="code" href="class_tree.html#a4e05a40472e6b68f4d3c6cad3c4ca618" title="Funkcja zwraca ilość par klucz-wartość ">Size</a>() == 0); }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    Value&amp; <a class="code" href="class_tree.html#af2204aecba9c68e0835d1f9995566654" title="Operator indeksujący tablicę ">operator[]</a>(<span class="keyword">const</span> std::string &amp;key);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">const</span> Value&amp; <a class="code" href="class_tree.html#af2204aecba9c68e0835d1f9995566654" title="Operator indeksujący tablicę ">operator[]</a>(<span class="keyword">const</span> std::string &amp;key) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;};</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> Value&gt;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="code" href="class_tree.html#a06550c923534f28defc1218358798692">   66</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_tree.html#a06550c923534f28defc1218358798692" title="Funkcja dodająca parę klucz-wartość ">Tree&lt;Value&gt;::Add</a>(<span class="keyword">const</span> std::string&amp; key,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keyword">const</span> Value&amp; value) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> *newElement = <span class="keyword">new</span> <a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a>(key, value);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> **tmp = &amp;root;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">while</span> (*tmp != NULL) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">if</span>( key &lt; (**tmp).key ) {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            tmp = &amp;(**tmp).<a class="code" href="class_tree_1_1_tree_element.html#a1af0675a9954c755d951479025115dfd">left</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            tmp = &amp;(**tmp).<a class="code" href="class_tree_1_1_tree_element.html#af32234eec45bbb63a29e02e08306a801">right</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    *tmp = newElement;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> Value&gt;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="code" href="class_tree.html#a3385398b3c32da1d5e19ed2c68aac214">   82</a></span>&#160;<span class="keywordtype">void</span>* <a class="code" href="class_tree.html#a3385398b3c32da1d5e19ed2c68aac214">Tree&lt;Value&gt;::find</a>(<span class="keyword">const</span> std::string&amp; key)<span class="keyword"> const</span>{</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> * <span class="keyword">const</span> *tmp = &amp;root;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">while</span> (*tmp != NULL) {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">if</span>( key == (**tmp).key ) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">return</span> *tmp;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>( key &lt; (**tmp).key ) {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            tmp = &amp;(**tmp).<a class="code" href="class_tree_1_1_tree_element.html#a1af0675a9954c755d951479025115dfd">left</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            tmp = &amp;(**tmp).<a class="code" href="class_tree_1_1_tree_element.html#af32234eec45bbb63a29e02e08306a801">right</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Nie odnaleziono klucza.&quot;</span>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> Value&gt;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="code" href="class_tree.html#af2204aecba9c68e0835d1f9995566654">  100</a></span>&#160;Value&amp; <a class="code" href="class_tree.html#af2204aecba9c68e0835d1f9995566654" title="Operator indeksujący tablicę ">Tree&lt;Value&gt;::operator []</a>(<span class="keyword">const</span> std::string&amp; key) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> *tmp;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    tmp = <span class="keyword">static_cast&lt;</span><a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> *<span class="keyword">&gt;</span>(find(key));</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> tmp-&gt;<a class="code" href="class_tree_1_1_tree_element.html#a816dec2d4aed4b3176f2c6179928e562">value</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> Value&gt;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="code" href="class_tree.html#a3be4a153d072838ca05b9000e86d99e4">  107</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_tree.html#a3be4a153d072838ca05b9000e86d99e4">Tree&lt;Value&gt;::Deletee</a>(<a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a>* pointer) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">if</span> (pointer==NULL) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        Deletee(pointer-&gt;<a class="code" href="class_tree_1_1_tree_element.html#af32234eec45bbb63a29e02e08306a801">right</a>);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        Deletee(pointer-&gt;<a class="code" href="class_tree_1_1_tree_element.html#a1af0675a9954c755d951479025115dfd">left</a>);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keyword">delete</span> pointer;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> Value&gt;</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="code" href="class_tree.html#a99fe49dee447c5da682cad8a2221b021">  118</a></span>&#160;<a class="code" href="class_tree.html#a99fe49dee447c5da682cad8a2221b021" title="Destruktor klasy Tree. ">Tree&lt;Value&gt;::~Tree</a>() {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    Deletee(root);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> Value&gt;</div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="code" href="class_tree.html#a344ac08c6e8637796d19bd185084cb22">  123</a></span>&#160;<span class="keyword">const</span> Value&amp; <a class="code" href="class_tree.html#af2204aecba9c68e0835d1f9995566654" title="Operator indeksujący tablicę ">Tree&lt;Value&gt;::operator []</a>(</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keyword">const</span> std::string&amp; key)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> *tmp;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    tmp = <span class="keyword">static_cast&lt;</span><a class="code" href="class_tree_1_1_tree_element.html">TreeElement</a> *<span class="keyword">&gt;</span>(find(key));</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">return</span> tmp-&gt;<a class="code" href="class_tree_1_1_tree_element.html#a816dec2d4aed4b3176f2c6179928e562">value</a>;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* TREE_HH_ */</span><span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="tree_8hh.html">tree.hh</a></li>
+    <li class="footer">Wygenerowano Cz, 24 kwi 2014 00:23:39 dla Tablica asocjacyjna programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
+  </ul>
+</div>
+</body>
+</html>

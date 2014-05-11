@@ -1,0 +1,10 @@
+/** \mainpage Graf nieskierowany z wagami
+\section description Opis programu
+Program definiuje strukturę danych do reprezentacji obiektów, pomiędzy którymi występują różne zależności. Graf składa się z w liczby wierzchołków oraz k liczby krawędzi - w przypadku implementowanego grafu (nieskierowanego) wierzchołki można łączyć w  obie strony.
+
+\section sample Sposób wywołania programu:
+<b>./asarray [aarray/hash/tree] [rozmiar problemu] [liczba powtórzeń]</b>
+
+\section author Autor
+Program wykonala: Agnieszka Wisniewska, nr albumu: 200 466
+*/	
