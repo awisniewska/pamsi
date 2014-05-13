@@ -50,7 +50,7 @@ Przeszukiwanie wszerz ma złożoność obliczeniową w przybliżeniu liniową, c
 \section{Podsumowanie i wnioski}
 \begin{itemize}
 \item Algorytmy przeszukiwania w głąb i wszerz są najczęściej stosowanymi algorytmami przeszukiwania.
-\item Udało się osiągnąć rezultat zgodny z oczekiwaniami, w przypadku obu implementacji zależność jest w przybliżeniu liniowa. W najgorszym przypadku przeszukiwania mają złożoność czasową O(|V|+|E|), gdzie V to liczba węzłoł, E krawędzi w grafie.
+\item Udało się osiągnąć rezultat zgodny z oczekiwaniami, w przypadku obu implementacji zależność jest w przybliżeniu liniowa. W najgorszym przypadku przeszukiwania mają złożoność czasową O(|V|+|E|), gdzie V to liczba węzłów, E krawędzi w grafie.
 \item W przypadku zastosowanych implementacji przeszukiwanie grafu wszerz zajmuje znacznie więcej czasu.
 
 \end{itemize}
