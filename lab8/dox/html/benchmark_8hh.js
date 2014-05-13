@@ -1,9 +1,8 @@
 var benchmark_8hh =
 [
     [ "Benchmark", "class_benchmark.html", "class_benchmark" ],
-    [ "sType", "benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31", [
-      [ "aarray", "benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31a610bf4b52747a9873a667e259b6bf10d", null ],
-      [ "hash", "benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31afeef2a68a563607337354c6054e98743", null ],
-      [ "tree", "benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31a9d9f0ad70d95b267fda40075d0c175a8", null ]
+    [ "Implementation", "benchmark_8hh.html#a9107acb389f0886054bea6298a73e191", [
+      [ "bfs", "benchmark_8hh.html#a9107acb389f0886054bea6298a73e191a959b45298972c58c8cea0f81e9d04495", null ],
+      [ "dfs", "benchmark_8hh.html#a9107acb389f0886054bea6298a73e191a1a01e4a8f21847034cc98ab41323694d", null ]
     ] ]
 ];

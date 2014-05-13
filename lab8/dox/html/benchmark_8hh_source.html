@@ -70,39 +70,41 @@ $(document).ready(function(){initNavTree('benchmark_8hh_source.html','');});
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef BENCHMARK_HH</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define BENCHMARK_HH</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="aarray_8hh.html" title="Plik zawiera definicje szablonu klasy Aarray. ">aarray.hh</a>&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="hash_8hh.html" title="Plik zawiera definicje szablonu klasy Hash. ">hash.hh</a>&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tree_8hh.html" title="Plik zawiera definicje szablonu klasy Tree. ">tree.hh</a>&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31a9d9f0ad70d95b267fda40075d0c175a8">   17</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31" title="Typ danych przechowujacy poszczególne struktury danych. ">sType</a> { <a class="code" href="benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31a610bf4b52747a9873a667e259b6bf10d">aarray</a>, <a class="code" href="benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31afeef2a68a563607337354c6054e98743">hash</a>, <a class="code" href="benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31a9d9f0ad70d95b267fda40075d0c175a8">tree</a> };</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="code" href="class_benchmark.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_benchmark.html" title="Definicja klasy Benchmark. ">Benchmark</a></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="graph_8hh.html">graph.hh</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191">   14</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191" title="Typ danych przechowujacy rodzaj wyszukiwania. ">Implementation</a> { <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191a959b45298972c58c8cea0f81e9d04495">bfs</a>, <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191a1a01e4a8f21847034cc98ab41323694d">dfs</a> };</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="class_benchmark.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_benchmark.html" title="Definicja klasy Benchmark. ">Benchmark</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="class_benchmark.html#a94bdf26f3509801d37d3f06fa6c745d8">   25</a></span>&#160;    <a class="code" href="class_graph.html">Graph&lt;int&gt;</a> <a class="code" href="class_benchmark.html#a94bdf26f3509801d37d3f06fa6c745d8">benchGraph</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="class_benchmark.html#afe068c6eb3c6971dd0d823deccc822fa">   26</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_benchmark.html#afe068c6eb3c6971dd0d823deccc822fa">Edges</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_benchmark.html#a7605d948d3931f722e50dcda55475860">calculate</a>(<a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191" title="Typ danych przechowujacy rodzaj wyszukiwania. ">Implementation</a> Type);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_benchmark.html#a706adeea3f78bb12170973bd073bc6ee">Calculate</a>(<a class="code" href="benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31" title="Typ danych przechowujacy poszczególne struktury danych. ">sType</a> type);</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="code" href="class_benchmark.html#a3bdbd0990bf2fe54258283e6e343f3f2">   30</a></span>&#160;    <a class="code" href="class_aarray.html">Aarray&lt;int&gt;</a> *<a class="code" href="class_benchmark.html#a3bdbd0990bf2fe54258283e6e343f3f2">aarrayptr</a>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="class_benchmark.html#a73d14cbb7e487ed246375c37aa182f65">   31</a></span>&#160;    <a class="code" href="class_hash.html">Hash&lt;int&gt;</a> *<a class="code" href="class_benchmark.html#a73d14cbb7e487ed246375c37aa182f65">hashptr</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="class_benchmark.html#a320c05da135d117cd23592bede8ed38b">   32</a></span>&#160;    <a class="code" href="class_tree.html">Tree&lt;int&gt;</a> *<a class="code" href="class_benchmark.html#a320c05da135d117cd23592bede8ed38b">treeptr</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="class_benchmark.html#aeca480b43b86f98b0d065ae910acdb8b">   33</a></span>&#160;    std::string <a class="code" href="class_benchmark.html#aeca480b43b86f98b0d065ae910acdb8b">Tmp</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_benchmark.html#a44b4b9db409e50cc0d9e00f8ec4a9c17" title="Funkcja mierzaca czas wykonywania algorytmu sortowania. ">benchmark</a>(<span class="keywordtype">int</span> noIteration, <a class="code" href="benchmark_8hh.html#aea0d9887a477b37857cd2037b9c9ad31" title="Typ danych przechowujacy poszczególne struktury danych. ">sType</a> type, <span class="keywordtype">int</span> problemSize);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* BENCHMARK_HH_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_benchmark.html#a57c68b02b4ba13025b215015e15cc5d5" title="Funkcja mierzaca czas wykonywania algorytmu przeszukiwania grafu. ">benchmark</a>(<span class="keywordtype">int</span> noIteration, <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191" title="Typ danych przechowujacy rodzaj wyszukiwania. ">Implementation</a> Type);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_benchmark.html#adbc1291287334b25aca2ee3c1bc0eca5" title="Funkcja wypełniając graf testowymi danymi. ">SampleGraph</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> VertCount);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="class_benchmark.html#a5b1abbabfe55827274ad0c90c772530d">   48</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_benchmark.html#a5b1abbabfe55827274ad0c90c772530d" title="Funkcja pobierająca ilość krawędzi w grafie. ">GetEdges</a>()</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_benchmark.html#afe068c6eb3c6971dd0d823deccc822fa">Edges</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* BENCHMARK_HH_ */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="benchmark_8hh.html">benchmark.hh</a></li>
-    <li class="footer">Wygenerowano Cz, 24 kwi 2014 00:23:39 dla Tablica asocjacyjna programem
+    <li class="footer">Wygenerowano Wt, 13 maj 2014 22:32:33 dla Tablica asocjacyjna programem
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

@@ -5,6 +5,7 @@
 
 
 #include "graph.hh"
+#include "benchmark.hh"
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -14,30 +15,30 @@ using namespace std;
 
 /** \brief Główna funkcja programu
  *
+ * Pozwala na zmierzenie czasu dla wybranego wyszukiwania.
  */
 int main(int argc, char **argv) {
-/*	srand(time(NULL));
+
+	srand(time(NULL));
+
+
 	if (argc < 4 )
 	{ cerr << "Zbyt mala ilosc argumentow." << endl;
 		return 0;
 	}
-	Benchmark timeCount;
-	string whichType=argv[1];
-	sType make;
 
-	if (whichType == "aarray") make = aarray;
-	else if (whichType == "hash") make = hash;
-	else if (whichType == "tree") make = tree;
-	else { cerr << "Wybrano nieprawidłową strukturę." << endl;
+	Benchmark timeCount;
+	string Type=argv[1];
+	Implementation convert;
+
+	if (Type == "bfs") convert = bfs;
+	else if (Type == "dfs") convert = dfs;
+	else { cerr << "Nie ma takiego wyszukiwania!" << endl;
 	return 0;}
 
-	int problemSize = atoi(argv[2]);
-	int noIterations = atoi(argv[3]);
-
-	double time = timeCount.benchmark(noIterations, make, problemSize);
-
-	cout << problemSize << "," << noIterations << "," << time << endl;
-*/
+	timeCount.SampleGraph(atoi(argv[2]));
+	double time = timeCount.benchmark(atoi(argv[3]), convert);
+	cout << atoi(argv[2])+timeCount.GetEdges() << "," << atoi(argv[3]) << "," << time << endl;
 
 }
 

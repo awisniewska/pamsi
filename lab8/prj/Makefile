@@ -1,20 +1,32 @@
-CPPFLAGS=-pedantic -Wall -Iinc -g
-LDFLAGS=-Wall
+EXECUTABLE=graph
+CFLAGS= -Wall -pedantic -Iinc
 
-all: graph
+CC=g++
+SOURCES= $(wildcard src/*.cpp)
+HEADERS= $(wildcard inc/*.hh)
+OBJECTS= $(subst src/,obj/,$(subst .cpp,.o,$(SOURCES)))
+
+all: executable
 
 obj:
 	mkdir obj
 
-graph: obj/main.o obj/benchmark.o
-	g++ $(CPPFLAGS) obj/main.o obj/benchmark.o -o asarray
-	
-obj/benchmark.o: src/benchmark.cpp
-	g++ $(CPPFLAGS) -c src/benchmark.cpp -o obj/benchmark.o
+executable: $(SOURCES) $(EXECUTABLE)
 
-obj/main.o: src/main.cpp 
-	g++ $(CPPFLAGS) -c src/main.cpp -o obj/main.o
-	
+$(EXECUTABLE): $(OBJECTS) 
+	$(CC) $(OBJECTS) -o $@
 
+obj/%.o: src/%.cpp $(HEADERS) obj
+	$(CC) $(CFLAGS) -c -o $@ $<
+	
 clean:
-	rm -rf asarray obj/*
+	rm -rf $(OBJECTS) $(EXECUTABLE)
+	
+dox:
+	doxygen > /dev/null
+	
+pdf:
+	cd doc/latex && make > /dev/null
+	
+cleandox:
+	rm -rf doc/*

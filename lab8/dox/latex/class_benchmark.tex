@@ -13,67 +13,97 @@ Definicja klasy \hyperlink{class_benchmark}{Benchmark}.
 \subsubsection*{Metody publiczne}
 \begin{DoxyCompactItemize}
 \item 
-double \hyperlink{class_benchmark_a44b4b9db409e50cc0d9e00f8ec4a9c17}{benchmark} (int no\-Iteration, \hyperlink{benchmark_8hh_aea0d9887a477b37857cd2037b9c9ad31}{s\-Type} type, int problem\-Size)
-\begin{DoxyCompactList}\small\item\em Funkcja mierzaca czas wykonywania algorytmu sortowania. \end{DoxyCompactList}\end{DoxyCompactItemize}
+double \hyperlink{class_benchmark_a57c68b02b4ba13025b215015e15cc5d5}{benchmark} (int no\-Iteration, \hyperlink{benchmark_8hh_a9107acb389f0886054bea6298a73e191}{Implementation} Type)
+\begin{DoxyCompactList}\small\item\em Funkcja mierzaca czas wykonywania algorytmu przeszukiwania grafu. \end{DoxyCompactList}\item 
+void \hyperlink{class_benchmark_adbc1291287334b25aca2ee3c1bc0eca5}{Sample\-Graph} (const unsigned int Vert\-Count)
+\begin{DoxyCompactList}\small\item\em Funkcja wypełniając graf testowymi danymi. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_benchmark_a5b1abbabfe55827274ad0c90c772530d}{Get\-Edges} ()
+\begin{DoxyCompactList}\small\item\em Funkcja pobierająca ilość krawędzi w grafie. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsubsection*{Metody prywatne}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{class_benchmark_a706adeea3f78bb12170973bd073bc6ee}{Calculate} (\hyperlink{benchmark_8hh_aea0d9887a477b37857cd2037b9c9ad31}{s\-Type} type)
+void \hyperlink{class_benchmark_a7605d948d3931f722e50dcda55475860}{calculate} (\hyperlink{benchmark_8hh_a9107acb389f0886054bea6298a73e191}{Implementation} Type)
 \end{DoxyCompactItemize}
 \subsubsection*{Atrybuty prywatne}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{class_aarray}{Aarray}$<$ int $>$ $\ast$ \hyperlink{class_benchmark_a3bdbd0990bf2fe54258283e6e343f3f2}{aarrayptr}
+\hyperlink{class_graph}{Graph}$<$ int $>$ \hyperlink{class_benchmark_a94bdf26f3509801d37d3f06fa6c745d8}{bench\-Graph}
 \item 
-\hyperlink{class_hash}{Hash}$<$ int $>$ $\ast$ \hyperlink{class_benchmark_a73d14cbb7e487ed246375c37aa182f65}{hashptr}
-\item 
-\hyperlink{class_tree}{Tree}$<$ int $>$ $\ast$ \hyperlink{class_benchmark_a320c05da135d117cd23592bede8ed38b}{treeptr}
-\item 
-std\-::string \hyperlink{class_benchmark_aeca480b43b86f98b0d065ae910acdb8b}{Tmp}
+unsigned int \hyperlink{class_benchmark_afe068c6eb3c6971dd0d823deccc822fa}{Edges}
 \end{DoxyCompactItemize}
 
 
 \subsubsection{Opis szczegółowy}
 Definicja klasy \hyperlink{class_benchmark}{Benchmark}. 
 
-Glownym zadaniem klasy jest mierzenie czasu wykonywanych algorytmow. Klasa obiektow umozliwiaja także wykonywanie zadanych obliczen. 
+Klasa służy do pomiaru czasu wykonywania algorytmu dla wybranych implementacji. 
 
 \subsubsection{Dokumentacja funkcji składowych}
-\hypertarget{class_benchmark_a44b4b9db409e50cc0d9e00f8ec4a9c17}{\index{Benchmark@{Benchmark}!benchmark@{benchmark}}
+\hypertarget{class_benchmark_a57c68b02b4ba13025b215015e15cc5d5}{\index{Benchmark@{Benchmark}!benchmark@{benchmark}}
 \index{benchmark@{benchmark}!Benchmark@{Benchmark}}
 \paragraph[{benchmark}]{\setlength{\rightskip}{0pt plus 5cm}double Benchmark\-::benchmark (
 \begin{DoxyParamCaption}
 \item[{int}]{no\-Iteration, }
-\item[{{\bf s\-Type}}]{type, }
-\item[{int}]{problem\-Size}
+\item[{{\bf Implementation}}]{Type}
 \end{DoxyParamCaption}
-)}}\label{class_benchmark_a44b4b9db409e50cc0d9e00f8ec4a9c17}
+)}}\label{class_benchmark_a57c68b02b4ba13025b215015e15cc5d5}
 
 
-Funkcja mierzaca czas wykonywania algorytmu sortowania. 
+Funkcja mierzaca czas wykonywania algorytmu przeszukiwania grafu. 
 
-\hypertarget{class_benchmark_a706adeea3f78bb12170973bd073bc6ee}{\index{Benchmark@{Benchmark}!Calculate@{Calculate}}
-\index{Calculate@{Calculate}!Benchmark@{Benchmark}}
-\paragraph[{Calculate}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::\-Calculate (
+
+\begin{DoxyParams}{Parametry}
+{\em no\-Iteration} & liczba powtórzeń algorytmu \\
+\hline
+{\em Type} & rodzaj przeszukiwania \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_benchmark_a7605d948d3931f722e50dcda55475860}{\index{Benchmark@{Benchmark}!calculate@{calculate}}
+\index{calculate@{calculate}!Benchmark@{Benchmark}}
+\paragraph[{calculate}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::calculate (
 \begin{DoxyParamCaption}
-\item[{{\bf s\-Type}}]{type}
+\item[{{\bf Implementation}}]{Type}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a706adeea3f78bb12170973bd073bc6ee}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a7605d948d3931f722e50dcda55475860}
+\hypertarget{class_benchmark_a5b1abbabfe55827274ad0c90c772530d}{\index{Benchmark@{Benchmark}!Get\-Edges@{Get\-Edges}}
+\index{Get\-Edges@{Get\-Edges}!Benchmark@{Benchmark}}
+\paragraph[{Get\-Edges}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Benchmark\-::\-Get\-Edges (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_benchmark_a5b1abbabfe55827274ad0c90c772530d}
+
+
+Funkcja pobierająca ilość krawędzi w grafie. 
+
+\begin{DoxyReturn}{Zwraca}
+liczba krawędzi w grafie 
+\end{DoxyReturn}
+\hypertarget{class_benchmark_adbc1291287334b25aca2ee3c1bc0eca5}{\index{Benchmark@{Benchmark}!Sample\-Graph@{Sample\-Graph}}
+\index{Sample\-Graph@{Sample\-Graph}!Benchmark@{Benchmark}}
+\paragraph[{Sample\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark\-::\-Sample\-Graph (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{Vert\-Count}
+\end{DoxyParamCaption}
+)}}\label{class_benchmark_adbc1291287334b25aca2ee3c1bc0eca5}
+
+
+Funkcja wypełniając graf testowymi danymi. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em Vert\-Count} & ilość wierzchołków w grafie \\
+\hline
+\end{DoxyParams}
 
 
 \subsubsection{Dokumentacja atrybutów składowych}
-\hypertarget{class_benchmark_a3bdbd0990bf2fe54258283e6e343f3f2}{\index{Benchmark@{Benchmark}!aarrayptr@{aarrayptr}}
-\index{aarrayptr@{aarrayptr}!Benchmark@{Benchmark}}
-\paragraph[{aarrayptr}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Aarray}$<$int$>$$\ast$ Benchmark\-::aarrayptr\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a3bdbd0990bf2fe54258283e6e343f3f2}
-\hypertarget{class_benchmark_a73d14cbb7e487ed246375c37aa182f65}{\index{Benchmark@{Benchmark}!hashptr@{hashptr}}
-\index{hashptr@{hashptr}!Benchmark@{Benchmark}}
-\paragraph[{hashptr}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Hash}$<$int$>$$\ast$ Benchmark\-::hashptr\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a73d14cbb7e487ed246375c37aa182f65}
-\hypertarget{class_benchmark_aeca480b43b86f98b0d065ae910acdb8b}{\index{Benchmark@{Benchmark}!Tmp@{Tmp}}
-\index{Tmp@{Tmp}!Benchmark@{Benchmark}}
-\paragraph[{Tmp}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Benchmark\-::\-Tmp\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_aeca480b43b86f98b0d065ae910acdb8b}
-\hypertarget{class_benchmark_a320c05da135d117cd23592bede8ed38b}{\index{Benchmark@{Benchmark}!treeptr@{treeptr}}
-\index{treeptr@{treeptr}!Benchmark@{Benchmark}}
-\paragraph[{treeptr}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Tree}$<$int$>$$\ast$ Benchmark\-::treeptr\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a320c05da135d117cd23592bede8ed38b}
+\hypertarget{class_benchmark_a94bdf26f3509801d37d3f06fa6c745d8}{\index{Benchmark@{Benchmark}!bench\-Graph@{bench\-Graph}}
+\index{bench\-Graph@{bench\-Graph}!Benchmark@{Benchmark}}
+\paragraph[{bench\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Graph}$<$int$>$ Benchmark\-::bench\-Graph\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_a94bdf26f3509801d37d3f06fa6c745d8}
+\hypertarget{class_benchmark_afe068c6eb3c6971dd0d823deccc822fa}{\index{Benchmark@{Benchmark}!Edges@{Edges}}
+\index{Edges@{Edges}!Benchmark@{Benchmark}}
+\paragraph[{Edges}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Benchmark\-::\-Edges\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_afe068c6eb3c6971dd0d823deccc822fa}
 
 
 Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}

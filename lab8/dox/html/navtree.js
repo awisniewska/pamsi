@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Graf nieskierowany", "index.html", [
+  [ "Tablica asocjacyjna", "index.html", [
     [ "Graf nieskierowany z wagami", "index.html", [
       [ "Opis programu", "index.html#description", null ],
       [ "Autor", "index.html#author", null ]
@@ -19,7 +19,9 @@ var NAVTREE =
       [ "Lista plików", "files.html", "files" ],
       [ "Składowe plików", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Funkcje", "globals_func.html", null ]
+        [ "Funkcje", "globals_func.html", null ],
+        [ "Wyliczenia", "globals_enum.html", null ],
+        [ "Wartości wyliczeń", "globals_eval.html", null ]
       ] ]
     ] ]
   ] ]
