@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Tablica asocjacyjna", "index.html", [
+  [ "Przeszukiwania grafu", "index.html", [
     [ "Graf nieskierowany z wagami", "index.html", [
       [ "Opis programu", "index.html#description", null ],
       [ "Autor", "index.html#author", null ]
