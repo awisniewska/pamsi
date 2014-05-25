@@ -1,5 +1,8 @@
 var search_8cpp =
 [
-    [ "BFS", "search_8cpp.html#a67afeeedd15ebf23678eeb3c3903aba0", null ],
-    [ "DFS", "search_8cpp.html#a55749605cda716959efc73db1ff4705b", null ]
+    [ "VertStruct", "struct_vert_struct.html", "struct_vert_struct" ],
+    [ "LessF", "struct_less_f.html", "struct_less_f" ],
+    [ "AStar", "search_8cpp.html#ac1e3c167799b62e498e9e8e8297e43db", null ],
+    [ "BFS", "search_8cpp.html#a5e55103bf2465b80a41ac041a6b0bd14", null ],
+    [ "DFS", "search_8cpp.html#a4d4adbe64a2a6393322678a74016d601", null ]
 ];

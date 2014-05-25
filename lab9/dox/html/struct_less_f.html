@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.4"/>
-<title>Przeszukiwania grafów: Dokumentacja struktury Graph&lt; Type &gt;::Edge</title>
+<title>Przeszukiwania grafów: Dokumentacja struktury LessF</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,54 +59,47 @@
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('struct_graph_1_1_edge.html','');});
+$(document).ready(function(){initNavTree('struct_less_f.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Metody publiczne</a> &#124;
-<a href="#pub-attribs">Atrybuty publiczne</a> &#124;
-<a href="struct_graph_1_1_edge-members.html">Lista wszystkich składowych</a>  </div>
+<a href="struct_less_f-members.html">Lista wszystkich składowych</a>  </div>
   <div class="headertitle">
-<div class="title">Dokumentacja struktury Graph&lt; Type &gt;::Edge</div>  </div>
+<div class="title">Dokumentacja struktury LessF</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="graph_8hh_source.html">graph.hh</a>&gt;</code></p>
+<p>Struktura pomocnicza do użycia przez algorytm A*.  
+ <a href="struct_less_f.html#details">Więcej...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Metody publiczne</h2></td></tr>
-<tr class="memitem:ad7cdb813c8df3c5604b8685d493dcd00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_graph_1_1_edge.html#ad7cdb813c8df3c5604b8685d493dcd00">Edge</a> (const Type newEnd, const int newWeight)</td></tr>
-<tr class="separator:ad7cdb813c8df3c5604b8685d493dcd00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Atrybuty publiczne</h2></td></tr>
-<tr class="memitem:a55de9e46eec7696bf5511c78866684f0"><td class="memItemLeft" align="right" valign="top">Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_graph_1_1_edge.html#a55de9e46eec7696bf5511c78866684f0">SecEnd</a></td></tr>
-<tr class="separator:a55de9e46eec7696bf5511c78866684f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae57c0ca00807c73a604bc562cf638600"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_graph_1_1_edge.html#ae57c0ca00807c73a604bc562cf638600">Weight</a></td></tr>
-<tr class="separator:ae57c0ca00807c73a604bc562cf638600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7055d5d012d54527611a34814860fe6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_less_f.html#ac7055d5d012d54527611a34814860fe6">operator()</a> (const <a class="el" href="struct_vert_struct.html">VertStruct</a> &amp;Vert1, const <a class="el" href="struct_vert_struct.html">VertStruct</a> &amp;Vert2)</td></tr>
+<tr class="separator:ac7055d5d012d54527611a34814860fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
-<a class="anchor" id="ad7cdb813c8df3c5604b8685d493dcd00"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Struktura pomocnicza do użycia przez algorytm A*. </p>
+</div><h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="ac7055d5d012d54527611a34814860fe6"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Type&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_graph.html">Graph</a>&lt; Type &gt;::Edge::Edge </td>
+          <td class="memname">bool LessF::operator() </td>
           <td>(</td>
-          <td class="paramtype">const Type&#160;</td>
-          <td class="paramname"><em>newEnd</em>, </td>
+          <td class="paramtype">const <a class="el" href="struct_vert_struct.html">VertStruct</a> &amp;&#160;</td>
+          <td class="paramname"><em>Vert1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>newWeight</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_vert_struct.html">VertStruct</a> &amp;&#160;</td>
+          <td class="paramname"><em>Vert2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -123,44 +116,15 @@ template&lt;typename Type&gt; </div>
 
 </div>
 </div>
-<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
-<a class="anchor" id="a55de9e46eec7696bf5511c78866684f0"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Type&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">Type <a class="el" href="class_graph.html">Graph</a>&lt; Type &gt;::Edge::SecEnd</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae57c0ca00807c73a604bc562cf638600"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Type&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="class_graph.html">Graph</a>&lt; Type &gt;::Edge::Weight</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>Dokumentacja dla tej struktury została wygenerowana z pliku:<ul>
-<li><a class="el" href="graph_8hh_source.html">graph.hh</a></li>
+<li><a class="el" href="search_8cpp.html">search.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="class_graph.html">Graph</a></li><li class="navelem"><a class="el" href="struct_graph_1_1_edge.html">Edge</a></li>
+    <li class="navelem"><a class="el" href="struct_less_f.html">LessF</a></li>
     <li class="footer">Wygenerowano Pn, 26 maj 2014 00:53:40 dla Przeszukiwania grafów programem
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>

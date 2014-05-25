@@ -1,96 +1,121 @@
 \begin{theindex}
 
+  \item {A\discretionary {-}{}{}Star}
+    \subitem {search.\discretionary {-}{}{}cpp}, \hyperpage{9}
+    \subitem {search.\discretionary {-}{}{}hh}, \hyperpage{10}
   \item {Add\discretionary {-}{}{}Edge}
-    \subitem {Graph}, \hyperpage{4}
+    \subitem {Graph}, \hyperpage{5}
   \item {Add\discretionary {-}{}{}Vert}
-    \subitem {Graph}, \hyperpage{4}
+    \subitem {Graph}, \hyperpage{5}
+  \item {astar}
+    \subitem {benchmark.\-hh}, \hyperpage{8}
 
   \indexspace
 
   \item {B\discretionary {-}{}{}F\discretionary {-}{}{}S}
-    \subitem {search.\discretionary {-}{}{}cpp}, \hyperpage{8}
-    \subitem {search.\discretionary {-}{}{}hh}, \hyperpage{8}
+    \subitem {search.\discretionary {-}{}{}cpp}, \hyperpage{10}
+    \subitem {search.\discretionary {-}{}{}hh}, \hyperpage{11}
   \item {bench\discretionary {-}{}{}Graph}
     \subitem {Benchmark}, \hyperpage{3}
   \item {Benchmark}, \hyperpage{2}
     \subitem {bench\discretionary {-}{}{}Graph}, \hyperpage{3}
-    \subitem {benchmark}, \hyperpage{2}
-    \subitem {calculate}, \hyperpage{2}
+    \subitem {benchmark}, \hyperpage{3}
+    \subitem {calculate}, \hyperpage{3}
     \subitem {Edges}, \hyperpage{3}
-    \subitem {Get\discretionary {-}{}{}Edges}, \hyperpage{2}
-    \subitem {Sample\discretionary {-}{}{}Graph}, \hyperpage{2}
+    \subitem {Get\discretionary {-}{}{}Edges}, \hyperpage{3}
+    \subitem {Sample\discretionary {-}{}{}Graph}, \hyperpage{3}
+    \subitem {Side}, \hyperpage{3}
+    \subitem {Vertices}, \hyperpage{3}
   \item {benchmark}
-    \subitem {Benchmark}, \hyperpage{2}
+    \subitem {Benchmark}, \hyperpage{3}
   \item {benchmark.\-hh}
-    \subitem {bfs}, \hyperpage{6}
-    \subitem {dfs}, \hyperpage{6}
-  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{6}
-  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{6}
-    \subitem {Implementation}, \hyperpage{6}
+    \subitem {astar}, \hyperpage{8}
+    \subitem {bfs}, \hyperpage{8}
+    \subitem {dfs}, \hyperpage{8}
+  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{7}
+  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{7}
+    \subitem {Implementation}, \hyperpage{8}
   \item {bfs}
-    \subitem {benchmark.\-hh}, \hyperpage{6}
+    \subitem {benchmark.\-hh}, \hyperpage{8}
 
   \indexspace
 
   \item {calculate}
-    \subitem {Benchmark}, \hyperpage{2}
+    \subitem {Benchmark}, \hyperpage{3}
 
   \indexspace
 
   \item {D\discretionary {-}{}{}F\discretionary {-}{}{}S}
-    \subitem {search.\discretionary {-}{}{}cpp}, \hyperpage{8}
-    \subitem {search.\discretionary {-}{}{}hh}, \hyperpage{9}
+    \subitem {search.\discretionary {-}{}{}cpp}, \hyperpage{10}
+    \subitem {search.\discretionary {-}{}{}hh}, \hyperpage{11}
   \item {dfs}
-    \subitem {benchmark.\-hh}, \hyperpage{6}
+    \subitem {benchmark.\-hh}, \hyperpage{8}
 
   \indexspace
 
   \item {Edge}
     \subitem {Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
-		\hyperpage{3}
+		\hyperpage{4}
   \item {Edge\discretionary {-}{}{}S}
-    \subitem {Graph}, \hyperpage{4}
+    \subitem {Graph}, \hyperpage{5}
   \item {Edges}
     \subitem {Benchmark}, \hyperpage{3}
 
   \indexspace
 
+  \item {F}
+    \subitem {Vert\discretionary {-}{}{}Struct}, \hyperpage{7}
+
+  \indexspace
+
+  \item {G}
+    \subitem {Vert\discretionary {-}{}{}Struct}, \hyperpage{7}
   \item {Get\discretionary {-}{}{}Edges}
-    \subitem {Benchmark}, \hyperpage{2}
+    \subitem {Benchmark}, \hyperpage{3}
   \item {Graph}
-    \subitem {Add\discretionary {-}{}{}Edge}, \hyperpage{4}
-    \subitem {Add\discretionary {-}{}{}Vert}, \hyperpage{4}
-    \subitem {Edge\discretionary {-}{}{}S}, \hyperpage{4}
-    \subitem {graph}, \hyperpage{5}
+    \subitem {Add\discretionary {-}{}{}Edge}, \hyperpage{5}
+    \subitem {Add\discretionary {-}{}{}Vert}, \hyperpage{5}
+    \subitem {Edge\discretionary {-}{}{}S}, \hyperpage{5}
+    \subitem {graph}, \hyperpage{6}
     \subitem {If\discretionary {-}{}{}Connected}, \hyperpage{5}
     \subitem {Neighbors}, \hyperpage{5}
     \subitem {Remove\discretionary {-}{}{}Edge}, \hyperpage{5}
-    \subitem {Remove\discretionary {-}{}{}Vert}, \hyperpage{5}
+    \subitem {Remove\discretionary {-}{}{}Vert}, \hyperpage{6}
   \item {graph}
-    \subitem {Graph}, \hyperpage{5}
-  \item {Graph$<$ Type $>$}, \hyperpage{3}
+    \subitem {Graph}, \hyperpage{6}
+  \item {Graph$<$ Type $>$}, \hyperpage{4}
   \item {Graph$<$ Type $>$\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
 		\hyperpage{3}
-  \item {graph.\discretionary {-}{}{}hh}, \hyperpage{6}
+  \item {graph.\discretionary {-}{}{}hh}, \hyperpage{8}
   \item {Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}
-    \subitem {Edge}, \hyperpage{3}
-    \subitem {Sec\discretionary {-}{}{}End}, \hyperpage{3}
-    \subitem {Weight}, \hyperpage{3}
+    \subitem {Edge}, \hyperpage{4}
+    \subitem {Sec\discretionary {-}{}{}End}, \hyperpage{4}
+    \subitem {Weight}, \hyperpage{4}
+
+  \indexspace
+
+  \item {H}
+    \subitem {Vert\discretionary {-}{}{}Struct}, \hyperpage{7}
 
   \indexspace
 
   \item {If\discretionary {-}{}{}Connected}
     \subitem {Graph}, \hyperpage{5}
   \item {Implementation}
-    \subitem {benchmark.\discretionary {-}{}{}hh}, \hyperpage{6}
+    \subitem {benchmark.\discretionary {-}{}{}hh}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Less\discretionary {-}{}{}F}, \hyperpage{6}
+    \subitem {operator()}, \hyperpage{6}
 
   \indexspace
 
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{7}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{7}
-    \subitem {main}, \hyperpage{7}
-  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{7}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{9}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{8}
+    \subitem {main}, \hyperpage{9}
+  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{9}
 
   \indexspace
 
@@ -99,33 +124,56 @@
 
   \indexspace
 
+  \item {operator()}
+    \subitem {Less\discretionary {-}{}{}F}, \hyperpage{6}
+
+  \indexspace
+
   \item {Remove\discretionary {-}{}{}Edge}
     \subitem {Graph}, \hyperpage{5}
   \item {Remove\discretionary {-}{}{}Vert}
-    \subitem {Graph}, \hyperpage{5}
+    \subitem {Graph}, \hyperpage{6}
 
   \indexspace
 
   \item {Sample\discretionary {-}{}{}Graph}
-    \subitem {Benchmark}, \hyperpage{2}
-  \item {search.\discretionary {-}{}{}cpp}, \hyperpage{7}
+    \subitem {Benchmark}, \hyperpage{3}
+  \item {search.\discretionary {-}{}{}cpp}, \hyperpage{9}
+    \subitem {A\discretionary {-}{}{}Star}, \hyperpage{9}
     \subitem {B\discretionary {-}{}{}F\discretionary {-}{}{}S}, 
-		\hyperpage{8}
+		\hyperpage{10}
     \subitem {D\discretionary {-}{}{}F\discretionary {-}{}{}S}, 
-		\hyperpage{8}
-  \item {search.\discretionary {-}{}{}hh}, \hyperpage{8}
+		\hyperpage{10}
+  \item {search.\discretionary {-}{}{}hh}, \hyperpage{10}
+    \subitem {A\discretionary {-}{}{}Star}, \hyperpage{10}
     \subitem {B\discretionary {-}{}{}F\discretionary {-}{}{}S}, 
-		\hyperpage{8}
+		\hyperpage{11}
     \subitem {D\discretionary {-}{}{}F\discretionary {-}{}{}S}, 
-		\hyperpage{9}
+		\hyperpage{11}
   \item {Sec\discretionary {-}{}{}End}
     \subitem {Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
-		\hyperpage{3}
+		\hyperpage{4}
+  \item {Side}
+    \subitem {Benchmark}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Value}
+    \subitem {Vert\discretionary {-}{}{}Struct}, \hyperpage{7}
+  \item {Vert\discretionary {-}{}{}Struct}, \hyperpage{6}
+    \subitem {F}, \hyperpage{7}
+    \subitem {G}, \hyperpage{7}
+    \subitem {H}, \hyperpage{7}
+    \subitem {Value}, \hyperpage{7}
+    \subitem {Vert\discretionary {-}{}{}Struct}, \hyperpage{7}
+    \subitem {Vert\discretionary {-}{}{}Struct}, \hyperpage{7}
+  \item {Vertices}
+    \subitem {Benchmark}, \hyperpage{3}
 
   \indexspace
 
   \item {Weight}
     \subitem {Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}, 
-		\hyperpage{3}
+		\hyperpage{4}
 
 \end{theindex}

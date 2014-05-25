@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Przeszukiwania grafu", "index.html", [
+  [ "Przeszukiwania grafów", "index.html", [
     [ "Graf nieskierowany z wagami", "index.html", [
       [ "Opis programu", "index.html#description", null ],
       [ "Autor", "index.html#author", null ]

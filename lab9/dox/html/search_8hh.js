@@ -1,5 +1,6 @@
 var search_8hh =
 [
-    [ "BFS", "search_8hh.html#a67afeeedd15ebf23678eeb3c3903aba0", null ],
-    [ "DFS", "search_8hh.html#a55749605cda716959efc73db1ff4705b", null ]
+    [ "AStar", "search_8hh.html#ac1e3c167799b62e498e9e8e8297e43db", null ],
+    [ "BFS", "search_8hh.html#a33ed6e24533839b860c5f0597a6fd03a", null ],
+    [ "DFS", "search_8hh.html#a4d4adbe64a2a6393322678a74016d601", null ]
 ];

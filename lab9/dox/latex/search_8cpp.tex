@@ -10,26 +10,64 @@ Plik zawierający funkcje przeszukujące graf wszerz oraz w głąb.
 {\ttfamily \#include $<$map$>$}\\*
 {\ttfamily \#include $<$queue$>$}\\*
 {\ttfamily \#include $<$stack$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$algorithm$>$}\\*
+\subsubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_vert_struct}{Vert\-Struct}
+\begin{DoxyCompactList}\small\item\em Struktura pomocnicza do użycia przez algorytm A$\ast$. \end{DoxyCompactList}\item 
+struct \hyperlink{struct_less_f}{Less\-F}
+\begin{DoxyCompactList}\small\item\em Struktura pomocnicza do użycia przez algorytm A$\ast$. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsubsection*{Funkcje}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{search_8cpp_a55749605cda716959efc73db1ff4705b}{D\-F\-S} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$Ptr)
+void \hyperlink{search_8cpp_a4d4adbe64a2a6393322678a74016d601}{D\-F\-S} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$Ptr, int Start, int End)
 \begin{DoxyCompactList}\small\item\em Przeszukiwanie grafu w głąb. \end{DoxyCompactList}\item 
-void \hyperlink{search_8cpp_a67afeeedd15ebf23678eeb3c3903aba0}{B\-F\-S} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$Ptr)
-\begin{DoxyCompactList}\small\item\em Przeszukiwanie grafu wszerz. \end{DoxyCompactList}\end{DoxyCompactItemize}
+void \hyperlink{search_8cpp_a5e55103bf2465b80a41ac041a6b0bd14}{B\-F\-S} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$Ptr, int Start, int End)
+\begin{DoxyCompactList}\small\item\em Przeszukiwanie grafu wszerz. \end{DoxyCompactList}\item 
+void \hyperlink{search_8cpp_ac1e3c167799b62e498e9e8e8297e43db}{A\-Star} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$Ptr, int Start, int End, int Side)
+\begin{DoxyCompactList}\small\item\em Wyszukiwanie najkrótszej ścieżki -\/ A$\ast$. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsubsection{Opis szczegółowy}
 Plik zawierający funkcje przeszukujące graf wszerz oraz w głąb. 
 
 \subsubsection{Dokumentacja funkcji}
-\hypertarget{search_8cpp_a67afeeedd15ebf23678eeb3c3903aba0}{\index{search.\-cpp@{search.\-cpp}!B\-F\-S@{B\-F\-S}}
+\hypertarget{search_8cpp_ac1e3c167799b62e498e9e8e8297e43db}{\index{search.\-cpp@{search.\-cpp}!A\-Star@{A\-Star}}
+\index{A\-Star@{A\-Star}!search.cpp@{search.\-cpp}}
+\paragraph[{A\-Star}]{\setlength{\rightskip}{0pt plus 5cm}void A\-Star (
+\begin{DoxyParamCaption}
+\item[{{\bf Graph}$<$ int $>$ $\ast$}]{Ptr, }
+\item[{int}]{Start, }
+\item[{int}]{End, }
+\item[{int}]{Side}
+\end{DoxyParamCaption}
+)}}\label{search_8cpp_ac1e3c167799b62e498e9e8e8297e43db}
+
+
+Wyszukiwanie najkrótszej ścieżki -\/ A$\ast$. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em Ptr} & wskaźnik na przeszukiwany graf \\
+\hline
+{\em Side} & liczba wierzchołków przypadająca na bok planszy \\
+\hline
+{\em Start} & wierzchołek początkowy \\
+\hline
+{\em End} & wierzchołek końcowy \\
+\hline
+\end{DoxyParams}
+\hypertarget{search_8cpp_a5e55103bf2465b80a41ac041a6b0bd14}{\index{search.\-cpp@{search.\-cpp}!B\-F\-S@{B\-F\-S}}
 \index{B\-F\-S@{B\-F\-S}!search.cpp@{search.\-cpp}}
 \paragraph[{B\-F\-S}]{\setlength{\rightskip}{0pt plus 5cm}void B\-F\-S (
 \begin{DoxyParamCaption}
-\item[{{\bf Graph}$<$ int $>$ $\ast$}]{Ptr}
+\item[{{\bf Graph}$<$ int $>$ $\ast$}]{Ptr, }
+\item[{int}]{Start, }
+\item[{int}]{end}
 \end{DoxyParamCaption}
-)}}\label{search_8cpp_a67afeeedd15ebf23678eeb3c3903aba0}
+)}}\label{search_8cpp_a5e55103bf2465b80a41ac041a6b0bd14}
 
 
 Przeszukiwanie grafu wszerz. 
@@ -38,14 +76,20 @@ Przeszukiwanie grafu wszerz.
 \begin{DoxyParams}{Parametry}
 {\em Ptr} & wskaźnik na przeszukiwany graf \\
 \hline
+{\em Start} & wierzchołek początkowy \\
+\hline
+{\em End} & wierzchołek końcowy \\
+\hline
 \end{DoxyParams}
-\hypertarget{search_8cpp_a55749605cda716959efc73db1ff4705b}{\index{search.\-cpp@{search.\-cpp}!D\-F\-S@{D\-F\-S}}
+\hypertarget{search_8cpp_a4d4adbe64a2a6393322678a74016d601}{\index{search.\-cpp@{search.\-cpp}!D\-F\-S@{D\-F\-S}}
 \index{D\-F\-S@{D\-F\-S}!search.cpp@{search.\-cpp}}
 \paragraph[{D\-F\-S}]{\setlength{\rightskip}{0pt plus 5cm}void D\-F\-S (
 \begin{DoxyParamCaption}
-\item[{{\bf Graph}$<$ int $>$ $\ast$}]{Ptr}
+\item[{{\bf Graph}$<$ int $>$ $\ast$}]{Ptr, }
+\item[{int}]{Start, }
+\item[{int}]{End}
 \end{DoxyParamCaption}
-)}}\label{search_8cpp_a55749605cda716959efc73db1ff4705b}
+)}}\label{search_8cpp_a4d4adbe64a2a6393322678a74016d601}
 
 
 Przeszukiwanie grafu w głąb. 
@@ -53,5 +97,9 @@ Przeszukiwanie grafu w głąb.
 
 \begin{DoxyParams}{Parametry}
 {\em Ptr} & wskaźnik na przeszukiwany graf \\
+\hline
+{\em Start} & wierzchołek początkowy \\
+\hline
+{\em End} & wierzchołek końcowy \\
 \hline
 \end{DoxyParams}
