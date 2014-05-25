@@ -1,0 +1,174 @@
+\hypertarget{class_hash}{\subsection{Dokumentacja szablonu klasy Hash$<$ Value $>$}
+\label{class_hash}\index{Hash$<$ Value $>$@{Hash$<$ Value $>$}}
+}
+
+
+Szablon klasy \hyperlink{class_hash}{Hash}.  
+
+
+
+
+{\ttfamily \#include $<$hash.\-hh$>$}
+
+\subsubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_hash_1_1_pair}{Pair}
+\end{DoxyCompactItemize}
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_hash_a676da4ca6e3a3cd3ca09fe3952354f7a}{Hash} (const unsigned int problem\-Size)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \hyperlink{class_hash}{Hash}. \end{DoxyCompactList}\item 
+void \hyperlink{class_hash_af814288cbf21f27c8c7a7a7c23b7226b}{Add} (const std\-::string \&key, const Value \&value)
+\begin{DoxyCompactList}\small\item\em Funkcja dodająca parę klucz-\/wartość do tablicy. \end{DoxyCompactList}\item 
+int \hyperlink{class_hash_a955fb594f7fcbbbd4628676ac85b6f8c}{Size} () const 
+\begin{DoxyCompactList}\small\item\em Funkcja zwraca ilość par klucz-\/wartość \end{DoxyCompactList}\item 
+bool \hyperlink{class_hash_a37a5220a607118cef8ab39c71451aac7}{Empty} () const 
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca, czy tablica jest pusta. \end{DoxyCompactList}\item 
+Value \& \hyperlink{class_hash_a6b08c6a3d82a57af2bc6328398594226}{operator\mbox{[}$\,$\mbox{]}} (const std\-::string \&key)
+\begin{DoxyCompactList}\small\item\em Operator indeksujący tablicę \end{DoxyCompactList}\item 
+const Value \& \hyperlink{class_hash_a12db087ef9fd704ba292691ae4b32a2a}{operator\mbox{[}$\,$\mbox{]}} (const std\-::string \&key) const 
+\end{DoxyCompactItemize}
+\subsubsection*{Statyczne metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+static unsigned long \hyperlink{class_hash_ab455fb4238b41e7b54490af604776512}{hash} (const std\-::string \&key)
+\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_hash_a0f03c3a895fe6336499844f75c6ec47e}{current\-Size}
+\item 
+std\-::vector$<$ std\-::list$<$ \hyperlink{struct_hash_1_1_pair}{Pair} $>$ $>$ \hyperlink{class_hash_a7b9b2d05e24652dff58301e63249c9cd}{arr}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$class Value$>$class Hash$<$ Value $>$}
+
+Szablon klasy \hyperlink{class_hash}{Hash}. 
+
+Definiuje funkcje pozwalające na wykonywanie operacji na tablicy asocjacyjnej stworzonej na tablicy haszującej. Tablica ta przechowuje dane indeksowane unikatowymi kluczami typu string (ze standardowej biblioteki) 
+\begin{DoxyParams}{Parametry}
+{\em Value} & typ wartości przechowywanych danych \\
+\hline
+\end{DoxyParams}
+
+
+\subsubsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_hash_a676da4ca6e3a3cd3ca09fe3952354f7a}{\index{Hash@{Hash}!Hash@{Hash}}
+\index{Hash@{Hash}!Hash@{Hash}}
+\paragraph[{Hash}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ {\bf Hash}$<$ Value $>$\-::{\bf Hash} (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{problem\-Size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_hash_a676da4ca6e3a3cd3ca09fe3952354f7a}
+
+
+Konstruktor klasy \hyperlink{class_hash}{Hash}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em problem\-Size} & docelowy rozmiar problemu \\
+\hline
+\end{DoxyParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_hash_af814288cbf21f27c8c7a7a7c23b7226b}{\index{Hash@{Hash}!Add@{Add}}
+\index{Add@{Add}!Hash@{Hash}}
+\paragraph[{Add}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ void {\bf Hash}$<$ Value $>$\-::Add (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key, }
+\item[{const Value \&}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_hash_af814288cbf21f27c8c7a7a7c23b7226b}
+
+
+Funkcja dodająca parę klucz-\/wartość do tablicy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em value} & wartość dla dodawanego klucza \\
+\hline
+{\em key} & unikatowy klucz, do którego przypisujemy wartość \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_hash_a37a5220a607118cef8ab39c71451aac7}{\index{Hash@{Hash}!Empty@{Empty}}
+\index{Empty@{Empty}!Hash@{Hash}}
+\paragraph[{Empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ bool {\bf Hash}$<$ Value $>$\-::Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_hash_a37a5220a607118cef8ab39c71451aac7}
+
+
+Funkcja sprawdzająca, czy tablica jest pusta. 
+
+\begin{DoxyReturn}{Zwraca}
+true jeśli tablica jest pusta 
+
+false jeśli na tablicy są jakieś pary klucz-\/wartość 
+\end{DoxyReturn}
+\hypertarget{class_hash_ab455fb4238b41e7b54490af604776512}{\index{Hash@{Hash}!hash@{hash}}
+\index{hash@{hash}!Hash@{Hash}}
+\paragraph[{hash}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ unsigned long {\bf Hash}$<$ Value $>$\-::hash (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{class_hash_ab455fb4238b41e7b54490af604776512}
+\hypertarget{class_hash_a6b08c6a3d82a57af2bc6328398594226}{\index{Hash@{Hash}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Hash@{Hash}}
+\paragraph[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ Value \& {\bf Hash}$<$ Value $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_hash_a6b08c6a3d82a57af2bc6328398594226}
+
+
+Operator indeksujący tablicę 
+
+
+\begin{DoxyParams}{Parametry}
+{\em key} & klucz wybranego elementu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+referencja na wybrany element 
+\end{DoxyReturn}
+\hypertarget{class_hash_a12db087ef9fd704ba292691ae4b32a2a}{\index{Hash@{Hash}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Hash@{Hash}}
+\paragraph[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value $>$ const Value \& {\bf Hash}$<$ Value $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{key}
+\end{DoxyParamCaption}
+) const}}\label{class_hash_a12db087ef9fd704ba292691ae4b32a2a}
+\hypertarget{class_hash_a955fb594f7fcbbbd4628676ac85b6f8c}{\index{Hash@{Hash}!Size@{Size}}
+\index{Size@{Size}!Hash@{Hash}}
+\paragraph[{Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ int {\bf Hash}$<$ Value $>$\-::Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_hash_a955fb594f7fcbbbd4628676ac85b6f8c}
+
+
+Funkcja zwraca ilość par klucz-\/wartość 
+
+\begin{DoxyReturn}{Zwraca}
+aktualny rozmiar tablicy 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_hash_a7b9b2d05e24652dff58301e63249c9cd}{\index{Hash@{Hash}!arr@{arr}}
+\index{arr@{arr}!Hash@{Hash}}
+\paragraph[{arr}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ std\-::vector$<$std\-::list$<${\bf Pair}$>$ $>$ {\bf Hash}$<$ Value $>$\-::arr\hspace{0.3cm}{\ttfamily [private]}}}\label{class_hash_a7b9b2d05e24652dff58301e63249c9cd}
+\hypertarget{class_hash_a0f03c3a895fe6336499844f75c6ec47e}{\index{Hash@{Hash}!current\-Size@{current\-Size}}
+\index{current\-Size@{current\-Size}!Hash@{Hash}}
+\paragraph[{current\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Value$>$ unsigned int {\bf Hash}$<$ Value $>$\-::current\-Size\hspace{0.3cm}{\ttfamily [private]}}}\label{class_hash_a0f03c3a895fe6336499844f75c6ec47e}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{hash_8hh}{hash.\-hh}\end{DoxyCompactItemize}

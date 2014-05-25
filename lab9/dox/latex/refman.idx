@@ -1,0 +1,60 @@
+\indexentry{Benchmark@{Benchmark}|hyperpage}{2}
+\indexentry{Benchmark@{Benchmark}!benchmark@{benchmark}|hyperpage}{2}
+\indexentry{benchmark@{benchmark}!Benchmark@{Benchmark}|hyperpage}{2}
+\indexentry{Benchmark@{Benchmark}!calculate@{calculate}|hyperpage}{2}
+\indexentry{calculate@{calculate}!Benchmark@{Benchmark}|hyperpage}{2}
+\indexentry{Benchmark@{Benchmark}!Get\discretionary {-}{}{}Edges@{Get\discretionary {-}{}{}Edges}|hyperpage}{2}
+\indexentry{Get\discretionary {-}{}{}Edges@{Get\discretionary {-}{}{}Edges}!Benchmark@{Benchmark}|hyperpage}{2}
+\indexentry{Benchmark@{Benchmark}!Sample\discretionary {-}{}{}Graph@{Sample\discretionary {-}{}{}Graph}|hyperpage}{3}
+\indexentry{Sample\discretionary {-}{}{}Graph@{Sample\discretionary {-}{}{}Graph}!Benchmark@{Benchmark}|hyperpage}{3}
+\indexentry{Benchmark@{Benchmark}!bench\discretionary {-}{}{}Graph@{bench\discretionary {-}{}{}Graph}|hyperpage}{3}
+\indexentry{bench\discretionary {-}{}{}Graph@{bench\discretionary {-}{}{}Graph}!Benchmark@{Benchmark}|hyperpage}{3}
+\indexentry{Benchmark@{Benchmark}!Edges@{Edges}|hyperpage}{3}
+\indexentry{Edges@{Edges}!Benchmark@{Benchmark}|hyperpage}{3}
+\indexentry{Graph$<$ Type $>$\discretionary {-}{}{}::\discretionary {-}{}{}Edge@{Graph$<$ Type $>$\discretionary {-}{}{}::\discretionary {-}{}{}Edge}|hyperpage}{3}
+\indexentry{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge@{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}!Edge@{Edge}|hyperpage}{3}
+\indexentry{Edge@{Edge}!Graph::Edge@{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}|hyperpage}{3}
+\indexentry{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge@{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}!Sec\discretionary {-}{}{}End@{Sec\discretionary {-}{}{}End}|hyperpage}{3}
+\indexentry{Sec\discretionary {-}{}{}End@{Sec\discretionary {-}{}{}End}!Graph::Edge@{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}|hyperpage}{3}
+\indexentry{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge@{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}!Weight@{Weight}|hyperpage}{3}
+\indexentry{Weight@{Weight}!Graph::Edge@{Graph\discretionary {-}{}{}::\discretionary {-}{}{}Edge}|hyperpage}{3}
+\indexentry{Graph$<$ Type $>$@{Graph$<$ Type $>$}|hyperpage}{3}
+\indexentry{Graph@{Graph}!Edge\discretionary {-}{}{}S@{Edge\discretionary {-}{}{}S}|hyperpage}{4}
+\indexentry{Edge\discretionary {-}{}{}S@{Edge\discretionary {-}{}{}S}!Graph@{Graph}|hyperpage}{4}
+\indexentry{Graph@{Graph}!Add\discretionary {-}{}{}Edge@{Add\discretionary {-}{}{}Edge}|hyperpage}{4}
+\indexentry{Add\discretionary {-}{}{}Edge@{Add\discretionary {-}{}{}Edge}!Graph@{Graph}|hyperpage}{4}
+\indexentry{Graph@{Graph}!Add\discretionary {-}{}{}Vert@{Add\discretionary {-}{}{}Vert}|hyperpage}{4}
+\indexentry{Add\discretionary {-}{}{}Vert@{Add\discretionary {-}{}{}Vert}!Graph@{Graph}|hyperpage}{4}
+\indexentry{Graph@{Graph}!If\discretionary {-}{}{}Connected@{If\discretionary {-}{}{}Connected}|hyperpage}{5}
+\indexentry{If\discretionary {-}{}{}Connected@{If\discretionary {-}{}{}Connected}!Graph@{Graph}|hyperpage}{5}
+\indexentry{Graph@{Graph}!Neighbors@{Neighbors}|hyperpage}{5}
+\indexentry{Neighbors@{Neighbors}!Graph@{Graph}|hyperpage}{5}
+\indexentry{Graph@{Graph}!Remove\discretionary {-}{}{}Edge@{Remove\discretionary {-}{}{}Edge}|hyperpage}{5}
+\indexentry{Remove\discretionary {-}{}{}Edge@{Remove\discretionary {-}{}{}Edge}!Graph@{Graph}|hyperpage}{5}
+\indexentry{Graph@{Graph}!Remove\discretionary {-}{}{}Vert@{Remove\discretionary {-}{}{}Vert}|hyperpage}{5}
+\indexentry{Remove\discretionary {-}{}{}Vert@{Remove\discretionary {-}{}{}Vert}!Graph@{Graph}|hyperpage}{5}
+\indexentry{Graph@{Graph}!graph@{graph}|hyperpage}{5}
+\indexentry{graph@{graph}!Graph@{Graph}|hyperpage}{5}
+\indexentry{benchmark.\discretionary {-}{}{}cpp@{benchmark.\discretionary {-}{}{}cpp}|hyperpage}{6}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{6}
+\indexentry{benchmark.\discretionary {-}{}{}hh@{benchmark.\discretionary {-}{}{}hh}!Implementation@{Implementation}|hyperpage}{6}
+\indexentry{Implementation@{Implementation}!benchmark.hh@{benchmark.\discretionary {-}{}{}hh}|hyperpage}{6}
+\indexentry{bfs@{bfs}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{6}
+\indexentry{benchmark.\-hh@{benchmark.\-hh}!bfs@{bfs}|hyperpage}{6}
+\indexentry{dfs@{dfs}!benchmark.\-hh@{benchmark.\-hh}|hyperpage}{6}
+\indexentry{benchmark.\-hh@{benchmark.\-hh}!dfs@{dfs}|hyperpage}{6}
+\indexentry{graph.\discretionary {-}{}{}hh@{graph.\discretionary {-}{}{}hh}|hyperpage}{6}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{7}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{7}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{7}
+\indexentry{mainpage.\discretionary {-}{}{}dox@{mainpage.\discretionary {-}{}{}dox}|hyperpage}{7}
+\indexentry{search.\discretionary {-}{}{}cpp@{search.\discretionary {-}{}{}cpp}|hyperpage}{7}
+\indexentry{search.\discretionary {-}{}{}cpp@{search.\discretionary {-}{}{}cpp}!B\discretionary {-}{}{}F\discretionary {-}{}{}S@{B\discretionary {-}{}{}F\discretionary {-}{}{}S}|hyperpage}{8}
+\indexentry{B\discretionary {-}{}{}F\discretionary {-}{}{}S@{B\discretionary {-}{}{}F\discretionary {-}{}{}S}!search.cpp@{search.\discretionary {-}{}{}cpp}|hyperpage}{8}
+\indexentry{search.\discretionary {-}{}{}cpp@{search.\discretionary {-}{}{}cpp}!D\discretionary {-}{}{}F\discretionary {-}{}{}S@{D\discretionary {-}{}{}F\discretionary {-}{}{}S}|hyperpage}{8}
+\indexentry{D\discretionary {-}{}{}F\discretionary {-}{}{}S@{D\discretionary {-}{}{}F\discretionary {-}{}{}S}!search.cpp@{search.\discretionary {-}{}{}cpp}|hyperpage}{8}
+\indexentry{search.\discretionary {-}{}{}hh@{search.\discretionary {-}{}{}hh}|hyperpage}{8}
+\indexentry{search.\discretionary {-}{}{}hh@{search.\discretionary {-}{}{}hh}!B\discretionary {-}{}{}F\discretionary {-}{}{}S@{B\discretionary {-}{}{}F\discretionary {-}{}{}S}|hyperpage}{8}
+\indexentry{B\discretionary {-}{}{}F\discretionary {-}{}{}S@{B\discretionary {-}{}{}F\discretionary {-}{}{}S}!search.hh@{search.\discretionary {-}{}{}hh}|hyperpage}{8}
+\indexentry{search.\discretionary {-}{}{}hh@{search.\discretionary {-}{}{}hh}!D\discretionary {-}{}{}F\discretionary {-}{}{}S@{D\discretionary {-}{}{}F\discretionary {-}{}{}S}|hyperpage}{9}
+\indexentry{D\discretionary {-}{}{}F\discretionary {-}{}{}S@{D\discretionary {-}{}{}F\discretionary {-}{}{}S}!search.hh@{search.\discretionary {-}{}{}hh}|hyperpage}{9}
