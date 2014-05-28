@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>Przeszukiwania grafów: Plik źródłowy benchmark.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Przeszukiwania grafów
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.4 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('benchmark_8hh_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">benchmark.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="benchmark_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef BENCHMARK_HH</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define BENCHMARK_HH</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="graph_8hh.html">graph.hh</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191">   14</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191" title="Typ danych przechowujacy rodzaj wyszukiwania. ">Implementation</a> { <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191a959b45298972c58c8cea0f81e9d04495">bfs</a>, <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191a1a01e4a8f21847034cc98ab41323694d">dfs</a>, <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191a12e7a8c530c6893fc3b6945d10dc94fe">astar</a> };</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="code" href="class_benchmark.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_benchmark.html" title="Definicja klasy Benchmark. ">Benchmark</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="class_benchmark.html#a94bdf26f3509801d37d3f06fa6c745d8">   25</a></span>&#160;    <a class="code" href="class_graph.html">Graph&lt;int&gt;</a> <a class="code" href="class_benchmark.html#a94bdf26f3509801d37d3f06fa6c745d8">benchGraph</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="class_benchmark.html#ab3f9d026bf9452eeda561157747acff4">   26</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_benchmark.html#afe068c6eb3c6971dd0d823deccc822fa">Edges</a>, <a class="code" href="class_benchmark.html#ab3f9d026bf9452eeda561157747acff4">Vertices</a>, <a class="code" href="class_benchmark.html#a3d768cdb391522a3796b8467bb4d3e25">Side</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_benchmark.html#a7605d948d3931f722e50dcda55475860">calculate</a>(<a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191" title="Typ danych przechowujacy rodzaj wyszukiwania. ">Implementation</a> Type);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_benchmark.html#a57c68b02b4ba13025b215015e15cc5d5" title="Funkcja mierzaca czas wykonywania algorytmu przeszukiwania grafu. ">benchmark</a>(<span class="keywordtype">int</span> noIteration, <a class="code" href="benchmark_8hh.html#a9107acb389f0886054bea6298a73e191" title="Typ danych przechowujacy rodzaj wyszukiwania. ">Implementation</a> Type);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_benchmark.html#adbc1291287334b25aca2ee3c1bc0eca5" title="Funkcja wypełniając graf testowymi danymi. ">SampleGraph</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> VertCount);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="class_benchmark.html#a5b1abbabfe55827274ad0c90c772530d">   48</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_benchmark.html#a5b1abbabfe55827274ad0c90c772530d" title="Funkcja pobierająca ilość krawędzi w grafie. ">GetEdges</a>()</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_benchmark.html#afe068c6eb3c6971dd0d823deccc822fa">Edges</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* BENCHMARK_HH_ */</span><span class="preprocessor"></span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li><li class="navelem"><a class="el" href="benchmark_8hh.html">benchmark.hh</a></li>
+    <li class="footer">Wygenerowano Pn, 26 maj 2014 00:53:40 dla Przeszukiwania grafów programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
+  </ul>
+</div>
+</body>
+</html>

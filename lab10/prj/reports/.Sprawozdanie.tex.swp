@@ -1,0 +1,121 @@
+\documentclass{mwart} 
+\usepackage[polish]{babel} 
+\usepackage[utf8]{inputenc} 
+\usepackage{polski} 
+\usepackage[T1]{fontenc} 
+\usepackage{graphicx}
+
+\usepackage[margin=1cm]{geometry}
+
+
+
+
+\frenchspacing 
+
+\usepackage{indentfirst} 
+\title{\Huge{Sprawozdanie z laboratorium nr 10\\
+Problem Plecakowy }}
+\author{Agnieszka Wiśniewska, nr albumu: 200466}
+
+\begin{document}
+
+\maketitle
+
+\section{Wprowadzenie}
+Problem plecakowy jest to często poruszany problem optymalizacyjny. Jego idea polega na tym, by dobrać elementy tak, aby zmieścić do "plecaka" o jak największej wartości sumarycznej. Elementy należy dobrać tak, by suma ich wartości była możliwie jak największa, a ich masa była niewiększa niż zadana pojemność "plecaka". Zastosowany algorytm sortuje elementy w kolejności malejącej porównując stosunek wartości do wagi elementu $h_j = \frac{c_j}{w_j}$. Następnie wstawia je kolejno zaczynając od przedmiotu o największym ilorazie do plecaka. Jeśli jakiś element nie mieści się w plecaku to jest omijany, a algorytm przechodzi do następnego. W algorytmie wybierany jest maksymalny wynik z tak obliczonego upakowania plecaka oraz plecaka z elementem o największej wartości.
+
+\section{Przykład nr 1}
+\hspace{.1cm}Użytkownik planuje się wybrać w podróż samolotem. Chciałby zabrać jak najwięcej przedmiotów z listy 1, aby je później sprzedać. Liczy się dla niego by ich wartość była jak największa. Podróżny może zabrać 22 kg bagażu z czego 2 kg waży walizka. Algorytm wybiera dla niego przedmioty, których stosunek wartości do wagi jest największy i pakuje je do walizki aż do zapełnienia.
+\begin{table}[h]
+\centering
+\begin{tabular}{lllll}
+\textbf{Nazwa}   & \textbf{Waga (g)} & \textbf{Wartość (\$)} & \\
+Objekt1  & 10    & 100 &  &  \\
+Objekt2  & 6187  & 45  &  &  \\
+Objekt3  & 7499  & 495 &  &  \\
+Objekt4  & 10084 & 95  &  &  \\
+Objekt5  & 9361  & 407 &  &  \\
+Objekt6  & 1066  & 491 &  &  \\
+Objekt7  & 1088  & 274 &  &  \\
+Objekt8  & 8105  & 165 &  &  \\
+Objekt9  & 3255  & 441 &  &  \\
+Objekt10 & 2222  & 69  &  &  \\
+Objekt11 & 8417  & 431 &  &  \\
+Objekt12 & 4904  & 176 &  &  \\
+Objekt13 & 10744 & 99  &  &  \\
+Objekt14 & 11219 & 206 &  &  \\
+Objekt15 & 4990  & 399 &  &  \\
+Objekt16 & 843   & 153 &  &  \\
+Objekt17 & 7892  & 475 &  &  \\
+Objekt18 & 10221 & 422 &  &  \\
+Objekt19 & 9213  & 458 &  &  \\
+Objekt20 & 5629  & 197 &  & 
+\end{tabular}
+\caption{Lista przedmiotów}
+\label{table:tab1}
+\end{table}
+
+Wynik działania algorytmu: 
+\begin{itemize}
+\item{Wykorzystana masa: 19,889 z 20 kg (99,4\%)}
+\item{Wartość wstawionych przedmiotów: 1280\$ (wartość wszystkich przedmiotów to 5245 \$, czyli 24,4\%}
+\item{Wstawiono 5 z 20 przedmiotów.}
+\end{itemize}
+
+\newpage
+\section{Przykład nr 2}
+Drugi przykład nie jest dostosowany do każdego problemu, służy jedynie pokazaniu skuteczności działania algorytmu w przypadku dużej ilości danych. Pojemność "walizki" wynosi w tym przypadku 6404180, a dane zostały przedstawione w tabeli 2.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\textbf{Nazwa}    & \textbf{Waga} & \textbf{Wartość}  \\
+Objekt1  & 382745 & 825594  \\
+Objekt2  & 799601 & 1677009 \\
+Objekt3  & 909247 & 1676628 \\
+Objekt4  & 729069 & 1523970 \\
+Objekt5  & 467902 & 943972  \\
+Objekt6  & 44328  & 97426   \\
+Objekt7  & 34610  & 69666   \\
+Objekt8  & 698150 & 1296457 \\
+Objekt9  & 823460 & 1679693 \\
+Objekt10 & 903959 & 1902996 \\
+Objekt11 & 853665 & 1844992 \\
+Objekt12 & 551830 & 1049289 \\
+Objekt13 & 610856 & 1252836 \\
+Objekt14 & 670702 & 1319836 \\
+Objekt15 & 488960 & 953277  \\
+Objekt16 & 951111 & 2067538 \\
+Objekt17 & 323046 & 675367  \\
+Objekt18 & 446298 & 853655  \\
+Objekt19 & 931161 & 1826027 \\
+Objekt20 & 31385  & 65731   \\
+Obiekt21 & 496951 & 901489  \\
+Obiekt22 & 264724 & 577243  \\
+Obiekt23 & 224916 & 466257  \\
+Obiekt24 & 169684 & 369261 
+\end{tabular}
+\caption{Lista przedmiotów}
+\label{table:tab2}
+\end{table}
+
+Wynik działania algorytmu: 
+\begin{itemize}
+\item{Wykorzystana masa: 6086391 z 6404180 (95\%)}
+\item{Wartość wstawionych przedmiotów: 12838572\$ (wartość wszystkich przedmiotów to 25916209 \$, czyli 49,5\%}
+\item{Wstawiono 14 z 24 przedmiotów.}
+\item{Optymalny zysk dla takiej pojemności to 13549094, jest on zaledwie o 5,5\% wyższy od otrzymanego}
+\end{itemize}
+
+\section{Podsumowanie i wnioski}
+\begin{itemize}
+\item Zastosowany algorytm działa prawidłowo z założeniami - do "plecaka" pakowane są rzeczy od najbardziej wartościowych do tych o najmniejszej wartości, dopóki przestrzeń nie zostanie maksymalnie wykorzystana.
+\item Działanie algorytmu jest bliskie optymalnemu rozwiązaniu (odbiega od niego zaledwie o 5,5 \%). 
+
+
+\end{itemize}
+
+
+
+
+\end{document}

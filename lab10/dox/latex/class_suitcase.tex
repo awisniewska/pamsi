@@ -1,0 +1,135 @@
+\hypertarget{class_suitcase}{\subsection{Dokumentacja klasy Suitcase}
+\label{class_suitcase}\index{Suitcase@{Suitcase}}
+}
+
+
+{\ttfamily \#include $<$suitcase.\-hh$>$}
+
+Diagram dziedziczenia dla Suitcase\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_suitcase}
+\end{center}
+\end{figure}
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_suitcase_a26538ae7fc5924073ccd21981c4e2ee3}{Suitcase} (int i\-Weight\-Limit)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \hyperlink{class_suitcase}{Suitcase}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_suitcase_af79ee9b926fd7043d67cf8d80d872371}{Put\-In} (const \hyperlink{class_item}{Item} item)
+\begin{DoxyCompactList}\small\item\em Funkcja dodająca przedmiot do walizki. \end{DoxyCompactList}\item 
+int \hyperlink{class_suitcase_a7b48ae73ae1f9a08a9c17d0a1df02bd6}{Weight\-Left} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca pozsotałą masę do wypełnienia walizki. \end{DoxyCompactList}\item 
+void \hyperlink{class_suitcase_ad671edca529a637145bfa2de1f491373}{Clear} ()
+\begin{DoxyCompactList}\small\item\em Funkcja opróżniająca walizkę \end{DoxyCompactList}\item 
+int \hyperlink{class_suitcase_a7a35f87239170b275518f2e4211fbbb7}{Worth} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zwracająca wartość przedmiotów znajdujących się w walizce. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_suitcase_a7bc04635b9636279709ad3ff1f2281bd}{Weight\-Limit}
+\item 
+int \hyperlink{class_suitcase_a67dfe88f590b9985b436a813596f22e6}{Act\-Weight}
+\item 
+int \hyperlink{class_suitcase_a38f65d031935c37d82b9813d83accadd}{Act\-Value}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_suitcase_a26538ae7fc5924073ccd21981c4e2ee3}{\index{Suitcase@{Suitcase}!Suitcase@{Suitcase}}
+\index{Suitcase@{Suitcase}!Suitcase@{Suitcase}}
+\paragraph[{Suitcase}]{\setlength{\rightskip}{0pt plus 5cm}Suitcase\-::\-Suitcase (
+\begin{DoxyParamCaption}
+\item[{int}]{i\-Weight\-Limit}
+\end{DoxyParamCaption}
+)}}\label{class_suitcase_a26538ae7fc5924073ccd21981c4e2ee3}
+
+
+Konstruktor klasy \hyperlink{class_suitcase}{Suitcase}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em i\-Weight\-Limit} & maksymalna wartość wagowa \\
+\hline
+\end{DoxyParams}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_suitcase_ad671edca529a637145bfa2de1f491373}{\index{Suitcase@{Suitcase}!Clear@{Clear}}
+\index{Clear@{Clear}!Suitcase@{Suitcase}}
+\paragraph[{Clear}]{\setlength{\rightskip}{0pt plus 5cm}void Suitcase\-::\-Clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_suitcase_ad671edca529a637145bfa2de1f491373}
+
+
+Funkcja opróżniająca walizkę 
+
+\hypertarget{class_suitcase_af79ee9b926fd7043d67cf8d80d872371}{\index{Suitcase@{Suitcase}!Put\-In@{Put\-In}}
+\index{Put\-In@{Put\-In}!Suitcase@{Suitcase}}
+\paragraph[{Put\-In}]{\setlength{\rightskip}{0pt plus 5cm}bool Suitcase\-::\-Put\-In (
+\begin{DoxyParamCaption}
+\item[{const {\bf Item}}]{item}
+\end{DoxyParamCaption}
+)}}\label{class_suitcase_af79ee9b926fd7043d67cf8d80d872371}
+
+
+Funkcja dodająca przedmiot do walizki. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em item} & obiekt klasy \hyperlink{class_item}{Item} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+true , gdy dodano obiekt do walizki 
+
+false , gdy nie można dodać obiektu (np.\-: przekracza pozostałą wagę) 
+\end{DoxyReturn}
+\hypertarget{class_suitcase_a7b48ae73ae1f9a08a9c17d0a1df02bd6}{\index{Suitcase@{Suitcase}!Weight\-Left@{Weight\-Left}}
+\index{Weight\-Left@{Weight\-Left}!Suitcase@{Suitcase}}
+\paragraph[{Weight\-Left}]{\setlength{\rightskip}{0pt plus 5cm}int Suitcase\-::\-Weight\-Left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_suitcase_a7b48ae73ae1f9a08a9c17d0a1df02bd6}
+
+
+Funkcja zwracająca pozsotałą masę do wypełnienia walizki. 
+
+\begin{DoxyReturn}{Zwraca}
+pozostała masa 
+\end{DoxyReturn}
+\hypertarget{class_suitcase_a7a35f87239170b275518f2e4211fbbb7}{\index{Suitcase@{Suitcase}!Worth@{Worth}}
+\index{Worth@{Worth}!Suitcase@{Suitcase}}
+\paragraph[{Worth}]{\setlength{\rightskip}{0pt plus 5cm}int Suitcase\-::\-Worth (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_suitcase_a7a35f87239170b275518f2e4211fbbb7}
+
+
+Funkcja zwracająca wartość przedmiotów znajdujących się w walizce. 
+
+\begin{DoxyReturn}{Zwraca}
+aktualna wartość przedmiotów w walizce 
+\end{DoxyReturn}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_suitcase_a38f65d031935c37d82b9813d83accadd}{\index{Suitcase@{Suitcase}!Act\-Value@{Act\-Value}}
+\index{Act\-Value@{Act\-Value}!Suitcase@{Suitcase}}
+\paragraph[{Act\-Value}]{\setlength{\rightskip}{0pt plus 5cm}int Suitcase\-::\-Act\-Value\hspace{0.3cm}{\ttfamily [private]}}}\label{class_suitcase_a38f65d031935c37d82b9813d83accadd}
+\hypertarget{class_suitcase_a67dfe88f590b9985b436a813596f22e6}{\index{Suitcase@{Suitcase}!Act\-Weight@{Act\-Weight}}
+\index{Act\-Weight@{Act\-Weight}!Suitcase@{Suitcase}}
+\paragraph[{Act\-Weight}]{\setlength{\rightskip}{0pt plus 5cm}int Suitcase\-::\-Act\-Weight\hspace{0.3cm}{\ttfamily [private]}}}\label{class_suitcase_a67dfe88f590b9985b436a813596f22e6}
+\hypertarget{class_suitcase_a7bc04635b9636279709ad3ff1f2281bd}{\index{Suitcase@{Suitcase}!Weight\-Limit@{Weight\-Limit}}
+\index{Weight\-Limit@{Weight\-Limit}!Suitcase@{Suitcase}}
+\paragraph[{Weight\-Limit}]{\setlength{\rightskip}{0pt plus 5cm}int Suitcase\-::\-Weight\-Limit\hspace{0.3cm}{\ttfamily [private]}}}\label{class_suitcase_a7bc04635b9636279709ad3ff1f2281bd}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{suitcase_8hh}{suitcase.\-hh}\item 
+\hyperlink{suitcase_8cpp}{suitcase.\-cpp}\end{DoxyCompactItemize}

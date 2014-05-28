@@ -1,0 +1,105 @@
+\begin{theindex}
+
+  \item {Act\discretionary {-}{}{}Value}
+    \subitem {Suitcase}, \hyperpage{5}
+  \item {Act\discretionary {-}{}{}Weight}
+    \subitem {Suitcase}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Clear}
+    \subitem {Suitcase}, \hyperpage{5}
+  \item {Compare\discretionary {-}{}{}By\discretionary {-}{}{}Value}
+    \subitem {suitcase.\discretionary {-}{}{}cpp}, \hyperpage{7}
+
+  \indexspace
+
+  \item {Get\discretionary {-}{}{}Name}
+    \subitem {Item}, \hyperpage{2}
+  \item {Get\discretionary {-}{}{}Value}
+    \subitem {Item}, \hyperpage{3}
+  \item {Get\discretionary {-}{}{}Value\discretionary {-}{}{}Per\discretionary {-}{}{}Weigt}
+    \subitem {Item}, \hyperpage{3}
+  \item {Get\discretionary {-}{}{}Weight}
+    \subitem {Item}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Item}, \hyperpage{2}
+    \subitem {Get\discretionary {-}{}{}Name}, \hyperpage{2}
+    \subitem {Get\discretionary {-}{}{}Value}, \hyperpage{3}
+    \subitem {Get\discretionary {-}{}{}Value\discretionary {-}{}{}Per\discretionary {-}{}{}Weigt}, 
+		\hyperpage{3}
+    \subitem {Get\discretionary {-}{}{}Weight}, \hyperpage{3}
+    \subitem {Item}, \hyperpage{2}
+    \subitem {Item\discretionary {-}{}{}Name}, \hyperpage{3}
+    \subitem {Item\discretionary {-}{}{}Value}, \hyperpage{3}
+    \subitem {Item\discretionary {-}{}{}Weight}, \hyperpage{3}
+  \item {item.\discretionary {-}{}{}cpp}, \hyperpage{6}
+  \item {item.\discretionary {-}{}{}hh}, \hyperpage{6}
+  \item {Item\discretionary {-}{}{}Name}
+    \subitem {Item}, \hyperpage{3}
+  \item {Item\discretionary {-}{}{}Value}
+    \subitem {Item}, \hyperpage{3}
+  \item {Item\discretionary {-}{}{}Weight}
+    \subitem {Item}, \hyperpage{3}
+  \item {Itemlist}, \hyperpage{3}
+    \subitem {Load}, \hyperpage{4}
+    \subitem {Show}, \hyperpage{4}
+  \item {itemlist.\discretionary {-}{}{}cpp}, \hyperpage{6}
+  \item {itemlist.\discretionary {-}{}{}hh}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Knapsack}
+    \subitem {suitcase.\discretionary {-}{}{}cpp}, \hyperpage{7}
+    \subitem {suitcase.\discretionary {-}{}{}hh}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Load}
+    \subitem {Itemlist}, \hyperpage{4}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{7}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{7}
+    \subitem {main}, \hyperpage{7}
+  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{7}
+
+  \indexspace
+
+  \item {Put\discretionary {-}{}{}In}
+    \subitem {Suitcase}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Show}
+    \subitem {Itemlist}, \hyperpage{4}
+  \item {Suitcase}, \hyperpage{4}
+    \subitem {Act\discretionary {-}{}{}Value}, \hyperpage{5}
+    \subitem {Act\discretionary {-}{}{}Weight}, \hyperpage{5}
+    \subitem {Clear}, \hyperpage{5}
+    \subitem {Put\discretionary {-}{}{}In}, \hyperpage{5}
+    \subitem {Suitcase}, \hyperpage{5}
+    \subitem {Weight\discretionary {-}{}{}Left}, \hyperpage{5}
+    \subitem {Weight\discretionary {-}{}{}Limit}, \hyperpage{5}
+    \subitem {Worth}, \hyperpage{5}
+  \item {suitcase.\discretionary {-}{}{}cpp}, \hyperpage{7}
+    \subitem {Compare\discretionary {-}{}{}By\discretionary {-}{}{}Value}, 
+		\hyperpage{7}
+    \subitem {Knapsack}, \hyperpage{7}
+  \item {suitcase.\discretionary {-}{}{}hh}, \hyperpage{9}
+    \subitem {Knapsack}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Weight\discretionary {-}{}{}Left}
+    \subitem {Suitcase}, \hyperpage{5}
+  \item {Weight\discretionary {-}{}{}Limit}
+    \subitem {Suitcase}, \hyperpage{5}
+  \item {Worth}
+    \subitem {Suitcase}, \hyperpage{5}
+
+\end{theindex}

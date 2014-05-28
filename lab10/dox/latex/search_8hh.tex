@@ -1,0 +1,93 @@
+\hypertarget{search_8hh}{\subsection{Dokumentacja pliku search.\-hh}
+\label{search_8hh}\index{search.\-hh@{search.\-hh}}
+}
+
+
+Plik zawierający definicje funkcji przeszukujących grafy.  
+
+
+{\ttfamily \#include \char`\"{}graph.\-hh\char`\"{}}\\*
+\subsubsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{search_8hh_a4d4adbe64a2a6393322678a74016d601}{D\-F\-S} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$Ptr, int Start, int End)
+\begin{DoxyCompactList}\small\item\em Przeszukiwanie grafu w głąb. \end{DoxyCompactList}\item 
+void \hyperlink{search_8hh_a33ed6e24533839b860c5f0597a6fd03a}{B\-F\-S} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$Ptr, int Start, int end)
+\begin{DoxyCompactList}\small\item\em Przeszukiwanie grafu wszerz. \end{DoxyCompactList}\item 
+void \hyperlink{search_8hh_ac1e3c167799b62e498e9e8e8297e43db}{A\-Star} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$Ptr, int Start, int End, int Side)
+\begin{DoxyCompactList}\small\item\em Wyszukiwanie najkrótszej ścieżki -\/ A$\ast$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+Plik zawierający definicje funkcji przeszukujących grafy. 
+
+\subsubsection{Dokumentacja funkcji}
+\hypertarget{search_8hh_ac1e3c167799b62e498e9e8e8297e43db}{\index{search.\-hh@{search.\-hh}!A\-Star@{A\-Star}}
+\index{A\-Star@{A\-Star}!search.hh@{search.\-hh}}
+\paragraph[{A\-Star}]{\setlength{\rightskip}{0pt plus 5cm}void A\-Star (
+\begin{DoxyParamCaption}
+\item[{{\bf Graph}$<$ int $>$ $\ast$}]{Ptr, }
+\item[{int}]{Start, }
+\item[{int}]{End, }
+\item[{int}]{Side}
+\end{DoxyParamCaption}
+)}}\label{search_8hh_ac1e3c167799b62e498e9e8e8297e43db}
+
+
+Wyszukiwanie najkrótszej ścieżki -\/ A$\ast$. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em Ptr} & wskaźnik na przeszukiwany graf \\
+\hline
+{\em Side} & liczba wierzchołków przypadająca na bok planszy \\
+\hline
+{\em Start} & wierzchołek początkowy \\
+\hline
+{\em End} & wierzchołek końcowy \\
+\hline
+\end{DoxyParams}
+\hypertarget{search_8hh_a33ed6e24533839b860c5f0597a6fd03a}{\index{search.\-hh@{search.\-hh}!B\-F\-S@{B\-F\-S}}
+\index{B\-F\-S@{B\-F\-S}!search.hh@{search.\-hh}}
+\paragraph[{B\-F\-S}]{\setlength{\rightskip}{0pt plus 5cm}void B\-F\-S (
+\begin{DoxyParamCaption}
+\item[{{\bf Graph}$<$ int $>$ $\ast$}]{Ptr, }
+\item[{int}]{Start, }
+\item[{int}]{end}
+\end{DoxyParamCaption}
+)}}\label{search_8hh_a33ed6e24533839b860c5f0597a6fd03a}
+
+
+Przeszukiwanie grafu wszerz. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em Ptr} & wskaźnik na przeszukiwany graf \\
+\hline
+{\em Start} & wierzchołek początkowy \\
+\hline
+{\em End} & wierzchołek końcowy \\
+\hline
+\end{DoxyParams}
+\hypertarget{search_8hh_a4d4adbe64a2a6393322678a74016d601}{\index{search.\-hh@{search.\-hh}!D\-F\-S@{D\-F\-S}}
+\index{D\-F\-S@{D\-F\-S}!search.hh@{search.\-hh}}
+\paragraph[{D\-F\-S}]{\setlength{\rightskip}{0pt plus 5cm}void D\-F\-S (
+\begin{DoxyParamCaption}
+\item[{{\bf Graph}$<$ int $>$ $\ast$}]{Ptr, }
+\item[{int}]{Start, }
+\item[{int}]{End}
+\end{DoxyParamCaption}
+)}}\label{search_8hh_a4d4adbe64a2a6393322678a74016d601}
+
+
+Przeszukiwanie grafu w głąb. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em Ptr} & wskaźnik na przeszukiwany graf \\
+\hline
+{\em Start} & wierzchołek początkowy \\
+\hline
+{\em End} & wierzchołek końcowy \\
+\hline
+\end{DoxyParams}

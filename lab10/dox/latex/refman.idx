@@ -1,0 +1,55 @@
+\indexentry{Item@{Item}|hyperpage}{2}
+\indexentry{Item@{Item}!Item@{Item}|hyperpage}{2}
+\indexentry{Item@{Item}!Item@{Item}|hyperpage}{2}
+\indexentry{Item@{Item}!Get\discretionary {-}{}{}Name@{Get\discretionary {-}{}{}Name}|hyperpage}{2}
+\indexentry{Get\discretionary {-}{}{}Name@{Get\discretionary {-}{}{}Name}!Item@{Item}|hyperpage}{2}
+\indexentry{Item@{Item}!Get\discretionary {-}{}{}Value@{Get\discretionary {-}{}{}Value}|hyperpage}{3}
+\indexentry{Get\discretionary {-}{}{}Value@{Get\discretionary {-}{}{}Value}!Item@{Item}|hyperpage}{3}
+\indexentry{Item@{Item}!Get\discretionary {-}{}{}Value\discretionary {-}{}{}Per\discretionary {-}{}{}Weigt@{Get\discretionary {-}{}{}Value\discretionary {-}{}{}Per\discretionary {-}{}{}Weigt}|hyperpage}{3}
+\indexentry{Get\discretionary {-}{}{}Value\discretionary {-}{}{}Per\discretionary {-}{}{}Weigt@{Get\discretionary {-}{}{}Value\discretionary {-}{}{}Per\discretionary {-}{}{}Weigt}!Item@{Item}|hyperpage}{3}
+\indexentry{Item@{Item}!Get\discretionary {-}{}{}Weight@{Get\discretionary {-}{}{}Weight}|hyperpage}{3}
+\indexentry{Get\discretionary {-}{}{}Weight@{Get\discretionary {-}{}{}Weight}!Item@{Item}|hyperpage}{3}
+\indexentry{Item@{Item}!Item\discretionary {-}{}{}Name@{Item\discretionary {-}{}{}Name}|hyperpage}{3}
+\indexentry{Item\discretionary {-}{}{}Name@{Item\discretionary {-}{}{}Name}!Item@{Item}|hyperpage}{3}
+\indexentry{Item@{Item}!Item\discretionary {-}{}{}Value@{Item\discretionary {-}{}{}Value}|hyperpage}{3}
+\indexentry{Item\discretionary {-}{}{}Value@{Item\discretionary {-}{}{}Value}!Item@{Item}|hyperpage}{3}
+\indexentry{Item@{Item}!Item\discretionary {-}{}{}Weight@{Item\discretionary {-}{}{}Weight}|hyperpage}{3}
+\indexentry{Item\discretionary {-}{}{}Weight@{Item\discretionary {-}{}{}Weight}!Item@{Item}|hyperpage}{3}
+\indexentry{Itemlist@{Itemlist}|hyperpage}{3}
+\indexentry{Itemlist@{Itemlist}!Load@{Load}|hyperpage}{4}
+\indexentry{Load@{Load}!Itemlist@{Itemlist}|hyperpage}{4}
+\indexentry{Itemlist@{Itemlist}!Show@{Show}|hyperpage}{4}
+\indexentry{Show@{Show}!Itemlist@{Itemlist}|hyperpage}{4}
+\indexentry{Suitcase@{Suitcase}|hyperpage}{4}
+\indexentry{Suitcase@{Suitcase}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{Suitcase@{Suitcase}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{Suitcase@{Suitcase}!Clear@{Clear}|hyperpage}{5}
+\indexentry{Clear@{Clear}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{Suitcase@{Suitcase}!Put\discretionary {-}{}{}In@{Put\discretionary {-}{}{}In}|hyperpage}{5}
+\indexentry{Put\discretionary {-}{}{}In@{Put\discretionary {-}{}{}In}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{Suitcase@{Suitcase}!Weight\discretionary {-}{}{}Left@{Weight\discretionary {-}{}{}Left}|hyperpage}{5}
+\indexentry{Weight\discretionary {-}{}{}Left@{Weight\discretionary {-}{}{}Left}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{Suitcase@{Suitcase}!Worth@{Worth}|hyperpage}{5}
+\indexentry{Worth@{Worth}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{Suitcase@{Suitcase}!Act\discretionary {-}{}{}Value@{Act\discretionary {-}{}{}Value}|hyperpage}{5}
+\indexentry{Act\discretionary {-}{}{}Value@{Act\discretionary {-}{}{}Value}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{Suitcase@{Suitcase}!Act\discretionary {-}{}{}Weight@{Act\discretionary {-}{}{}Weight}|hyperpage}{5}
+\indexentry{Act\discretionary {-}{}{}Weight@{Act\discretionary {-}{}{}Weight}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{Suitcase@{Suitcase}!Weight\discretionary {-}{}{}Limit@{Weight\discretionary {-}{}{}Limit}|hyperpage}{5}
+\indexentry{Weight\discretionary {-}{}{}Limit@{Weight\discretionary {-}{}{}Limit}!Suitcase@{Suitcase}|hyperpage}{5}
+\indexentry{item.\discretionary {-}{}{}cpp@{item.\discretionary {-}{}{}cpp}|hyperpage}{6}
+\indexentry{item.\discretionary {-}{}{}hh@{item.\discretionary {-}{}{}hh}|hyperpage}{6}
+\indexentry{itemlist.\discretionary {-}{}{}cpp@{itemlist.\discretionary {-}{}{}cpp}|hyperpage}{6}
+\indexentry{itemlist.\discretionary {-}{}{}hh@{itemlist.\discretionary {-}{}{}hh}|hyperpage}{6}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{7}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{7}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{7}
+\indexentry{mainpage.\discretionary {-}{}{}dox@{mainpage.\discretionary {-}{}{}dox}|hyperpage}{7}
+\indexentry{suitcase.\discretionary {-}{}{}cpp@{suitcase.\discretionary {-}{}{}cpp}|hyperpage}{7}
+\indexentry{suitcase.\discretionary {-}{}{}cpp@{suitcase.\discretionary {-}{}{}cpp}!Compare\discretionary {-}{}{}By\discretionary {-}{}{}Value@{Compare\discretionary {-}{}{}By\discretionary {-}{}{}Value}|hyperpage}{7}
+\indexentry{Compare\discretionary {-}{}{}By\discretionary {-}{}{}Value@{Compare\discretionary {-}{}{}By\discretionary {-}{}{}Value}!suitcase.cpp@{suitcase.\discretionary {-}{}{}cpp}|hyperpage}{7}
+\indexentry{suitcase.\discretionary {-}{}{}cpp@{suitcase.\discretionary {-}{}{}cpp}!Knapsack@{Knapsack}|hyperpage}{7}
+\indexentry{Knapsack@{Knapsack}!suitcase.cpp@{suitcase.\discretionary {-}{}{}cpp}|hyperpage}{7}
+\indexentry{suitcase.\discretionary {-}{}{}hh@{suitcase.\discretionary {-}{}{}hh}|hyperpage}{9}
+\indexentry{suitcase.\discretionary {-}{}{}hh@{suitcase.\discretionary {-}{}{}hh}!Knapsack@{Knapsack}|hyperpage}{9}
+\indexentry{Knapsack@{Knapsack}!suitcase.hh@{suitcase.\discretionary {-}{}{}hh}|hyperpage}{9}

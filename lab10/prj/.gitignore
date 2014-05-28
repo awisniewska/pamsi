@@ -1,0 +1,6 @@
+graph
+obj/*.o
+.project
+.cproject
+.settings/*
+

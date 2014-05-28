@@ -1,0 +1,183 @@
+\hypertarget{class_graph}{\subsection{Dokumentacja szablonu klasy Graph$<$ Type $>$}
+\label{class_graph}\index{Graph$<$ Type $>$@{Graph$<$ Type $>$}}
+}
+
+
+class \hyperlink{class_graph}{Graph} Jest to klasa definiująca graf nieskierowany z wagą pozwalająca na wykonywaniu wybranych funkcji.  
+
+
+
+
+{\ttfamily \#include $<$graph.\-hh$>$}
+
+\subsubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_graph_1_1_edge}{Edge}
+\end{DoxyCompactItemize}
+\subsubsection*{Typy publiczne}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\-::vector$<$ \hyperlink{struct_graph_1_1_edge}{Edge} $>$ \hyperlink{class_graph_a48cb28a87e5956064f989ae80caf3f06}{Edge\-S}
+\end{DoxyCompactItemize}
+\subsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_graph_a84f49d65277ccfc60f81e68917a7fdae}{Add\-Vert} (const Type \&vert)
+\begin{DoxyCompactList}\small\item\em Funkcja dodająca nowy wierzchołek. \end{DoxyCompactList}\item 
+void \hyperlink{class_graph_a2f53b458b99203c19da38104a664bc20}{Remove\-Vert} (const Type \&vert)
+\begin{DoxyCompactList}\small\item\em Funkcja usuwająca wybrany wierzchołek. \end{DoxyCompactList}\item 
+void \hyperlink{class_graph_aae489b31f187f64acf6f5efae1a65f0d}{Add\-Edge} (const Type \&vert1, const Type \&vert2, const int Weight=0)
+\begin{DoxyCompactList}\small\item\em Funkcja dodająca nową krawędź \end{DoxyCompactList}\item 
+void \hyperlink{class_graph_a4309acd8672c69fd20c375314b92b05f}{Remove\-Edge} (const Type \&vert1, const Type \&vert2)
+\begin{DoxyCompactList}\small\item\em Funkcja usuwająca daną krawędź \end{DoxyCompactList}\item 
+bool \hyperlink{class_graph_ab9088965bdcbbcfad7110e17ea5276f1}{If\-Connected} (const Type \&vert1, const Type \&vert2)
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzająca, czy wierzchołki są ze sobą bezpośrednio połączone. \end{DoxyCompactList}\item 
+\hyperlink{class_graph_a48cb28a87e5956064f989ae80caf3f06}{Edge\-S} \hyperlink{class_graph_a589df548c5f9f3b77bc4a64cd38e3320}{Neighbors} (const Type \&vert)
+\begin{DoxyCompactList}\small\item\em Funkcja znajdująca sąsiednie wierzchołki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+std\-::map$<$ Type, \hyperlink{class_graph_a48cb28a87e5956064f989ae80caf3f06}{Edge\-S} $>$ \hyperlink{class_graph_ad36ea25bfbc7d410a2c7f2f37b407dfc}{graph}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Opis szczegółowy}
+\subsubsection*{template$<$typename Type$>$class Graph$<$ Type $>$}
+
+class \hyperlink{class_graph}{Graph} Jest to klasa definiująca graf nieskierowany z wagą pozwalająca na wykonywaniu wybranych funkcji. 
+
+\subsubsection{Dokumentacja składowych definicji typu}
+\hypertarget{class_graph_a48cb28a87e5956064f989ae80caf3f06}{\index{Graph@{Graph}!Edge\-S@{Edge\-S}}
+\index{Edge\-S@{Edge\-S}!Graph@{Graph}}
+\paragraph[{Edge\-S}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type$>$ typedef std\-::vector$<${\bf Edge}$>$ {\bf Graph}$<$ Type $>$\-::{\bf Edge\-S}}}\label{class_graph_a48cb28a87e5956064f989ae80caf3f06}
+
+
+\subsubsection{Dokumentacja funkcji składowych}
+\hypertarget{class_graph_aae489b31f187f64acf6f5efae1a65f0d}{\index{Graph@{Graph}!Add\-Edge@{Add\-Edge}}
+\index{Add\-Edge@{Add\-Edge}!Graph@{Graph}}
+\paragraph[{Add\-Edge}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type$>$ void {\bf Graph}$<$ Type $>$\-::Add\-Edge (
+\begin{DoxyParamCaption}
+\item[{const Type \&}]{vert1, }
+\item[{const Type \&}]{vert2, }
+\item[{const int}]{Weight = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_graph_aae489b31f187f64acf6f5efae1a65f0d}
+
+
+Funkcja dodająca nową krawędź 
+
+
+\begin{DoxyParams}{Parametry}
+{\em vert1} & współrzędna pierwszego wierzchołka \\
+\hline
+{\em vert2} & współrzędna drugiego wierzchołka \\
+\hline
+{\em Weight} & waga krawędzi \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_graph_a84f49d65277ccfc60f81e68917a7fdae}{\index{Graph@{Graph}!Add\-Vert@{Add\-Vert}}
+\index{Add\-Vert@{Add\-Vert}!Graph@{Graph}}
+\paragraph[{Add\-Vert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type$>$ void {\bf Graph}$<$ Type $>$\-::Add\-Vert (
+\begin{DoxyParamCaption}
+\item[{const Type \&}]{vert}
+\end{DoxyParamCaption}
+)}}\label{class_graph_a84f49d65277ccfc60f81e68917a7fdae}
+
+
+Funkcja dodająca nowy wierzchołek. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em vert} & wartość dodawanego wierzchołka \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_graph_ab9088965bdcbbcfad7110e17ea5276f1}{\index{Graph@{Graph}!If\-Connected@{If\-Connected}}
+\index{If\-Connected@{If\-Connected}!Graph@{Graph}}
+\paragraph[{If\-Connected}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type$>$ bool {\bf Graph}$<$ Type $>$\-::If\-Connected (
+\begin{DoxyParamCaption}
+\item[{const Type \&}]{vert1, }
+\item[{const Type \&}]{vert2}
+\end{DoxyParamCaption}
+)}}\label{class_graph_ab9088965bdcbbcfad7110e17ea5276f1}
+
+
+Funkcja sprawdzająca, czy wierzchołki są ze sobą bezpośrednio połączone. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em vert1} & współrzędna pierwszego wierzchołka \\
+\hline
+{\em vert2} & współrzędna drugiego wierzchołka \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+true jeśli wierzchołki są połączone 
+
+false jeśli wierzchołki nie są połączone 
+\end{DoxyReturn}
+\hypertarget{class_graph_a589df548c5f9f3b77bc4a64cd38e3320}{\index{Graph@{Graph}!Neighbors@{Neighbors}}
+\index{Neighbors@{Neighbors}!Graph@{Graph}}
+\paragraph[{Neighbors}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type$>$ {\bf Graph}$<$ Type $>$\-::{\bf Edge\-S} {\bf Graph}$<$ Type $>$\-::Neighbors (
+\begin{DoxyParamCaption}
+\item[{const Type \&}]{vert}
+\end{DoxyParamCaption}
+)}}\label{class_graph_a589df548c5f9f3b77bc4a64cd38e3320}
+
+
+Funkcja znajdująca sąsiednie wierzchołki. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em vert} & wierzchołek, którego sąsiadów poszukujemy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wektor wierzchołków sąsiadujących 
+\end{DoxyReturn}
+\hypertarget{class_graph_a4309acd8672c69fd20c375314b92b05f}{\index{Graph@{Graph}!Remove\-Edge@{Remove\-Edge}}
+\index{Remove\-Edge@{Remove\-Edge}!Graph@{Graph}}
+\paragraph[{Remove\-Edge}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type$>$ void {\bf Graph}$<$ Type $>$\-::Remove\-Edge (
+\begin{DoxyParamCaption}
+\item[{const Type \&}]{vert1, }
+\item[{const Type \&}]{vert2}
+\end{DoxyParamCaption}
+)}}\label{class_graph_a4309acd8672c69fd20c375314b92b05f}
+
+
+Funkcja usuwająca daną krawędź 
+
+
+\begin{DoxyParams}{Parametry}
+{\em vert1} & współrzędna pierwszego wierzchołka \\
+\hline
+{\em vert2} & współrzędna drugiego wierzchołka \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_graph_a2f53b458b99203c19da38104a664bc20}{\index{Graph@{Graph}!Remove\-Vert@{Remove\-Vert}}
+\index{Remove\-Vert@{Remove\-Vert}!Graph@{Graph}}
+\paragraph[{Remove\-Vert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type$>$ void {\bf Graph}$<$ Type $>$\-::Remove\-Vert (
+\begin{DoxyParamCaption}
+\item[{const Type \&}]{vert}
+\end{DoxyParamCaption}
+)}}\label{class_graph_a2f53b458b99203c19da38104a664bc20}
+
+
+Funkcja usuwająca wybrany wierzchołek. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em vert} & wartość usuwanego wierzchołka \\
+\hline
+\end{DoxyParams}
+
+
+\subsubsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_graph_ad36ea25bfbc7d410a2c7f2f37b407dfc}{\index{Graph@{Graph}!graph@{graph}}
+\index{graph@{graph}!Graph@{Graph}}
+\paragraph[{graph}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Type$>$ std\-::map$<$ Type, {\bf Edge\-S} $>$ {\bf Graph}$<$ Type $>$\-::graph\hspace{0.3cm}{\ttfamily [private]}}}\label{class_graph_ad36ea25bfbc7d410a2c7f2f37b407dfc}
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{graph_8hh}{graph.\-hh}\end{DoxyCompactItemize}
